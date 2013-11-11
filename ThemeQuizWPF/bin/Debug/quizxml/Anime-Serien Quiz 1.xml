@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Anime-Serien Quiz 1</quizname>
+  <sounddatei>Anime-Serien Quiz 1.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <Items>
+    <Anzeigename>Dexter</Anzeigename>
+    <Anzeigename>Berserk</Anzeigename>
+    <Anzeigename>Shaman King</Anzeigename>
+    <Anzeigename>Full House</Anzeigename>
+    <Anzeigename>Elfen Lied</Anzeigename>
+    <Anzeigename>Two and a Half Men</Anzeigename>
+    <Anzeigename>Soul Eater</Anzeigename>
+    <Anzeigename>Dr. House</Anzeigename>
+    <Alternativ>Dr House</Alternativ>
+    <Anzeigename>Knight Rider</Anzeigename>
+    <Anzeigename>Wedding Peach</Anzeigename>
+    <Anzeigename>How I Met Your Mother</Anzeigename>
+    <Anzeigename>Attack on Titan</Anzeigename>
+    <Anzeigename>Kickers</Anzeigename>
+    <Anzeigename>MacGyver</Anzeigename>
+    <Anzeigename>Ranma 1/2</Anzeigename>
+    <Alternativ>Ranma</Alternativ>
+    <Anzeigename>Bonanza</Anzeigename>
+    <Anzeigename>Supernatural</Anzeigename>
+    <Anzeigename>Naruto</Anzeigename>
+    <Anzeigename>Breaking Bad</Anzeigename>
+    <Anzeigename>Mord ist ihr Hobby</Anzeigename>
+    <Anzeigename>Dragonball</Anzeigename>
+    <Anzeigename>Sailor Moon</Anzeigename>
+    <Anzeigename>Yu-Gi-Oh</Anzeigename>
+    <Alternativ>Yugioh</Alternativ>
+    <Alternativ>Yu gi oh</Alternativ>
+    <Anzeigename>Hamtaro</Anzeigename>
+    <Anzeigename>Wolf's Rain</Anzeigename>
+    <Alternativ>Wolfs rain</Alternativ>
+    <Anzeigename>Bleach</Anzeigename>
+    <Anzeigename>Scrubs</Anzeigename>
+    <Anzeigename>Captain Future</Anzeigename>
+    <Anzeigename>Great Teacher Onizuka</Anzeigename>
+    <Alternativ>GTO</Alternativ>
+    <Anzeigename>Hunter x Hunter</Anzeigename>
+    <Anzeigename>Hellsing</Anzeigename>
+    <Anzeigename>Malcolm mittendrin</Anzeigename>
+    <Anzeigename>Die Dinos</Anzeigename>
+    <Anzeigename>Tenjou Tenge</Anzeigename>
+    <Anzeigename>Death Note</Anzeigename>
+    <Anzeigename>Das A-Team</Anzeigename>
+    <Alternativ>Das a team</Alternativ>
+    <Alternativ>A-Team</Alternativ>
+    <Alternativ>a team</Alternativ>
+    <Anzeigename>He-Man</Anzeigename>
+    <Alternativ>He man</Alternativ>
+    <Anzeigename>Love Hina</Anzeigename>
+    <Anzeigename>Shakugan no Shana</Anzeigename>
+    <Anzeigename>Prison Break</Anzeigename>
+    <Anzeigename>One Piece</Anzeigename>
+    <Anzeigename>Desperate Housewives</Anzeigename>
+    <Anzeigename>Inuyasha</Anzeigename>
+    <Anzeigename>Mystic Knights</Anzeigename>
+    <Anzeigename>Mila Superstar</Anzeigename>
+    <Anzeigename>Ben 10</Anzeigename>
+    <Anzeigename>Grey's Anatomy</Anzeigename>
+    <Alternativ>Greys Anatomy</Alternativ>
+    <Anzeigename>Digimon</Anzeigename>
+    <Anzeigename>Beyblade</Anzeigename>
+    <Anzeigename>Game of Thrones</Anzeigename>
+    <Anzeigename>Noir</Anzeigename>
+    <Anzeigename>Fairy Tail</Anzeigename>
+    <Anzeigename>Detektiv Conan</Anzeigename>
+    <Anzeigename>Full Metal Alchemist</Anzeigename>
+    <Anzeigename>Golden Boy</Anzeigename>
+    <Anzeigename>The Walking Dead</Anzeigename>
+    <Anzeigename>Claymore</Anzeigename>
+    <Anzeigename>Saber Rider</Anzeigename>
+    <Anzeigename>Pokemon</Anzeigename>
+    <Anzeigename>DoReMi</Anzeigename>
+  </Items>
+</Quiz>

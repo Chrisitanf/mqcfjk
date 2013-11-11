@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Movie Quiz 5</quizname>
+  <sounddatei>Movie Quiz 5.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <Items>
+    <Anzeigename>Lock Stock and two smoking Barrels</Anzeigename>
+    <Anzeigename>Rock n Rolla</Anzeigename>
+    <Anzeigename>Donnie Darko</Anzeigename>
+    <Anzeigename>Eiskalte Engel</Anzeigename>
+    <Anzeigename>Scary Movie</Anzeigename>
+    <Anzeigename>Scarface</Anzeigename>
+    <Anzeigename>Drive</Anzeigename>
+    <Anzeigename>Kill Bill</Anzeigename>
+    <Anzeigename>Das Boot</Anzeigename>
+    <Anzeigename>From Dusk Till Dawn</Anzeigename>
+    <Anzeigename>Into the Blue</Anzeigename>
+    <Anzeigename>Oceans 12</Anzeigename>
+    <Anzeigename>Sunshine</Anzeigename>
+    <Anzeigename>V wie Vendetta</Anzeigename>
+    <Anzeigename>Sakrileg</Anzeigename>
+    <Anzeigename>Kindsköpfe</Anzeigename>
+    <Anzeigename>The Fast And The Furious</Anzeigename>
+  </Items>
+</Quiz>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Game Quiz 3</quizname>
+  <sounddatei>Game Quiz 3.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <Items>
+    <Anzeigename>Fifa Street</Anzeigename>
+    <Anzeigename>WWE Smackdown</Anzeigename>
+    <Alternativ>Smackdown</Alternativ>
+    <Anzeigename>Harry Potter und der Feuerkelch</Anzeigename>
+    <Alternativ>und der Feuerkelch</Alternativ>
+    <Alternativ>Harry Potter</Alternativ>
+    <Anzeigename>Final Fantasy 10</Anzeigename>
+    <Anzeigename>Resident Evil 4</Anzeigename>
+    <Anzeigename>Thief: The Dark Project</Anzeigename>
+    <Alternativ>Thief</Alternativ>
+    <Anzeigename>Dragon Ball Z</Anzeigename>
+    <Anzeigename>Grand Theft Auto: Vice City</Anzeigename>
+    <Alternativ>Gta vice city</Alternativ>
+    <Alternativ>vice city</Alternativ>
+    <Anzeigename>Fahrenheit</Anzeigename>
+    <Anzeigename>Dungeon Siege</Anzeigename>
+    <Anzeigename>Brothers in Arms</Anzeigename>
+    <Anzeigename>Age of Empires 3</Anzeigename>
+    <Alternativ>aoe 3</Alternativ>
+    <Anzeigename>Devil May Cry 3</Anzeigename>
+    <Anzeigename>Hitman: Blood Money</Anzeigename>
+    <Alternativ>Blood Money</Alternativ>
+    <Alternativ>Hitman Bloody Money</Alternativ>
+    <Anzeigename>Metal Gear Solid 3</Anzeigename>
+    <Anzeigename>F.E.A.R 2</Anzeigename>
+    <Alternativ>fear 2</Alternativ>
+    <Anzeigename>Fable 2</Anzeigename>
+    <Anzeigename>Killzone</Anzeigename>
+    <Anzeigename>Tekken 3</Anzeigename>
+    <Anzeigename>Angry Birds</Anzeigename>
+    <Anzeigename>Assassin's Creed Revelations</Anzeigename>
+    <Alternativ>Revelations</Alternativ>
+    <Alternativ>Assassins Creed Revelations</Alternativ>
+    <Anzeigename>System Shock</Anzeigename>
+    <Anzeigename>Uncharted 3</Anzeigename>
+    <Anzeigename>Hype: The Time Quest</Anzeigename>
+    <Alternativ>Hype the time quest</Alternativ>
+    <Alternativ>Hype</Alternativ>
+    <Anzeigename>Splinter Cell: Pandora Tomorrow</Anzeigename>
+    <Alternativ>Splinter Cell Pandora Tomorrow</Alternativ>
+    <Anzeigename>Gothic 3</Anzeigename>
+    <Anzeigename>Pokemon Stadium</Anzeigename>
+    <Anzeigename>Hulk</Anzeigename>
+    <Anzeigename>Star Wars: Battlefront</Anzeigename>
+    <Alternativ>Star Wars battlefront</Alternativ>
+    <Alternativ>Battlefront</Alternativ>
+    <Anzeigename>Persona 4</Anzeigename>
+    <Anzeigename>Burnout 3: Takedown</Anzeigename>
+    <Alternativ>Burnout 3</Alternativ>
+    <Alternativ>Takedown</Alternativ>
+    <Anzeigename>Eragon</Anzeigename>
+    <Anzeigename>Soul Calibur 3</Anzeigename>
+    <Anzeigename>Anno 1404</Anzeigename>
+    <Anzeigename>Star Wars: Jedi Knight</Anzeigename>
+    <Alternativ>Star Wars Jedi Knight</Alternativ>
+    <Anzeigename>Dota 2</Anzeigename>
+    <Anzeigename>Need For Speed: Underground 2</Anzeigename>
+    <Alternativ>Need for Speed Underground 2</Alternativ>
+    <Alternativ>Underground 2</Alternativ>
+    <Anzeigename>Prototype 2</Anzeigename>
+    <Anzeigename>Tomb Raider 2</Anzeigename>
+    <Anzeigename>Serious Sam</Anzeigename>
+    <Anzeigename>Prince of Persia: The Sands of Time</Anzeigename>
+    <Alternativ>Prince of Persia the sands of time</Alternativ>
+    <Alternativ>sands of time</Alternativ>
+    <Anzeigename>Empire Earth</Anzeigename>
+    <Anzeigename>Tetris</Anzeigename>
+    <Anzeigename>Crysis 3</Anzeigename>
+    <Anzeigename>Darksiders 2</Anzeigename>
+    <Anzeigename>The Witcher 2</Anzeigename>
+    <Anzeigename>Bioshock Infinite</Anzeigename>
+    <Anzeigename>Far Cry 2</Anzeigename>
+    <Anzeigename>Lego Herr der Ringe</Anzeigename>
+    <Alternativ>Lego</Alternativ>
+    <Alternativ>Herr der Ringe</Alternativ>
+    <Anzeigename>Dead Space 2</Anzeigename>
+    <Anzeigename>Crash Bandicoot</Anzeigename>
+    <Anzeigename>Risen</Anzeigename>
+    <Anzeigename>Dynasty Warriors</Anzeigename>
+    <Anzeigename>Ghost Recon 2</Anzeigename>
+    <Anzeigename>Stronghold Crusader</Anzeigename>
+    <Anzeigename>Midnight Club</Anzeigename>
+    <Anzeigename>Gran Turismo 5</Anzeigename>
+    <Anzeigename>Mortal Kombat</Anzeigename>
+    <Anzeigename>Little Big Planet 2</Anzeigename>
+    <Anzeigename>Naruto Ultimate Ninja</Anzeigename>
+    <Alternativ>Ultimate Ninja</Alternativ>
+  </Items>
+</Quiz>

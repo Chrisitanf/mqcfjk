@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Movie Quiz 4</quizname>
+  <sounddatei>Movie Quiz 4.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <Items>
+    <Anzeigename>Shutter Island</Anzeigename>
+    <Anzeigename>Reservoir Dogs</Anzeigename>
+    <Anzeigename>Oben</Anzeigename>
+    <Anzeigename>Die üblichen Verdächtigen</Anzeigename>
+    <Anzeigename>Die glorreichen Sieben</Anzeigename>
+    <Anzeigename>Million Dollar Baby</Anzeigename>
+    <Anzeigename>Das Fenster zum Hof</Anzeigename>
+    <Anzeigename>E. T.</Anzeigename>
+    <Alternativ>E T</Alternativ>
+    <Anzeigename>Pretty Woman</Anzeigename>
+    <Anzeigename>Der mit dem Wolf tanzt</Anzeigename>
+    <Anzeigename>Vom Winde verweht</Anzeigename>
+    <Anzeigename>American History</Anzeigename>
+    <Anzeigename>Oceans Eleven</Anzeigename>
+    <Anzeigename>Shining</Anzeigename>
+    <Anzeigename>Psycho</Anzeigename>
+    <Anzeigename>Gran Torino</Anzeigename>
+    <Anzeigename>No Country for Old Men</Anzeigename>
+    <Anzeigename>Zurück in die Zukunft</Anzeigename>
+    <Anzeigename>WALL-E</Anzeigename>
+    <Alternativ>Wall e</Alternativ>
+    <Anzeigename>Casablanca</Anzeigename>
+    <Anzeigename>Predator</Anzeigename>
+    <Anzeigename>From Dusk Till Dawn</Anzeigename>
+    <Anzeigename>The Sixth Sense</Anzeigename>
+    <Anzeigename>Odyssee im Weltraum</Anzeigename>
+    <Anzeigename>Die Rückkehr der Jedi-Ritter</Anzeigename>
+    <Alternativ>Star Wars 6</Alternativ>
+    <Anzeigename>City of God</Anzeigename>
+    <Anzeigename>Brokeback Mountain</Anzeigename>
+    <Anzeigename>Mystic River</Anzeigename>
+    <Anzeigename>Star Trek</Anzeigename>
+    <Anzeigename>Slumdog Millionär</Anzeigename>
+    <Anzeigename>The King's Speech</Anzeigename>
+    <Alternativ>The kings speech</Alternativ>
+    <Alternativ>kings speech</Alternativ>
+    <Anzeigename>Black Swan</Anzeigename>
+    <Anzeigename>Departed</Anzeigename>
+    <Anzeigename>Moulin Rouge</Anzeigename>
+    <Anzeigename>Das Schweigen der Lämmer</Anzeigename>
+    <Anzeigename>Spiel mir das Lied vom Tod</Anzeigename>
+    <Anzeigename>Pans Labyrinth</Anzeigename>
+    <Anzeigename>Aliens</Anzeigename>
+    <Anzeigename>Der Soldat James Ryan</Anzeigename>
+    <Anzeigename>Heat</Anzeigename>
+    <Anzeigename>Inglourious Basterds</Anzeigename>
+    <Anzeigename>Forrest Gump</Anzeigename>
+    <Anzeigename>Jackass</Anzeigename>
+    <Anzeigename>Prestige</Anzeigename>
+    <Anzeigename>Hellboy</Anzeigename>
+    <Anzeigename>Der Untergang</Anzeigename>
+    <Anzeigename>Findet Nemo</Anzeigename>
+    <Anzeigename>12 Monkeys</Anzeigename>
+    <Anzeigename>Social Network</Anzeigename>
+    <Anzeigename>und täglich grüßt das Murmeltier</Anzeigename>
+    <Alternativ>täglich grüßt das murmeltier</Alternativ>
+    <Anzeigename>Rain Man</Anzeigename>
+    <Anzeigename>Die Schöne und das Biest</Anzeigename>
+    <Anzeigename>Die Muppets</Anzeigename>
+    <Anzeigename>The Descendants</Anzeigename>
+    <Anzeigename>The Artist</Anzeigename>
+    <Anzeigename>Die Piraten</Anzeigename>
+    <Anzeigename>Das Schwergewicht</Anzeigename>
+    <Anzeigename>Paranormal Activity</Anzeigename>
+    <Anzeigename>Wie beim ersten Mal</Anzeigename>
+    <Anzeigename>Verblendung</Anzeigename>
+    <Anzeigename>Ralp reichts</Anzeigename>
+    <Anzeigename>Battleship</Anzeigename>
+    <Anzeigename>Dark Shadows</Anzeigename>
+    <Anzeigename>Fünf Freunde</Anzeigename>
+    <Anzeigename>Prometheus</Anzeigename>
+    <Anzeigename>Cloud Atlas</Anzeigename>
+    <Anzeigename>Der Diktator</Anzeigename>
+    <Anzeigename>Life of Pi</Anzeigename>
+    <Anzeigename>Merida</Anzeigename>
+    <Anzeigename>Ted</Anzeigename>
+    <Anzeigename>Madagascar</Anzeigename>
+    <Anzeigename>Underworld</Anzeigename>
+    <Anzeigename>Chronicle</Anzeigename>
+    <Anzeigename>John Carter</Anzeigename>
+    <Anzeigename>Zorn der Titanen</Anzeigename>
+    <Anzeigename>Die Qual der Wahl</Anzeigename>
+    <Anzeigename>Flight</Anzeigename>
+  </Items>
+</Quiz>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Game Quiz 4</quizname>
+  <sounddatei>Game Quiz 4.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <Items>
+    <Anzeigename>Guild Wars</Anzeigename>
+    <Anzeigename>Gothic 2</Anzeigename>
+    <Anzeigename>Oblivion</Anzeigename>
+    <Anzeigename>World of Warcraft</Anzeigename>
+    <Anzeigename>Mass Effect</Anzeigename>
+    <Anzeigename>Star Wars: Battlefront</Anzeigename>
+    <Alternativ>Battlefront</Alternativ>
+    <Alternativ>Star wars battlefront</Alternativ>
+    <Anzeigename>Silent Hillt Shattered Memories</Anzeigename>
+    <Anzeigename>Unreal Tournament 2004</Anzeigename>
+    <Anzeigename>Heroes of Might and Magic 3</Anzeigename>
+    <Anzeigename>Tomb Raider 3</Anzeigename>
+    <Anzeigename>Turok 2</Anzeigename>
+    <Anzeigename>Serious Sam 3</Anzeigename>
+    <Anzeigename>Tekken 5</Anzeigename>
+    <Anzeigename>Diddy Kong Racing</Anzeigename>
+    <Anzeigename>Extreme G</Anzeigename>
+    <Anzeigename>Half-Life 2</Anzeigename>
+    <Alternativ>HL 2</Alternativ>
+    <Alternativ>Half Life 2</Alternativ>
+    <Anzeigename>Portal 2</Anzeigename>
+    <Anzeigename>Mirrors Edge</Anzeigename>
+    <Anzeigename>The Unfinished Swan</Anzeigename>
+    <Anzeigename>The Walking Dead</Anzeigename>
+    <Anzeigename>The Last of Us</Anzeigename>
+    <Alternativ>Last of us</Alternativ>
+    <Anzeigename>Hype: The Time Quest</Anzeigename>
+    <Alternativ>Hype the time quest</Alternativ>
+    <Anzeigename>Burnout 3: Takedown</Anzeigename>
+    <Alternativ>Burnout 3</Alternativ>
+    <Alternativ>Takedown</Alternativ>
+    <Anzeigename>Need for Speed: Most Wanted</Anzeigename>
+    <Alternativ>Need for Speed Most Wanted</Alternativ>
+    <Alternativ>Most Wanted</Alternativ>
+    <Anzeigename>Gran Turismo 5</Anzeigename>
+    <Anzeigename>Audiosurf</Anzeigename>
+    <Anzeigename>Metal Gear Rising</Anzeigename>
+    <Anzeigename>Kingdom Hearts 2</Anzeigename>
+    <Anzeigename>Final Fantasy Crisis Core</Anzeigename>
+    <Anzeigename>Final Fantasy 6</Anzeigename>
+    <Anzeigename>Shadow of the Colossus</Anzeigename>
+    <Anzeigename>Dragon Ball Z Budokai 2</Anzeigename>
+    <Alternativ>Budokai 2</Alternativ>
+    <Anzeigename>Tekken 3</Anzeigename>
+    <Anzeigename>Devil May Cry</Anzeigename>
+    <Anzeigename>Assassin's Creed 2</Anzeigename>
+    <Alternativ>Assassins Creed 2</Alternativ>
+    <Anzeigename>Uncharted 3</Anzeigename>
+    <Anzeigename>Crash Bandicoot</Anzeigename>
+    <Anzeigename>Rayman 2</Anzeigename>
+    <Anzeigename>Zombie Ate my Neighbours</Anzeigename>
+    <Anzeigename>Zelda: Ocarina of Time</Anzeigename>
+    <Alternativ>Zelda Ocarina of Time</Alternativ>
+    <Alternativ>Ocarina of Time</Alternativ>
+    <Anzeigename>Super Mario 64</Anzeigename>
+    <Anzeigename>Dark Souls</Anzeigename>
+    <Anzeigename>REZ</Anzeigename>
+    <Anzeigename>Pokemon Snap</Anzeigename>
+    <Anzeigename>Mowle Mania</Anzeigename>
+    <Anzeigename>Age of Empires 2</Anzeigename>
+    <Anzeigename>Counter-Strike</Anzeigename>
+    <Alternativ>Counter strike</Alternativ>
+    <Alternativ>Cs</Alternativ>
+    <Anzeigename>Dead Space</Anzeigename>
+    <Anzeigename>Crysis 3</Anzeigename>
+    <Anzeigename>Metal Gear Solid 2</Anzeigename>
+    <Anzeigename>Turok Rage Wars</Anzeigename>
+    <Alternativ>Rage Wars</Alternativ>
+    <Anzeigename>Mario Party 3</Anzeigename>
+    <Anzeigename>Jazz Jackrabbit 2</Anzeigename>
+    <Anzeigename>Bioshock 2</Anzeigename>
+    <Anzeigename>Tetris</Anzeigename>
+    <Anzeigename>Diablo 3</Anzeigename>
+    <Anzeigename>Knight of the old Republic</Anzeigename>
+    <Anzeigename>Battlefield 3</Anzeigename>
+    <Anzeigename>Oddworld</Anzeigename>
+    <Anzeigename>Syndicate</Anzeigename>
+  </Items>
+</Quiz>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Nintendo Quiz</quizname>
+  <sounddatei>Nintendo Quiz.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <Items>
+    <Anzeigename>Flintstones</Anzeigename>
+    <Anzeigename>Ghostbusters</Anzeigename>
+    <Anzeigename>Ice Climber</Anzeigename>
+    <Anzeigename>Aladdin</Anzeigename>
+    <Anzeigename>Battletoads</Anzeigename>
+    <Anzeigename>The Terminator</Anzeigename>
+    <Anzeigename>Tetris</Anzeigename>
+    <Anzeigename>Donkey Kong</Anzeigename>
+    <Anzeigename>Dr. Mario</Anzeigename>
+    <Alternativ>Dr Mario</Alternativ>
+    <Anzeigename>Final Fantasy</Anzeigename>
+    <Anzeigename>Bomberman</Anzeigename>
+    <Anzeigename>Castlevania</Anzeigename>
+    <Anzeigename>Contra</Anzeigename>
+    <Anzeigename>Darkwing Duck</Anzeigename>
+    <Anzeigename>Kid Icarus</Anzeigename>
+    <Anzeigename>Kirbeys Adventure</Anzeigename>
+    <Anzeigename>Arielle die Meerjungfrau</Anzeigename>
+    <Alternativ>Arielle</Alternativ>
+    <Anzeigename>Maniac Mansion</Anzeigename>
+    <Anzeigename>Marble Madness</Anzeigename>
+    <Anzeigename>Knight Rider</Anzeigename>
+    <Anzeigename>König der Löwen</Anzeigename>
+    <Anzeigename>Lemmings</Anzeigename>
+    <Anzeigename>Mario Bros</Anzeigename>
+    <Alternativ>Mario</Alternativ>
+    <Anzeigename>Megaman 4</Anzeigename>
+    <Anzeigename>Metroid</Anzeigename>
+    <Anzeigename>Mike Tyson Punch Out!!</Anzeigename>
+    <Alternativ>Mike Tyson</Alternativ>
+    <Alternativ>Punch Out</Alternativ>
+    <Anzeigename>Nintendo World Cup</Anzeigename>
+    <Alternativ>World Cup</Alternativ>
+    <Anzeigename>Pac-Man</Anzeigename>
+    <Alternativ>Pac Man</Alternativ>
+    <Anzeigename>Paperboy</Anzeigename>
+    <Anzeigename>Ducktales</Anzeigename>
+    <Anzeigename>Excitebike</Anzeigename>
+    <Anzeigename>Faxanadu</Anzeigename>
+    <Anzeigename>Robocop</Anzeigename>
+    <Anzeigename>Die Schlümpfe</Anzeigename>
+    <Anzeigename>Die Schöne und das Biest</Anzeigename>
+    <Alternativ>Schöne und das Biest</Alternativ>
+    <Anzeigename>Snake Rattle 'n' Roll</Anzeigename>
+    <Alternativ>Snake Rattle n Roll</Alternativ>
+    <Anzeigename>Teenage Mutant Hero Turtles</Anzeigename>
+    <Anzeigename>Trog</Anzeigename>
+    <Anzeigename>Zelda</Anzeigename>
+    <Anzeigename>Jurassic Park</Anzeigename>
+  </Items>
+</Quiz>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Soundtrack Quiz 1</quizname>
+  <sounddatei>Soundtrack Quiz 1.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <Items>
+    <Anzeigename>Bleed It Out</Anzeigename>
+    <Anzeigename>BlaBlaBla</Anzeigename>
+    <Anzeigename>One Piece Theme</Anzeigename>
+    <Anzeigename>Bad Touch</Anzeigename>
+    <Anzeigename>State of Massachusetts</Anzeigename>
+    <Anzeigename>Flat Beat</Anzeigename>
+    <Anzeigename>Sledgehammer</Anzeigename>
+    <Anzeigename>Welcome Back</Anzeigename>
+    <Anzeigename>Blinded by the Light</Anzeigename>
+    <Anzeigename>Jogi</Anzeigename>
+    <Anzeigename>Holiday</Anzeigename>
+    <Anzeigename>Played-A-Live</Anzeigename>
+    <Alternativ>Played a live</Alternativ>
+    <Anzeigename>Pump It</Anzeigename>
+    <Anzeigename>Breakdown</Anzeigename>
+    <Anzeigename>Crockett's theme</Anzeigename>
+    <Alternativ>Crocketts Theme</Alternativ>
+    <Anzeigename>Snow</Anzeigename>
+    <Anzeigename>Riders on the Storm</Anzeigename>
+    <Anzeigename>Levels</Anzeigename>
+    <Anzeigename>Dreadlock Holiday</Anzeigename>
+    <Anzeigename>Believe Me</Anzeigename>
+    <Anzeigename>Harder Better Faster Stronger</Anzeigename>
+    <Anzeigename>Changes</Anzeigename>
+    <Anzeigename>A little less Conversation</Anzeigename>
+    <Anzeigename>What its like</Anzeigename>
+    <Anzeigename>Different Places</Anzeigename>
+    <Anzeigename>Happy Hour</Anzeigename>
+    <Anzeigename>Butterfly</Anzeigename>
+    <Anzeigename>Have a nice Day</Anzeigename>
+    <Anzeigename>Move your Feet</Anzeigename>
+    <Anzeigename>Can't get you out of my Head</Anzeigename>
+    <Alternativ>cant get you out of my head</Alternativ>
+    <Anzeigename>Fly Away</Anzeigename>
+    <Anzeigename>Scream</Anzeigename>
+    <Anzeigename>Torn</Anzeigename>
+    <Anzeigename>Magic Key</Anzeigename>
+    <Anzeigename>All i wanna do</Anzeigename>
+    <Anzeigename>Chasing Cars</Anzeigename>
+    <Anzeigename>Come Along</Anzeigename>
+    <Anzeigename>Back for Good</Anzeigename>
+    <Anzeigename>The Message</Anzeigename>
+    <Anzeigename>The Reason</Anzeigename>
+    <Anzeigename>Winter</Anzeigename>
+  </Items>
+</Quiz>

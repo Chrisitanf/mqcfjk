@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Movie Quiz 1</quizname>
+  <sounddatei>Movie Quiz 1.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <Items>
+    <Anzeigename>Der Pate</Anzeigename>
+    <Anzeigename>Forrest Gump</Anzeigename>
+    <Anzeigename>Cast Away</Anzeigename>
+    <Anzeigename>Pearl Harbor</Anzeigename>
+    <Anzeigename>The Green Mile</Anzeigename>
+    <Anzeigename>Armageddon</Anzeigename>
+    <Anzeigename>Braveheart</Anzeigename>
+    <Anzeigename>I am Legend</Anzeigename>
+    <Anzeigename>Hitman</Anzeigename>
+    <Anzeigename>Kill Bill</Anzeigename>
+    <Anzeigename>Die fabelhafte Welt der Amelie</Anzeigename>
+    <Anzeigename>Harry Potter</Anzeigename>
+    <Anzeigename>Die Chroniken von Narnia</Anzeigename>
+    <Anzeigename>Herr der Ringe</Anzeigename>
+    <Anzeigename>Indiana Jones</Anzeigename>
+    <Anzeigename>Jumper</Anzeigename>
+    <Anzeigename>Mission: Impossible</Anzeigename>
+    <Alternativ>Mission Impossible</Alternativ>
+    <Anzeigename>Pulp Fiction</Anzeigename>
+    <Anzeigename>Beverly Hills Cop</Anzeigename>
+    <Anzeigename>Fluch der Karibik</Anzeigename>
+    <Anzeigename>Troja</Anzeigename>
+    <Anzeigename>Terminator</Anzeigename>
+    <Anzeigename>Police Academy</Anzeigename>
+    <Anzeigename>Saw</Anzeigename>
+    <Anzeigename>Van Helsing</Anzeigename>
+    <Anzeigename>Star Wars</Anzeigename>
+    <Anzeigename>The Dark Knight Rises</Anzeigename>
+    <Alternativ>Dark Knight Rises</Alternativ>
+    <Anzeigename>Matrix</Anzeigename>
+    <Anzeigename>300</Anzeigename>
+    <Anzeigename>Transformers</Anzeigename>
+    <Anzeigename>Django Unchained</Anzeigename>
+    <Anzeigename>Dead Silence</Anzeigename>
+    <Anzeigename>Titanic</Anzeigename>
+    <Anzeigename>Der Hobbit</Anzeigename>
+    <Anzeigename>Superman</Anzeigename>
+    <Anzeigename>Blade</Anzeigename>
+    <Anzeigename>The Fast and the Furious</Anzeigename>
+    <Alternativ>Fast and the Furious</Alternativ>
+    <Anzeigename>Schindlers Liste</Anzeigename>
+    <Anzeigename>Das Dschungelbuch</Anzeigename>
+    <Alternativ>Dschungelbuch</Alternativ>
+    <Anzeigename>Aladdin</Anzeigename>
+    <Anzeigename>Iron Man</Anzeigename>
+    <Anzeigename>Avatar</Anzeigename>
+    <Anzeigename>Doom</Anzeigename>
+    <Anzeigename>Pocahontas</Anzeigename>
+    <Anzeigename>28 Days Later</Anzeigename>
+    <Anzeigename>Wrong Turn</Anzeigename>
+    <Anzeigename>König der Löwen</Anzeigename>
+    <Anzeigename>Snatch</Anzeigename>
+    <Anzeigename>Welcome to the Jungle</Anzeigename>
+    <Anzeigename>Starship Troopers</Anzeigename>
+    <Anzeigename>Mulan</Anzeigename>
+    <Anzeigename>Shang-High Noon</Anzeigename>
+    <Alternativ>Shang High Noon</Alternativ>
+    <Anzeigename>Sherlock Holmes</Anzeigename>
+    <Anzeigename>Die Bourne Identität</Anzeigename>
+    <Alternativ>Bourne Identität</Alternativ>
+    <Anzeigename>X-Men</Anzeigename>
+    <Alternativ>X men</Alternativ>
+    <Anzeigename>Rush Hour</Anzeigename>
+    <Anzeigename>The Hills Have Eyes</Anzeigename>
+    <Anzeigename>Der weiße Hai</Anzeigename>
+    <Alternativ>weiße hai</Alternativ>
+    <Anzeigename>Stargate</Anzeigename>
+    <Anzeigename>Jurassic Park</Anzeigename>
+  </Items>
+</Quiz>

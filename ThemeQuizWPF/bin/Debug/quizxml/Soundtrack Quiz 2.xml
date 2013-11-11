@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Soundtrack Quiz 2</quizname>
+  <sounddatei>Soundtrack Quiz 2.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <Items>
+    <Anzeigename>Heads Will Roll</Anzeigename>
+    <Anzeigename>You geht what you give</Anzeigename>
+    <Anzeigename>Obsesion</Anzeigename>
+    <Anzeigename>Can't get enough of your love baby</Anzeigename>
+    <Alternativ>cant get enough of your love baby</Alternativ>
+    <Anzeigename>ain't no sunshine</Anzeigename>
+    <Alternativ>aint no sunshine</Alternativ>
+    <Anzeigename>Where is the love</Anzeigename>
+    <Anzeigename>uhn tiss uhn tiss uhn tiss</Anzeigename>
+    <Alternativ>uhn tiss</Alternativ>
+    <Anzeigename>boulevard of broken dreams</Anzeigename>
+    <Anzeigename>toxic</Anzeigename>
+    <Anzeigename>i do it for you</Anzeigename>
+    <Anzeigename>voilet hill</Anzeigename>
+    <Anzeigename>breakfast at tiffany's</Anzeigename>
+    <Alternativ>breakfast at tiffanys</Alternativ>
+    <Anzeigename>time of my life</Anzeigename>
+    <Anzeigename>jailhouse rock</Anzeigename>
+    <Anzeigename>brimful of asha</Anzeigename>
+    <Anzeigename>i can't dance</Anzeigename>
+    <Alternativ>i cant dance</Alternativ>
+    <Anzeigename>gotta be somebody</Anzeigename>
+    <Anzeigename>good time</Anzeigename>
+    <Anzeigename>dirty harry</Anzeigename>
+    <Anzeigename>hey there delilah</Anzeigename>
+    <Anzeigename>captain jack</Anzeigename>
+    <Anzeigename>hit the road jack</Anzeigename>
+    <Anzeigename>leave</Anzeigename>
+    <Anzeigename>lambada</Anzeigename>
+    <Anzeigename>bailando</Anzeigename>
+    <Anzeigename>i don't wanna know</Anzeigename>
+    <Alternativ>i dont wanna know</Alternativ>
+    <Anzeigename>fireflies</Anzeigename>
+    <Anzeigename>last resort</Anzeigename>
+    <Anzeigename>i'll be missing you</Anzeigename>
+    <Anzeigename>it's the end of the world as we know it</Anzeigename>
+    <Alternativ>its the end of the world as we know it</Alternativ>
+    <Anzeigename>reality</Anzeigename>
+    <Anzeigename>like the angel</Anzeigename>
+    <Anzeigename>wind of change</Anzeigename>
+    <Anzeigename>it wasn't me</Anzeigename>
+    <Alternativ>it wasnt me</Alternativ>
+    <Anzeigename>kiss me</Anzeigename>
+    <Anzeigename>i'm a Believer</Anzeigename>
+    <Alternativ>im a believer</Alternativ>
+    <Anzeigename>two princes</Anzeigename>
+    <Anzeigename>ghost of stephen foster</Anzeigename>
+    <Anzeigename>englishman in new york</Anzeigename>
+    <Anzeigename>we are the world</Anzeigename>
+    <Anzeigename>a thousand miles</Anzeigename>
+    <Anzeigename>when you say nothing at all</Anzeigename>
+    <Anzeigename>i wanna dance with somebody</Anzeigename>
+    <Anzeigename>you found me</Anzeigename>
+  </Items>
+</Quiz>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Movie Quiz 3</quizname>
+  <sounddatei>Movie Quiz 3.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <Items>
+    <Anzeigename>Psycho</Anzeigename>
+    <Anzeigename>Indiana Jones</Anzeigename>
+    <Anzeigename>Ghost Busters</Anzeigename>
+    <Anzeigename>Stirb Langsam 3</Anzeigename>
+    <Anzeigename>Dredd</Anzeigename>
+    <Anzeigename>Akte X</Anzeigename>
+    <Anzeigename>Resident Evil</Anzeigename>
+    <Anzeigename>Blade</Anzeigename>
+    <Anzeigename>Tron Legacy</Anzeigename>
+    <Anzeigename>Terminator 2</Anzeigename>
+    <Anzeigename>Black Hawk Down</Anzeigename>
+    <Anzeigename>Die Verurteilten</Anzeigename>
+    <Anzeigename>Green Mile</Anzeigename>
+    <Anzeigename>Ziemlich beste Freunde</Anzeigename>
+    <Anzeigename>Kick-Ass</Anzeigename>
+    <Alternativ>Kick Ass</Alternativ>
+    <Anzeigename>Sieben</Anzeigename>
+    <Anzeigename>Fight Club</Anzeigename>
+    <Anzeigename>Reservoir Dogs</Anzeigename>
+    <Anzeigename>Death Proof</Anzeigename>
+    <Anzeigename>Django Unchained</Anzeigename>
+    <Anzeigename>Final Fantasy Advent Children</Anzeigename>
+    <Anzeigename>Stirb Langsam 4</Anzeigename>
+    <Anzeigename>Zurück in die Zukunft</Anzeigename>
+    <Anzeigename>Pulp Fiction</Anzeigename>
+    <Anzeigename>Shoot 'em up</Anzeigename>
+    <Alternativ>Shoot em up</Alternativ>
+    <Anzeigename>Collateral</Anzeigename>
+    <Anzeigename>Matrix Reloaded</Anzeigename>
+    <Anzeigename>Goodfellas</Anzeigename>
+    <Anzeigename>Der Pate</Anzeigename>
+    <Anzeigename>Die Firma</Anzeigename>
+    <Anzeigename>Last Samurai</Anzeigename>
+    <Anzeigename>Fluch der Karibik</Anzeigename>
+    <Anzeigename>Der Letzte Mohikaner</Anzeigename>
+    <Anzeigename>James Bond Skyfall</Anzeigename>
+    <Alternativ>Skyfall</Alternativ>
+    <Anzeigename>Blade Runner</Anzeigename>
+    <Anzeigename>28 Weeks Later</Anzeigename>
+    <Anzeigename>300</Anzeigename>
+    <Anzeigename>Sucker Punch</Anzeigename>
+    <Anzeigename>Oldboy</Anzeigename>
+    <Anzeigename>Silent Hill</Anzeigename>
+    <Anzeigename>Spider-Man</Anzeigename>
+    <Alternativ>Spider man</Alternativ>
+    <Anzeigename>8mm</Anzeigename>
+    <Anzeigename>Shaun of the Dead</Anzeigename>
+    <Anzeigename>Watchmen</Anzeigename>
+    <Anzeigename>Big Lebowski</Anzeigename>
+    <Anzeigename>Gladiator</Anzeigename>
+    <Anzeigename>Braveheart</Anzeigename>
+    <Anzeigename>Chihiros Reise ins Zauberland</Anzeigename>
+    <Anzeigename>Prinzessin Mononoke</Anzeigename>
+    <Anzeigename>Drive</Anzeigename>
+    <Anzeigename>Sin City</Anzeigename>
+    <Anzeigename>Bad Boys</Anzeigename>
+    <Anzeigename>Speed</Anzeigename>
+    <Anzeigename>American Beauty</Anzeigename>
+    <Anzeigename>Das Ding</Anzeigename>
+    <Anzeigename>Cast Away</Anzeigename>
+    <Anzeigename>Catch me if you can</Anzeigename>
+    <Anzeigename>Lord of War</Anzeigename>
+    <Anzeigename>Harry Potter und der Gefangene von Askaban</Anzeigename>
+    <Alternativ>Harry Potter 3</Alternativ>
+    <Anzeigename>Star Wars Episode 1</Anzeigename>
+    <Alternativ>Star Wars 1</Alternativ>
+  </Items>
+</Quiz>

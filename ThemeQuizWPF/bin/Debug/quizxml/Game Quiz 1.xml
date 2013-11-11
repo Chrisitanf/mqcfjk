@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Game Quiz 1</quizname>
+  <sounddatei>Game Quiz 1.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <Items>
+    <Anzeigename>Heroes of Might and Magic</Anzeigename>
+    <Anzeigename>Skyrim</Anzeigename>
+    <Anzeigename>Warcraft</Anzeigename>
+    <Anzeigename>Dishonored</Anzeigename>
+    <Anzeigename>Uncharted</Anzeigename>
+    <Anzeigename>Metal Gear Solid</Anzeigename>
+    <Anzeigename>Command and Conquer</Anzeigename>
+    <Anzeigename>Super Mario World</Anzeigename>
+    <Alternativ>Mario World</Alternativ>
+    <Anzeigename>Hitman</Anzeigename>
+    <Anzeigename>Silent Hill</Anzeigename>
+    <Anzeigename>Prince of Persia</Anzeigename>
+    <Anzeigename>Bioshock</Anzeigename>
+    <Anzeigename>Half-Life</Anzeigename>
+    <Alternativ>Half Life</Alternativ>
+    <Anzeigename>Left 4 Dead</Anzeigename>
+    <Anzeigename>Guild Wars</Anzeigename>
+    <Anzeigename>Assassin's Creed</Anzeigename>
+    <Alternativ>Assassins creed</Alternativ>
+    <Anzeigename>Gothic</Anzeigename>
+    <Anzeigename>The Legend of Zelda</Anzeigename>
+    <Alternativ>Legend of zelda</Alternativ>
+    <Anzeigename>Resident Evil</Anzeigename>
+    <Anzeigename>Mass Effect</Anzeigename>
+    <Anzeigename>Diablo</Anzeigename>
+    <Anzeigename>Portal</Anzeigename>
+    <Anzeigename>Little Big Planet</Anzeigename>
+    <Anzeigename>Need for Speed</Anzeigename>
+    <Anzeigename>Shadow of the Colossus</Anzeigename>
+    <Anzeigename>Pokemon</Anzeigename>
+    <Anzeigename>Fallout</Anzeigename>
+    <Anzeigename>The Witcher</Anzeigename>
+    <Anzeigename>Sacred</Anzeigename>
+    <Anzeigename>Rollercoaster Tycoon</Anzeigename>
+    <Anzeigename>Super Smash Bros</Anzeigename>
+    <Alternativ>Smash bros</Alternativ>
+    <Anzeigename>Tetris</Anzeigename>
+    <Anzeigename>The Last of Us</Anzeigename>
+    <Alternativ>Last of Us</Alternativ>
+    <Anzeigename>Starcraft</Anzeigename>
+    <Anzeigename>Grand Theft Auto</Anzeigename>
+    <Alternativ>Gta</Alternativ>
+    <Anzeigename>Tomb Raider</Anzeigename>
+    <Anzeigename>Die Sims</Anzeigename>
+    <Anzeigename>Anno</Anzeigename>
+    <Anzeigename>Tekken</Anzeigename>
+    <Anzeigename>Kingdom Hearts</Anzeigename>
+    <Anzeigename>Animal Crossing</Anzeigename>
+    <Anzeigename>Splinter Cell</Anzeigename>
+    <Anzeigename>Mafia</Anzeigename>
+    <Anzeigename>Sonic</Anzeigename>
+    <Anzeigename>Crysis</Anzeigename>
+    <Anzeigename>Dead Space</Anzeigename>
+    <Anzeigename>Plants vs. Zombies</Anzeigename>
+    <Alternativ>Plants vs Zombies</Alternativ>
+    <Anzeigename>Turok</Anzeigename>
+    <Anzeigename>Fifa</Anzeigename>
+    <Anzeigename>Pac-Man</Anzeigename>
+    <Alternativ>Pac man</Alternativ>
+    <Anzeigename>Alice: Madness returns</Anzeigename>
+    <Alternativ>Alice Madness returns</Alternativ>
+    <Alternativ>Madness returns</Alternativ>
+    <Anzeigename>Die Siedler</Anzeigename>
+    <Anzeigename>Moorhuhn</Anzeigename>
+    <Anzeigename>Carcassonne</Anzeigename>
+    <Anzeigename>Stronghold</Anzeigename>
+    <Anzeigename>Civilization</Anzeigename>
+    <Anzeigename>DayZ</Anzeigename>
+    <Anzeigename>Fable</Anzeigename>
+    <Anzeigename>Amnesia</Anzeigename>
+    <Anzeigename>Age of Empires</Anzeigename>
+  </Items>
+</Quiz>

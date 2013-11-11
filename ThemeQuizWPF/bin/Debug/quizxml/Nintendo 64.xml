@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Nintendo 64</quizname>
+  <sounddatei>Nintendo 64.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <Items>
+    <Anzeigename>Worms Armageddon</Anzeigename>
+    <Alternativ>Worms</Alternativ>
+    <Anzeigename>1080° Snowboarding</Anzeigename>
+    <Alternativ>1080</Alternativ>
+    <Anzeigename>Super Smash Bros</Anzeigename>
+    <Anzeigename>Tetris 64</Anzeigename>
+    <Alternativ>Tetris</Alternativ>
+    <Anzeigename>Banjo-Kazooie</Anzeigename>
+    <Alternativ>Banjo Kazooie</Alternativ>
+    <Anzeigename>Bomberman 64</Anzeigename>
+    <Alternativ>Bomberman</Alternativ>
+    <Anzeigename>Disney's Tarzan</Anzeigename>
+    <Alternativ>Tarzan</Alternativ>
+    <Anzeigename>Perfect Dark</Anzeigename>
+    <Anzeigename>Dr. Mario 64</Anzeigename>
+    <Alternativ>Dr. Mario</Alternativ>
+    <Alternativ>Dr Mario</Alternativ>
+    <Anzeigename>F-Zero X</Anzeigename>
+    <Alternativ>F-Zero</Alternativ>
+    <Alternativ>F Zero</Alternativ>
+    <Anzeigename>Harvest Moon 64</Anzeigename>
+    <Alternativ>harvest Moon</Alternativ>
+    <Anzeigename>Jet Force Gemini</Anzeigename>
+    <Anzeigename>Kirby 64</Anzeigename>
+    <Alternativ>Kirby</Alternativ>
+    <Anzeigename>Legend of Zelda: Majora's Mask</Anzeigename>
+    <Alternativ>Majora's Mask</Alternativ>
+    <Alternativ>Majoras Mask</Alternativ>
+    <Anzeigename>Lego Racers</Anzeigename>
+    <Anzeigename>Mario Kart 64</Anzeigename>
+    <Alternativ>Mario Kart</Alternativ>
+    <Anzeigename>Castlevania: Legacy of Darkness</Anzeigename>
+    <Alternativ>Castlevania</Alternativ>
+    <Anzeigename>Diddy Kong Racing</Anzeigename>
+    <Anzeigename>Mario Party</Anzeigename>
+    <Anzeigename>Wave Race 64</Anzeigename>
+    <Alternativ>Wave Race</Alternativ>
+    <Anzeigename>Mortal Kombat</Anzeigename>
+    <Anzeigename>Paper Mario</Anzeigename>
+    <Anzeigename>Duke Nukem 64</Anzeigename>
+    <Alternativ>Duke Nukem</Alternativ>
+    <Anzeigename>Earthworm Jim 3D</Anzeigename>
+    <Alternativ>Earthworm Jim</Alternativ>
+    <Anzeigename>Pokemon Snap</Anzeigename>
+    <Anzeigename>Quake 64</Anzeigename>
+    <Alternativ>Quake</Alternativ>
+    <Anzeigename>Rayman 2</Anzeigename>
+    <Alternativ>Rayman</Alternativ>
+    <Anzeigename>Resident Evil 2</Anzeigename>
+    <Alternativ>Resident Evil</Alternativ>
+    <Anzeigename>Sim City 2000</Anzeigename>
+    <Alternativ>Sim City</Alternativ>
+    <Anzeigename>Donkey Kong 64</Anzeigename>
+    <Alternativ>Donkey Kong</Alternativ>
+    <Anzeigename>Space Invaders</Anzeigename>
+    <Anzeigename>Star Wars: Episode 1</Anzeigename>
+    <Alternativ>Star Wars</Alternativ>
+    <Anzeigename>Mega Man 64</Anzeigename>
+    <Alternativ>Mega Man</Alternativ>
+    <Anzeigename>Starcraft 64</Anzeigename>
+    <Alternativ>Starcraft</Alternativ>
+    <Anzeigename>Fifa Road to World Cup 98</Anzeigename>
+    <Alternativ>Fifa 98</Alternativ>
+    <Anzeigename>Forsaken 64</Anzeigename>
+    <Alternativ>Forsaken</Alternativ>
+    <Anzeigename>Super Mario 64</Anzeigename>
+    <Alternativ>Super Mario</Alternativ>
+    <Anzeigename>Pokemon Stadium</Anzeigename>
+    <Anzeigename>Tony Hawk's Pro Skater 2</Anzeigename>
+    <Alternativ>THPS2</Alternativ>
+    <Alternativ>THPS 2</Alternativ>
+    <Alternativ>Tony Hawks pro skater 2</Alternativ>
+    <Anzeigename>Turok 2</Anzeigename>
+    <Alternativ>Turok</Alternativ>
+    <Anzeigename>Wipeout 64</Anzeigename>
+    <Alternativ>Wipeout</Alternativ>
+  </Items>
+</Quiz>

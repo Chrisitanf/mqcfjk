@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Anime-Serien Quiz 2</quizname>
+  <sounddatei>Anime-Serien Quiz 2.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <Items>
+    <Anzeigename>Breaking Bad</Anzeigename>
+    <Anzeigename>One Piece</Anzeigename>
+    <Anzeigename>Naruto</Anzeigename>
+    <Anzeigename>Mad Men</Anzeigename>
+    <Anzeigename>Pushing Daisies</Anzeigename>
+    <Anzeigename>Lost</Anzeigename>
+    <Anzeigename>Game of Thrones</Anzeigename>
+    <Anzeigename>Arrested Development</Anzeigename>
+    <Anzeigename>Ducktales</Anzeigename>
+    <Anzeigename>Mumins</Anzeigename>
+    <Anzeigename>Nils Holgerson</Anzeigename>
+    <Anzeigename>Alfred Kwak</Anzeigename>
+    <Anzeigename>Blinky Bill</Anzeigename>
+    <Anzeigename>Darker than Black</Anzeigename>
+    <Anzeigename>Death Note</Anzeigename>
+    <Anzeigename>Yu-Gi-Oh</Anzeigename>
+    <Alternativ>Yugioh</Alternativ>
+    <Alternativ>Yu Gi Oh</Alternativ>
+    <Anzeigename>Bleach</Anzeigename>
+    <Anzeigename>Die Sopranos</Anzeigename>
+    <Anzeigename>The Walking Dead</Anzeigename>
+    <Anzeigename>How I Met Your Mother</Anzeigename>
+    <Anzeigename>Futurama</Anzeigename>
+    <Anzeigename>Tex Avery Show</Anzeigename>
+    <Anzeigename>Orgy und die Kakerlaken</Anzeigename>
+    <Anzeigename>Bieber Brüder</Anzeigename>
+    <Anzeigename>Mona der Vampir</Anzeigename>
+    <Anzeigename>Kim Possible</Anzeigename>
+    <Anzeigename>Lilo und Stitch</Anzeigename>
+    <Anzeigename>Wochenend Kids</Anzeigename>
+    <Anzeigename>Justified</Anzeigename>
+    <Anzeigename>Vikings</Anzeigename>
+    <Anzeigename>24</Anzeigename>
+    <Anzeigename>Tom and Jerry</Anzeigename>
+    <Anzeigename>Teenage Mutant Ninja Turtles</Anzeigename>
+    <Alternativ>Ninja Turtles</Alternativ>
+    <Anzeigename>Wickie</Anzeigename>
+    <Anzeigename>Highschool of the Dead</Anzeigename>
+    <Anzeigename>Superkickers 2006</Anzeigename>
+    <Anzeigename>Pinocchio</Anzeigename>
+    <Anzeigename>Jeanne die kamikaze Diebin</Anzeigename>
+    <Anzeigename>Pretty Cure</Anzeigename>
+    <Anzeigename>Alice im Wunderland</Anzeigename>
+    <Anzeigename>Oiski Poiski</Anzeigename>
+    <Anzeigename>Captain Future</Anzeigename>
+    <Anzeigename>Miami Vice</Anzeigename>
+    <Anzeigename>King of Queens</Anzeigename>
+    <Anzeigename>Power Puff Girls</Anzeigename>
+    <Anzeigename>Simsala Grimm</Anzeigename>
+    <Anzeigename>Gänsehaut</Anzeigename>
+    <Anzeigename>Tabaluga</Anzeigename>
+    <Anzeigename>Doug</Anzeigename>
+    <Anzeigename>Hey Arnold</Anzeigename>
+    <Anzeigename>Papyrus</Anzeigename>
+    <Anzeigename>Extreme Dinosaurs</Anzeigename>
+    <Anzeigename>Megaman</Anzeigename>
+    <Anzeigename>Duel Masters</Anzeigename>
+    <Anzeigename>Pokemon</Anzeigename>
+    <Anzeigename>Jimmy Neutron</Anzeigename>
+    <Anzeigename>Dragonball</Anzeigename>
+    <Anzeigename>Hanni und Nanni</Anzeigename>
+    <Anzeigename>Mythbusters</Anzeigename>
+    <Anzeigename>Galileo</Anzeigename>
+  </Items>
+</Quiz>

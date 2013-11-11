@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Game Quiz 2</quizname>
+  <sounddatei>Game Quiz 2.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <Items>
+    <Anzeigename>Indiana Jones</Anzeigename>
+    <Anzeigename>Medal of Honor</Anzeigename>
+    <Anzeigename>Harvest Moon</Anzeigename>
+    <Anzeigename>Doom</Anzeigename>
+    <Anzeigename>The Walking Dead</Anzeigename>
+    <Anzeigename>Call of Duty</Anzeigename>
+    <Alternativ>Cod</Alternativ>
+    <Anzeigename>Dr. Mario</Anzeigename>
+    <Alternativ>dr mario</Alternativ>
+    <Anzeigename>Soul Calibur</Anzeigename>
+    <Anzeigename>Burnout</Anzeigename>
+    <Anzeigename>Battlefield</Anzeigename>
+    <Anzeigename>Wii Sports</Anzeigename>
+    <Anzeigename>Final Fantasy 7</Anzeigename>
+    <Alternativ>ff 7</Alternativ>
+    <Anzeigename>Baldur's Gate</Anzeigename>
+    <Alternativ>Baldurs Gate</Alternativ>
+    <Anzeigename>Kirby's Dream Land</Anzeigename>
+    <Alternativ>Kirbys Dreamland</Alternativ>
+    <Alternativ>Kirbys Dream Land</Alternativ>
+    <Anzeigename>Team Fortress</Anzeigename>
+    <Anzeigename>One Piece</Anzeigename>
+    <Anzeigename>Batman</Anzeigename>
+    <Anzeigename>Metroid</Anzeigename>
+    <Anzeigename>Mario Party</Anzeigename>
+    <Anzeigename>GoldenEye 007</Anzeigename>
+    <Alternativ>Goldeneye</Alternativ>
+    <Anzeigename>Spyro</Anzeigename>
+    <Anzeigename>Ecco the Dolphin</Anzeigename>
+    <Anzeigename>I am Alive</Anzeigename>
+    <Anzeigename>Street Fighter</Anzeigename>
+    <Anzeigename>Minecraft</Anzeigename>
+    <Anzeigename>Gran Turismo</Anzeigename>
+    <Anzeigename>Guitar Hero</Anzeigename>
+    <Anzeigename>Spider-Man</Anzeigename>
+    <Alternativ>Spiderman</Alternativ>
+    <Alternativ>Spider Man</Alternativ>
+    <Anzeigename>Herr der Ringe</Anzeigename>
+    <Anzeigename>Prototype</Anzeigename>
+    <Anzeigename>Dark Souls</Anzeigename>
+    <Anzeigename>God of War</Anzeigename>
+    <Anzeigename>Far Cry</Anzeigename>
+    <Anzeigename>Halo</Anzeigename>
+    <Anzeigename>Donkey Kong</Anzeigename>
+    <Anzeigename>Borderlands</Anzeigename>
+    <Anzeigename>Kingdom Hearts</Anzeigename>
+    <Anzeigename>Spore</Anzeigename>
+    <Anzeigename>Naruto</Anzeigename>
+    <Anzeigename>Nintendogs</Anzeigename>
+    <Anzeigename>Bomberman</Anzeigename>
+    <Anzeigename>Ninja Gaiden</Anzeigename>
+    <Anzeigename>Worms</Anzeigename>
+    <Anzeigename>Tony Hawk's Pro Skater</Anzeigename>
+    <Alternativ>Tony Hawk</Alternativ>
+    <Alternativ>Pro Skater</Alternativ>
+    <Anzeigename>Mega Man</Anzeigename>
+    <Anzeigename>SimCity</Anzeigename>
+    <Alternativ>Sim City</Alternativ>
+    <Anzeigename>Unreal Tournament</Anzeigename>
+    <Anzeigename>Castlevania</Anzeigename>
+    <Anzeigename>Killzone</Anzeigename>
+    <Anzeigename>Devil May Cry</Anzeigename>
+    <Anzeigename>Monster Hunter</Anzeigename>
+    <Anzeigename>Metro 2033</Anzeigename>
+    <Anzeigename>Ultima</Anzeigename>
+    <Anzeigename>Gears of War</Anzeigename>
+    <Anzeigename>Dungeon Siege</Anzeigename>
+    <Anzeigename>Black and White</Anzeigename>
+    <Anzeigename>Rainbow Six</Anzeigename>
+    <Anzeigename>Beyond Good and Evil</Anzeigename>
+    <Anzeigename>Fear</Anzeigename>
+    <Anzeigename>Infamous</Anzeigename>
+  </Items>
+</Quiz>

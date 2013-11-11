@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Movie Quiz 2</quizname>
+  <sounddatei>Movie Quiz 2.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <Items>
+    <Anzeigename>Butterfly Effect</Anzeigename>
+    <Anzeigename>Das große Krabbeln</Anzeigename>
+    <Anzeigename>Inception</Anzeigename>
+    <Anzeigename>Memento</Anzeigename>
+    <Anzeigename>Mirrors</Anzeigename>
+    <Anzeigename>Das Schweigen der Lämmer</Anzeigename>
+    <Anzeigename>Die Mumie</Anzeigename>
+    <Anzeigename>Big Daddy</Anzeigename>
+    <Anzeigename>Der Soldat James Ryan</Anzeigename>
+    <Anzeigename>Zurück in die Zukunft</Anzeigename>
+    <Anzeigename>Full Metal Jacket</Anzeigename>
+    <Anzeigename>Stuart Little</Anzeigename>
+    <Anzeigename>Oben</Anzeigename>
+    <Anzeigename>Inglourious Basterds</Anzeigename>
+    <Anzeigename>Sin City</Anzeigename>
+    <Anzeigename>The Big Lebowski</Anzeigename>
+    <Anzeigename>Transporter</Anzeigename>
+    <Anzeigename>Der Pianist</Anzeigename>
+    <Anzeigename>Findet Nemo</Anzeigename>
+    <Anzeigename>Susi und Strolch</Anzeigename>
+    <Anzeigename>Der Exorzist</Anzeigename>
+    <Anzeigename>American Pie</Anzeigename>
+    <Anzeigename>Rocky</Anzeigename>
+    <Anzeigename>Shrek</Anzeigename>
+    <Anzeigename>Gladiator</Anzeigename>
+    <Anzeigename>Bibi Blocksberg</Anzeigename>
+    <Anzeigename>Die Truman Show</Anzeigename>
+    <Anzeigename>Toy Story</Anzeigename>
+    <Anzeigename>Scarface</Anzeigename>
+    <Anzeigename>Stirb Langsam</Anzeigename>
+    <Anzeigename>Asterix und Obelix</Anzeigename>
+    <Anzeigename>Panic Room</Anzeigename>
+    <Anzeigename>Peter Pan</Anzeigename>
+    <Anzeigename>E. T.</Anzeigename>
+    <Alternativ>E T</Alternativ>
+    <Alternativ>et</Alternativ>
+    <Anzeigename>Star Trek</Anzeigename>
+    <Anzeigename>Face Off</Anzeigename>
+    <Anzeigename>Born to be Wild</Anzeigename>
+    <Anzeigename>Die Unglaublichen</Anzeigename>
+    <Anzeigename>I Robot</Anzeigename>
+    <Anzeigename>Ziemlich beste Freunde</Anzeigename>
+    <Anzeigename>School of Rock</Anzeigename>
+    <Anzeigename>American Psycho</Anzeigename>
+    <Anzeigename>Vom Winde verweht</Anzeigename>
+    <Anzeigename>The Ring</Anzeigename>
+    <Anzeigename>Death Race</Anzeigename>
+    <Anzeigename>Kick-Ass</Anzeigename>
+    <Alternativ>Kick ass</Alternativ>
+    <Anzeigename>The Last Samurai</Anzeigename>
+    <Anzeigename>Equilibrium</Anzeigename>
+    <Anzeigename>Die Simpsons</Anzeigename>
+    <Anzeigename>Constantine</Anzeigename>
+    <Anzeigename>Der Machinist</Anzeigename>
+    <Anzeigename>Duell der Magier</Anzeigename>
+    <Anzeigename>The Grudge</Anzeigename>
+    <Anzeigename>The King's Speech</Anzeigename>
+    <Alternativ>The Kings speech</Alternativ>
+    <Anzeigename>Ice Age</Anzeigename>
+    <Anzeigename>Prestige</Anzeigename>
+    <Anzeigename>Die Tribute von Panem</Anzeigename>
+    <Alternativ>Tribute von Panem</Alternativ>
+    <Anzeigename>Eragon</Anzeigename>
+    <Anzeigename>Black Swan</Anzeigename>
+    <Anzeigename>P.S. Ich Liebe dich</Anzeigename>
+    <Alternativ>ps ich liebe dich</Alternativ>
+    <Alternativ>ich liebe dich</Alternativ>
+  </Items>
+</Quiz>

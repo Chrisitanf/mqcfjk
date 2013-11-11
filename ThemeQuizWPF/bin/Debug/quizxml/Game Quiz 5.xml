@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Game Quiz 5</quizname>
+  <sounddatei>Game Quiz 5.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <Items>
+    <Anzeigename>Final Fantasy X</Anzeigename>
+    <Anzeigename>Red Dead Redemption</Anzeigename>
+    <Anzeigename>Grand Theft Auto V</Anzeigename>
+    <Alternativ>Grand theft auto 5</Alternativ>
+    <Alternativ>gta 5</Alternativ>
+    <Alternativ>gta v</Alternativ>
+    <Anzeigename>Bioshock Infinite</Anzeigename>
+    <Anzeigename>Guild Wars Factions</Anzeigename>
+    <Anzeigename>Baldur's Gate 2</Anzeigename>
+    <Alternativ>Baldurs gate 2</Alternativ>
+    <Anzeigename>Uncharted 2</Anzeigename>
+    <Anzeigename>Diablo 2</Anzeigename>
+    <Anzeigename>Might &amp; Magic VI</Anzeigename>
+    <Alternativ>Might and magic 6</Alternativ>
+    <Alternativ>Might &amp; magic 6</Alternativ>
+    <Alternativ>might and magic vi</Alternativ>
+    <Anzeigename>Resident Evil 4</Anzeigename>
+    <Anzeigename>Harvest Moon</Anzeigename>
+    <Anzeigename>Castlevania: Symphony of the Night</Anzeigename>
+    <Alternativ>Castlevania symphony of the night</Alternativ>
+    <Anzeigename>Monster Hunter</Anzeigename>
+    <Anzeigename>Megaman</Anzeigename>
+    <Anzeigename>Dungeon Keeper</Anzeigename>
+    <Anzeigename>Deus Ex: Human Revolution</Anzeigename>
+    <Alternativ>Deus Ex Human Revolution</Alternativ>
+    <Anzeigename>Riven</Anzeigename>
+    <Anzeigename>Halo 3</Anzeigename>
+    <Anzeigename>Dead Space</Anzeigename>
+    <Anzeigename>Commandos</Anzeigename>
+    <Anzeigename>Die Siedler 2</Anzeigename>
+    <Anzeigename>World of Warcraft</Anzeigename>
+    <Anzeigename>The Legend of Zelda: Ocarina of Time</Anzeigename>
+    <Alternativ>Ocarina of Time</Alternativ>
+    <Alternativ>The legend of zelda ocarina of time</Alternativ>
+    <Anzeigename>Metal Gear Solid 4</Anzeigename>
+  </Items>
+</Quiz>

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>PS Game</quizname>
+  <sounddatei>PS Game.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <Items>
+    <Anzeigename>Portal</Anzeigename>
+    <Anzeigename>Worms</Anzeigename>
+    <Anzeigename>Final Fantasy X</Anzeigename>
+    <Alternativ>Final Fantasy</Alternativ>
+    <Alternativ>FFX</Alternativ>
+    <Anzeigename>Gran Turismo 5</Anzeigename>
+    <Alternativ>Gran Turismo</Alternativ>
+    <Alternativ>GT 5</Alternativ>
+    <Anzeigename>Fifa 98</Anzeigename>
+    <Alternativ>Fifa</Alternativ>
+    <Anzeigename>Legend of Dragoon</Anzeigename>
+    <Anzeigename>Breath of Fire 3</Anzeigename>
+    <Alternativ>Breath of Fire</Alternativ>
+    <Anzeigename>Harvest Moon Back to nature</Anzeigename>
+    <Alternativ>Harvest Moon</Alternativ>
+    <Anzeigename>Dragon Ball Final Bout</Anzeigename>
+    <Alternativ>Dragon Ball</Alternativ>
+    <Anzeigename>GTA 4</Anzeigename>
+    <Alternativ>GTA</Alternativ>
+    <Alternativ>Grand Theft Auto</Alternativ>
+    <Anzeigename>Uncharted 2</Anzeigename>
+    <Alternativ>Uncharted</Alternativ>
+    <Anzeigename>Little Big Planet 2</Anzeigename>
+    <Alternativ>Little Big Planet</Alternativ>
+    <Alternativ>LBP2</Alternativ>
+    <Anzeigename>Oblivion</Anzeigename>
+    <Anzeigename>Skyrim</Anzeigename>
+    <Anzeigename>Last of us</Anzeigename>
+    <Alternativ>The Last of us</Alternativ>
+    <Anzeigename>Fallout 3</Anzeigename>
+    <Alternativ>Fallout</Alternativ>
+    <Anzeigename>God of War </Anzeigename>
+    <Anzeigename>Call of Duty Modern Warfare</Anzeigename>
+    <Alternativ>MW</Alternativ>
+    <Alternativ>CoD MW</Alternativ>
+    <Alternativ>Call of Duty</Alternativ>
+    <Alternativ>COD</Alternativ>
+    <Anzeigename>Demon's Souls</Anzeigename>
+    <Alternativ>Demon Souls</Alternativ>
+    <Alternativ>Demons SOuls</Alternativ>
+    <Anzeigename>Assassins Creed 2</Anzeigename>
+    <Alternativ>Assassins Creed</Alternativ>
+    <Anzeigename>Half Life 2</Anzeigename>
+    <Anzeigename>Resident Evil 5</Anzeigename>
+    <Alternativ>Resident Evil</Alternativ>
+    <Anzeigename>Dragon Age</Anzeigename>
+    <Anzeigename>Soul Calibur 3</Anzeigename>
+    <Alternativ>Soul Calibur</Alternativ>
+    <Anzeigename>Tekken 3</Anzeigename>
+    <Anzeigename>Battlefield 3</Anzeigename>
+    <Anzeigename>Mortal Kombat</Anzeigename>
+    <Anzeigename>Diablo 3</Anzeigename>
+    <Anzeigename>Kingdom Hearts</Anzeigename>
+    <Anzeigename>Crysis</Anzeigename>
+    <Anzeigename>Disgaea 3</Anzeigename>
+    <Alternativ>Disgaea</Alternativ>
+    <Anzeigename>Brütal Legend</Anzeigename>
+    <Anzeigename>Bayonetta</Anzeigename>
+    <Anzeigename>Driver</Anzeigename>
+    <Anzeigename>Tony Hawks Pro Skater</Anzeigename>
+    <Alternativ>THPS</Alternativ>
+    <Anzeigename>Far Cry 3</Anzeigename>
+    <Anzeigename>Sports Champions</Anzeigename>
+    <Anzeigename>Dead or alive 2</Anzeigename>
+    <Anzeigename>Need for Speed 2</Anzeigename>
+    <Anzeigename>Burnout 2</Anzeigename>
+    <Anzeigename>One Piece Pirate Warrior</Anzeigename>
+    <Alternativ>One Piece</Alternativ>
+    <Anzeigename>Turok 2</Anzeigename>
+    <Anzeigename>Dynasty Warriors</Anzeigename>
+    <Anzeigename>Metal Gear Solid</Anzeigename>
+    <Anzeigename>Prince of Persia</Anzeigename>
+    <Anzeigename>Time Splitters 2</Anzeigename>
+    <Alternativ>Time Splitters</Alternativ>
+    <Anzeigename>Shadow of the Colossus</Anzeigename>
+    <Anzeigename>Grandia 2</Anzeigename>
+    <Anzeigename>Katamari Forever</Anzeigename>
+    <Alternativ>Katamari</Alternativ>
+    <Anzeigename>Gradius</Anzeigename>
+    <Anzeigename>Castlevania Lords of Shadow</Anzeigename>
+    <Alternativ>Castlevania</Alternativ>
+    <Anzeigename>Commandos</Anzeigename>
+    <Anzeigename>Suikoden 2</Anzeigename>
+    <Alternativ>Suikoden</Alternativ>
+    <Anzeigename>Megaman</Anzeigename>
+    <Anzeigename>Matrix</Anzeigename>
+    <Anzeigename>Monster Hunter</Anzeigename>
+    <Anzeigename>Warcraft 2</Anzeigename>
+    <Anzeigename>Quake</Anzeigename>
+    <Anzeigename>Command &amp; Conquer Red Alert</Anzeigename>
+    <Alternativ>C&amp;C</Alternativ>
+    <Alternativ>Command and Conquer</Alternativ>
+    <Alternativ>Command &amp; Conquer</Alternativ>
+  </Items>
+</Quiz>

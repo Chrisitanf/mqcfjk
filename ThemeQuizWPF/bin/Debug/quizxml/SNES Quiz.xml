@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>SNES Quiz</quizname>
+  <sounddatei>SNES Quiz.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <Items>
+    <Anzeigename>Worms</Anzeigename>
+    <Anzeigename>Breath of Fire 2</Anzeigename>
+    <Alternativ>Breath of Fire</Alternativ>
+    <Anzeigename>Civilization</Anzeigename>
+    <Anzeigename>F-Zero</Anzeigename>
+    <Anzeigename>Fifa 98 Road to world cup</Anzeigename>
+    <Alternativ>Fifa 98</Alternativ>
+    <Anzeigename>Final Fantasy 5</Anzeigename>
+    <Alternativ>Final Fantasy</Alternativ>
+    <Anzeigename>The Flintstones</Anzeigename>
+    <Alternativ>Flintstones</Alternativ>
+    <Alternativ>Familie Feuerstein</Alternativ>
+    <Anzeigename>Disney's Aladdin</Anzeigename>
+    <Alternativ>Aladdin</Alternativ>
+    <Anzeigename>Indiana Jones' greatest Adventures</Anzeigename>
+    <Alternativ>Indiana Jones</Alternativ>
+    <Anzeigename>Inspector Gadget</Anzeigename>
+    <Anzeigename>Kirby's Dream Land 3</Anzeigename>
+    <Alternativ>Kirby</Alternativ>
+    <Anzeigename>A Link to the past</Anzeigename>
+    <Alternativ>The Legend of Zelda</Alternativ>
+    <Alternativ>Legend of Zelda</Alternativ>
+    <Anzeigename>Disney's The Jungle Book</Anzeigename>
+    <Alternativ>The Jungle Book</Alternativ>
+    <Alternativ>Das Dschungelbuch</Alternativ>
+    <Alternativ>Dschungelbuch</Alternativ>
+    <Anzeigename>Disney's The Lion King</Anzeigename>
+    <Alternativ>The Lion King</Alternativ>
+    <Alternativ>Lion King</Alternativ>
+    <Alternativ>Der König der Löwen</Alternativ>
+    <Alternativ>König der Löwen</Alternativ>
+    <Anzeigename>Donkey Kong Country</Anzeigename>
+    <Alternativ>Donkey Kong</Alternativ>
+    <Anzeigename>Doom</Anzeigename>
+    <Anzeigename>Earthworm Jim</Anzeigename>
+    <Anzeigename>Gradius 3</Anzeigename>
+    <Alternativ>Gradius</Alternativ>
+    <Anzeigename>Harvest Moon</Anzeigename>
+    <Anzeigename>The incredible Hulk</Anzeigename>
+    <Alternativ>Hulk</Alternativ>
+    <Anzeigename>Lemmings</Anzeigename>
+    <Anzeigename>Lufia</Anzeigename>
+    <Anzeigename>Megaman 7</Anzeigename>
+    <Alternativ>Megaman</Alternativ>
+    <Anzeigename>Mighty morphin Power Rangers</Anzeigename>
+    <Alternativ>Power Rangers</Alternativ>
+    <Anzeigename>Mortal Kombat</Anzeigename>
+    <Anzeigename>Prince of Persia</Anzeigename>
+    <Anzeigename>Ranma 1/2</Anzeigename>
+    <Alternativ>Ranma</Alternativ>
+    <Anzeigename>Secret of Mana</Anzeigename>
+    <Anzeigename>Sim City</Anzeigename>
+    <Anzeigename>Star Fox</Anzeigename>
+    <Anzeigename>Super Bomberman</Anzeigename>
+    <Alternativ>Bomberman</Alternativ>
+    <Anzeigename>Super Castlevania IV</Anzeigename>
+    <Alternativ>Castlevania</Alternativ>
+    <Anzeigename>Super Mario Kart</Anzeigename>
+    <Alternativ>Mario Kart</Alternativ>
+    <Anzeigename>Super Mario World</Anzeigename>
+    <Alternativ>Mario World</Alternativ>
+    <Anzeigename>Super Metroid</Anzeigename>
+    <Alternativ>Metroid</Alternativ>
+    <Anzeigename>Super Punch-Out!!</Anzeigename>
+    <Alternativ>Punch-Out</Alternativ>
+    <Alternativ>Punch Out</Alternativ>
+    <Alternativ>Super Punch Out</Alternativ>
+    <Alternativ>Super Punch-Out</Alternativ>
+    <Anzeigename>Teenage Mutant Hero Turtles IV</Anzeigename>
+    <Alternativ>Teenage Mutant Hero Turtles</Alternativ>
+    <Anzeigename>Adventures of Batman &amp; Robin</Anzeigename>
+    <Alternativ>Batman</Alternativ>
+    <Anzeigename>Battletoads</Anzeigename>
+    <Anzeigename>The Terminator</Anzeigename>
+    <Alternativ>Terminator</Alternativ>
+    <Anzeigename>Terranigma</Anzeigename>
+    <Anzeigename>Tetris 2</Anzeigename>
+    <Alternativ>Tetris</Alternativ>
+    <Anzeigename>Pinocchio</Anzeigename>
+    <Anzeigename>Populous</Anzeigename>
+    <Alternativ>Popolous</Alternativ>
+    <Anzeigename>Theme Park</Anzeigename>
+    <Anzeigename>The wizard of Oz</Anzeigename>
+    <Alternativ>Der Zauberer von Oz</Alternativ>
+    <Alternativ>Zauberer von Oz</Alternativ>
+    </Items>
+</Quiz>

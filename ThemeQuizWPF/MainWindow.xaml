@@ -1,0 +1,137 @@
+﻿<Window x:Class="ThemeQuizWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Theme Quiz!" Height="720" Width="1280" Icon="Images/question.png">
+    <Window.Resources>
+        <SolidColorBrush x:Key="HorizontalSliderTrackNormalBackground" Color="#FFE7EAEA"/>
+        <LinearGradientBrush x:Key="HorizontalSliderTrackNormalBorder" EndPoint="0,1" StartPoint="0,0">
+            <GradientStop Color="#FFAEB1AF" Offset="0.1"/>
+            <GradientStop Color="White" Offset=".9"/>
+        </LinearGradientBrush>
+        <Style x:Key="SliderRepeatButtonStyle" TargetType="{x:Type RepeatButton}">
+            <Setter Property="OverridesDefaultStyle" Value="true"/>
+            <Setter Property="IsTabStop" Value="false"/>
+            <Setter Property="Focusable" Value="false"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type RepeatButton}">
+                        <Rectangle Fill="Transparent"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="CustomThumbForSlider" TargetType="{x:Type Thumb}">
+            <Setter Property="OverridesDefaultStyle" Value="True"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Thumb}">
+                        <Ellipse Fill="#FF8F4040" Stroke="#FF000000" Height="15" Width="15"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="MyCustomStyleForSlider" TargetType="{x:Type Slider}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Slider}">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto" MinHeight="{TemplateBinding MinHeight}"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <TickBar x:Name="TopTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Top" Height="4" Grid.Row="0"/>
+                                <TickBar x:Name="BottomTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Bottom" Height="4" Grid.Row="0"/>
+                                <Border x:Name="TrackBackground" 
+                                        Background="{StaticResource HorizontalSliderTrackNormalBackground}"
+                                        BorderBrush="{StaticResource HorizontalSliderTrackNormalBorder}"                                        
+                                        BorderThickness="1" CornerRadius="1"
+                                        Margin="5,0" VerticalAlignment="Center" Height="4.0" Grid.Row="1" >
+                                    <Canvas Margin="-6,-1">
+                                        <Rectangle Visibility="Hidden" x:Name="PART_SelectionRange" Height="4.0"
+                                                   Fill="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"
+                                                   Stroke="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}"
+                                                   StrokeThickness="1.0"/>
+                                    </Canvas>
+                                </Border>
+                                <Track x:Name="PART_Track" Grid.Row="1">
+                                    <Track.DecreaseRepeatButton>
+                                        <RepeatButton  Style="{StaticResource  SliderRepeatButtonStyle}" Command="{x:Static Slider.DecreaseLarge}"/>
+                                    </Track.DecreaseRepeatButton>
+                                    <Track.IncreaseRepeatButton>
+                                        <RepeatButton Style="{StaticResource SliderRepeatButtonStyle}" Command="{x:Static Slider.IncreaseLarge}"/>
+                                    </Track.IncreaseRepeatButton>
+                                    <Track.Thumb>
+                                        <Thumb x:Name="Thumb" Style="{StaticResource CustomThumbForSlider}" Background="Black"/>
+                                    </Track.Thumb>
+                                </Track>
+                            </Grid>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid Name="TheGrid">
+        <Grid.Background>
+            <SolidColorBrush Color="Black"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70" Name="Gridtop"/>
+            <RowDefinition Height="Auto" Name="Griddown"/>
+            <RowDefinition Height="432*" />
+        </Grid.RowDefinitions>
+        <Border Grid.Row="1" BorderThickness="2" >
+            <Border.BorderBrush>
+                <RadialGradientBrush>
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FFFF8000" Offset="1"/>
+                </RadialGradientBrush>
+            </Border.BorderBrush>
+        </Border>
+        <Border Grid.Row="2" BorderThickness="2" >
+            <Border.BorderBrush>
+                <RadialGradientBrush>
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FFFF8000" Offset="1"/>
+                </RadialGradientBrush>
+            </Border.BorderBrush>
+        </Border>
+        <TextBlock Height="23" HorizontalAlignment="Right" Margin="0,45,27,0" Name="tb" Text="1200" VerticalAlignment="Top" Foreground="White" />
+        <TextBox Height="23" Margin="12,12,12,0" Name="solution" VerticalAlignment="Top" TextChanged="solution_TextChanged" />      
+        <Button Content="Lösen" Height="23" HorizontalAlignment="Right" Margin="0,42,74,0" Name="button4" VerticalAlignment="Top" Width="75" Click="button4_Click" />
+        <Button Content="Reset" Height="23" HorizontalAlignment="Right" Margin="0,42,252,0" Name="button5" VerticalAlignment="Top" Width="75" Click="button5_Click" />
+        <Label Content="Gelöst:" HorizontalAlignment="Right" Margin="0,41,201,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="0" Name="geloest" HorizontalAlignment="Right" Margin="0,41,185,0" VerticalAlignment="Top" RenderTransformOrigin="-0.3,-0.275" Foreground="White" FontStyle="Normal" ForceCursor="False" />
+        <ComboBox x:Name="QuizSelection" HorizontalAlignment="Left" Margin="12,45,0,0" VerticalAlignment="Top" Width="183" SelectionChanged="QuizSelection_SelectionChanged">
+          
+        </ComboBox>
+        <Label x:Name="vongeloest" Content="/ 0" HorizontalAlignment="Right" Margin="0,41,156,0" VerticalAlignment="Top" Foreground="White"/>
+        
+        <Button HorizontalAlignment="Left" Margin="200,45,0,0" VerticalAlignment="Top" Width="23" Name="btn_playppause" Click="btn_playppause_Click" Height="23">
+            <StackPanel Margin="-2">
+                <Image Name="button_image" Source="Images/player_play.png" />
+            </StackPanel>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="228,45,0,0" VerticalAlignment="Top" Width="23" Name="btn_stop" Click="btn_stop_Click" Height="23">
+            <StackPanel Margin="-2">
+                <Image Source="Images/player_stop.png" />
+            </StackPanel>
+        </Button>
+        <MediaElement HorizontalAlignment="Left" Height="100" Margin="460,131,0,-225" VerticalAlignment="Top" Width="100" Name="mediaElement1" Grid.Row="2" UnloadedBehavior="Manual" LoadedBehavior="Manual" MediaOpened="mediaElement1_MediaOpened"/>
+        <Slider Margin="256,49,502,0" VerticalAlignment="Top" Name="slider1" ValueChanged="slider1_ValueChanged" UseLayoutRounding="False" Style="{StaticResource MyCustomStyleForSlider}"/>
+        <TextBlock HorizontalAlignment="Right" Margin="0,47,337,0" TextWrapping="Wrap" Text="00:00" VerticalAlignment="Top" Name="audio_bis" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Right" Margin="0,47,376,0" TextWrapping="Wrap" Text="00:00" VerticalAlignment="Top" Name="audio_von" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Right" Margin="0,47,367,0" TextWrapping="Wrap" Text="/" VerticalAlignment="Top"  Foreground="White"/>
+        <Expander Header="Lautstärke" Height="68" HorizontalAlignment="Right" Margin="0,43,388,0" Name="volume_expender" VerticalAlignment="Top" Foreground="White" BorderBrush="{x:Null}" Width="108" Grid.RowSpan="3">
+            <Grid>
+                <Border BorderBrush="White" BorderThickness="2" Margin="0,9,0,7"  Name="border1"/>
+                <Slider Height="23" Margin="6,15,6,0" Name="volume_slider" VerticalAlignment="Top" Orientation="Horizontal"  Style="{StaticResource MyCustomStyleForSlider}" ValueChanged="volume_slider_ValueChanged" Maximum="1" LostFocus="volume_slider_LostFocus" />
+                
+            </Grid>
+        </Expander>
+    </Grid>
+</Window>
