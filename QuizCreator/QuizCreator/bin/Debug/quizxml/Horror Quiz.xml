@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Horror Quiz</quizname>
+  <sounddatei>Horror Quiz.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <Items>
+    <Anzeigename>Conjuring - Die Heimsuchung</Anzeigename>
+    <Alternativ>Conjuring</Alternativ>
+    <Alternativ>Die Heimsuchung</Alternativ>
+    <Alternativ>Heimsuchung</Alternativ>
+    <Anzeigename>Carrie - Des Satans jüngste Tochter</Anzeigename>
+    <Alternativ>Carrie</Alternativ>
+    <Alternativ>Des Satans jüngste Tochter</Alternativ>
+    <Alternativ>Satans jüngste Tochter</Alternativ>
+    <Anzeigename>Insidious</Anzeigename>
+    <Anzeigename>Mama</Anzeigename>
+    <Anzeigename>A Nightmare on Elm Street</Anzeigename>
+    <Alternativ>Nightmare on Elm Street</Alternativ>
+    <Anzeigename>Halloween - Die Nacht des Grauens</Anzeigename>
+    <Alternativ>Halloween</Alternativ>
+    <Alternativ>Die Nacht des Grauens</Alternativ>
+    <Alternativ>Nacht des Grauens</Alternativ>
+    <Anzeigename>Der Exorzist</Anzeigename>
+    <Alternativ>Exorzist</Alternativ>
+    <Anzeigename>Freitag der 13.</Anzeigename>
+    <Alternativ>Freitag der 13</Alternativ>
+    <Anzeigename>Evil Dead</Anzeigename>
+    <Anzeigename>Shining</Anzeigename>
+    <Anzeigename>The Cabin in the Woods</Anzeigename>
+    <Alternativ>Cabin in the Woods</Alternativ>
+    <Anzeigename>Chucky und seine Braut</Anzeigename>
+    <Alternativ>Chucky</Alternativ>
+    <Anzeigename>House of Wax</Anzeigename>
+    <Anzeigename>Poltergeist</Anzeigename>
+    <Anzeigename>Scream - Schrei!</Anzeigename>
+    <Alternativ>Scream</Alternativ>
+    <Alternativ>Schrei</Alternativ>
+    <Anzeigename>Dawn of the Dead</Anzeigename>
+    <Anzeigename>V/H/S</Anzeigename>
+    <Alternativ>VHS</Alternativ>
+    <Anzeigename>Jeepers Creepers - Es ist angerichtet</Anzeigename>
+    <Alternativ>Jeepers Creepers</Alternativ>
+    <Anzeigename>Possession - Das Dunkle in dir</Anzeigename>
+    <Alternativ>Possession</Alternativ>
+    <Alternativ>Das Dunkle in dir</Alternativ>
+    <Alternativ>Dunkle in dir</Alternativ>
+    <Anzeigename>Amityville Horror</Anzeigename>
+    <Anzeigename>Ring</Anzeigename>
+    <Alternativ>The ring</Alternativ>
+    <Anzeigename>Kinder des Zorns</Anzeigename>
+    <Anzeigename>Freddy vs. Jason</Anzeigename>
+    <Alternativ>Freddy vs Jason</Alternativ>
+    <Anzeigename>Resident Evil</Anzeigename>
+    <Anzeigename>Wrong Turn</Anzeigename>
+    <Anzeigename>Amnesia: The Dark Decent</Anzeigename>
+    <Alternativ>Amnesia</Alternativ>
+    <Alternativ>The Dark Decent</Alternativ>
+    <Alternativ>Dark Decent</Alternativ>
+    <Anzeigename>Cry of Fear</Anzeigename>
+    <Alternativ>cof</Alternativ>
+    <Anzeigename>Dead Space</Anzeigename>
+    <Anzeigename>Silent Hill</Anzeigename>
+    <Anzeigename>Obscure</Anzeigename>
+    <Anzeigename>F.E.A.R.</Anzeigename>
+    <Alternativ>Fear</Alternativ>
+    <Alternativ>F E A R</Alternativ>
+    <Alternativ>First Encounter Assault Recon</Alternativ>
+    <Anzeigename>Penumbra</Anzeigename>
+    <Anzeigename>Alone in the Dark</Anzeigename>
+    <Anzeigename>System Shock 2</Anzeigename>
+    <Anzeigename>BioShock</Anzeigename>
+    <Anzeigename>Alan Wake</Anzeigename>
+    <Anzeigename>Alice: Madness Returns</Anzeigename>
+    <Alternativ>Alice Madness Returns</Alternativ>
+    <Alternativ>Madness Returns</Alternativ>
+    <Anzeigename>Metro 2033</Anzeigename>
+    <Anzeigename>S.T.A.L.K.E.R.: Shadow of Chernobyl</Anzeigename>
+    <Alternativ>Stalker</Alternativ>
+    <Alternativ>Shadow of Chernobyl</Alternativ>
+    <Anzeigename>Doom 3</Anzeigename>
+    <Alternativ>Doom3</Alternativ>
+  </Items>
+</Quiz>
