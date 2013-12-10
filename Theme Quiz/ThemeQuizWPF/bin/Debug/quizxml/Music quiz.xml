@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Music quiz</quizname>
+<sounddatei>music quiz.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <Items>
+    <Anzeigename>Loser</Anzeigename>
+    <Alternativ>loser</Alternativ>
+    <Anzeigename>place for my head</Anzeigename>
+    <Anzeigename>ruby</Anzeigename>
+    <Anzeigename>my god</Anzeigename>
+    <Anzeigename>burning in the skies</Anzeigename>
+    <Anzeigename>pyro</Anzeigename>
+    <Anzeigename>wreckage</Anzeigename>
+    <Anzeigename>wherever i may roam</Anzeigename>
+    <Alternativ>where ever i may roam</Alternativ>
+    <Anzeigename>lift me up</Anzeigename>
+    <Anzeigename>insomnia</Anzeigename>
+    <Anzeigename>19 2000</Anzeigename>
+    <Alternativ>19-2000</Alternativ>
+    <Alternativ>soulchild</Alternativ>
+    <Anzeigename>savior</Anzeigename>
+    <Anzeigename>ecstasy of gold</Anzeigename>
+    <Alternativ>extasy of gold</Alternativ>
+    <Anzeigename>frozen</Anzeigename>
+    <Anzeigename>robot rock</Anzeigename>
+    <Anzeigename>only girl</Anzeigename>
+    <Anzeigename>warrior</Anzeigename>
+    <Anzeigename>gold dust</Anzeigename>
+    <Anzeigename>how you like me now</Anzeigename>
+    <Alternativ>how u like me now</Alternativ>
+    <Anzeigename>dont you worry child</Anzeigename>
+    <Alternativ>don't you worry child</Alternativ>
+    <Alternativ>dont u worry child</Alternativ>
+    <Alternativ>don't u worry child</Alternativ>
+    <Anzeigename>girl like you</Anzeigename>
+    <Alternativ>girl like u</Alternativ>
+    <Anzeigename>erdbeben</Anzeigename>
+    <Anzeigename>paralyzer</Anzeigename>
+    <Anzeigename>pretender</Anzeigename>
+    <Alternativ>the pretender</Alternativ>
+    <Anzeigename>mad world</Anzeigename>
+    <Anzeigename>hide and seek</Anzeigename>
+    <Anzeigename>becoming insane</Anzeigename>
+    <Anzeigename>lights</Anzeigename>
+    <Anzeigename>billie jean</Anzeigename>
+    <Alternativ>billy jean</Alternativ>
+    <Anzeigename>hold your colour</Anzeigename>
+    <Anzeigename>burn the witch</Anzeigename>
+    <Anzeigename>du hast</Anzeigename>
+    <Alternativ>du hasst</Alternativ>
+    <Anzeigename>the old boy</Anzeigename>
+    <Alternativ>old boy</Alternativ>
+    <Anzeigename>glory</Anzeigename>
+    <Anzeigename>in the morning</Anzeigename>
+    <Anzeigename>sail</Anzeigename>
+    <Anzeigename>lichtermeer</Anzeigename>
+    <Alternativ>lichtmeer</Alternativ>
+    <Anzeigename>shut your eyes</Anzeigename>
+    <Anzeigename>kill everybody</Anzeigename>
+    <Alternativ>kill every body</Alternativ>
+    <Anzeigename>before i forget</Anzeigename>
+    <Anzeigename>tell me why</Anzeigename>
+    <Anzeigename>out of space</Anzeigename>
+    <Anzeigename>steady as she goes</Anzeigename>
+    <Anzeigename>the river</Anzeigename>
+    <Alternativ>the river</Alternativ>
+    <Anzeigename>i write sins not tragedy</Anzeigename>
+    <Alternativ>sins not tragedy</Alternativ>
+    <Anzeigename>blue orchid</Anzeigename>
+    <Anzeigename>intro</Anzeigename>
+    <Anzeigename>move</Anzeigename>
+    <Anzeigename>riot</Anzeigename>
+    <Anzeigename>goldeneye</Anzeigename>
+    <Alternativ>golden eye</Alternativ>
+    <Anzeigename>dope man</Anzeigename>
+    <Anzeigename>the sound of san francisco</Anzeigename>
+    <Alternativ>san francisco</Alternativ>
+    <Anzeigename>dont stop</Anzeigename>
+    <Alternativ>don't stop</Alternativ>
+    <Anzeigename>heartless</Anzeigename>
+    <Anzeigename>prayer of the refugee</Anzeigename>
+    <Anzeigename>blood brothers</Anzeigename>
+    <Anzeigename>in the shadows</Anzeigename>
+    <Anzeigename>invincible</Anzeigename>
+    <Anzeigename>angels demons</Anzeigename>
+    <Anzeigename>nightcall</Anzeigename>
+  </Items>
+</Quiz>

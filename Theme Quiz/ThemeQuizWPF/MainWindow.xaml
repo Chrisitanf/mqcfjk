@@ -122,7 +122,7 @@
             </StackPanel>
         </Button>
         <MediaElement HorizontalAlignment="Left" Height="100" Margin="460,131,0,-225" VerticalAlignment="Top" Width="100" Name="mediaElement1" Grid.Row="2" UnloadedBehavior="Manual" LoadedBehavior="Manual" MediaOpened="mediaElement1_MediaOpened"/>
-        <Slider Margin="256,49,502,0" VerticalAlignment="Top" Name="slider1" ValueChanged="slider1_ValueChanged" UseLayoutRounding="False" Style="{StaticResource MyCustomStyleForSlider}"/>
+        <Slider Margin="256,49,502,0" VerticalAlignment="Top" Name="slider1" ValueChanged="slider1_ValueChanged" UseLayoutRounding="False" Style="{StaticResource MyCustomStyleForSlider}" IsMoveToPointEnabled="True" />
         <TextBlock HorizontalAlignment="Right" Margin="0,47,337,0" TextWrapping="Wrap" Text="00:00" VerticalAlignment="Top" Name="audio_bis" Foreground="White"/>
         <TextBlock HorizontalAlignment="Right" Margin="0,47,376,0" TextWrapping="Wrap" Text="00:00" VerticalAlignment="Top" Name="audio_von" Foreground="White"/>
         <TextBlock HorizontalAlignment="Right" Margin="0,47,367,0" TextWrapping="Wrap" Text="/" VerticalAlignment="Top"  Foreground="White"/>

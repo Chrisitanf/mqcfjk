@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Soundtrack Quiz 3</quizname>
+  <sounddatei>Soundtrack Quiz 3.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <Items>
+    <Anzeigename>Lana Del Rey - Video Games</Anzeigename>
+    <Alternativ>Video Games</Alternativ>
+    <Anzeigename>Sidney Samson - Riverside</Anzeigename>
+    <Alternativ>Riverside</Alternativ>
+    <Anzeigename>Mattafix - Big City Life</Anzeigename>
+    <Alternativ>Big City Life</Alternativ>
+    <Anzeigename>Empire Of The Sun - Walking On A Dream</Anzeigename>
+    <Alternativ>Walking On A Dream</Alternativ>
+    <Anzeigename>Deichkind - Der Mond</Anzeigename>
+    <Alternativ>Der Mond</Alternativ>
+    <Anzeigename>AWOLNATION - Sail</Anzeigename>
+    <Alternativ>Sail</Alternativ>
+    <Anzeigename>Foster The People - Houdini</Anzeigename>
+    <Alternativ>Houdini</Alternativ>
+    <Anzeigename>Kings Of Leon - Closer</Anzeigename>
+    <Alternativ>Closer</Alternativ>
+    <Anzeigename>The xx - Fiction</Anzeigename>
+    <Alternativ>Fiction</Alternativ>
+    <Anzeigename>Alex Clare - Too Close</Anzeigename>
+    <Alternativ>Too Close</Alternativ>
+    <Anzeigename>Fatboy Slim - Praise You</Anzeigename>
+    <Alternativ>Praise You</Alternativ>
+    <Anzeigename>Two Steps From Hell - Protectors of the Earth</Anzeigename>
+    <Alternativ>Protectors of the Earth</Alternativ>
+    <Anzeigename>Gnarls Barkley - Crazy</Anzeigename>
+    <Alternativ>Crazy</Alternativ>
+    <Anzeigename>Rage Against The Machine - Killing In The Name</Anzeigename>
+    <Alternativ>Killing In The Name</Alternativ>
+    <Anzeigename>Elvis Presley - A Little Less Conversation</Anzeigename>
+    <Alternativ>A Little Less Conversation</Alternativ>
+    <Anzeigename>OneRepublic - Secrets</Anzeigename>
+    <Alternativ>Secrets</Alternativ>
+    <Anzeigename>Otto Knows - Million Voices</Anzeigename>
+    <Alternativ>Million Voices</Alternativ>
+    <Anzeigename>Woodkid - Iron</Anzeigename>
+    <Alternativ>Iron</Alternativ>
+    <Anzeigename>Seeed - Augenbling</Anzeigename>
+    <Alternativ>Augenbling</Alternativ>
+    <Anzeigename>Papa Roach - Blood Brothers</Anzeigename>
+    <Alternativ>Blood Brothers</Alternativ>
+    <Anzeigename>Lindsey Stirling - Crystallize</Anzeigename>
+    <Alternativ>Crystallize</Alternativ>
+    <Anzeigename>Zombie Nation - Kernkraft 400</Anzeigename>
+    <Alternativ>Kernkraft 400</Alternativ>
+    <Anzeigename>Capital Cities - Safe And Sound</Anzeigename>
+    <Alternativ>Safe And Sound</Alternativ>
+    <Anzeigename>VNV Nation - Illusion</Anzeigename>
+    <Alternativ>Illusion</Alternativ>
+    <Anzeigename>Lord Of The Rings - Many Meetings</Anzeigename>
+    <Alternativ>Many Meetings</Alternativ>
+    <Anzeigename>The Prodigy - Spitfire</Anzeigename>
+    <Alternativ>Spitfire</Alternativ>
+    <Anzeigename>Edwin Starr - War</Anzeigename>
+    <Alternativ>War</Alternativ>
+    <Anzeigename>Bastille - Pompeii</Anzeigename>
+    <Alternativ>Pompeii</Alternativ>
+    <Anzeigename>Infected Mushroom - Where Do I Belong</Anzeigename>
+    <Alternativ>Where Do I Belong</Alternativ>
+    <Anzeigename>Pohlmann - StarWars</Anzeigename>
+    <Alternativ>StarWars</Alternativ>
+  </Items>
+</Quiz>

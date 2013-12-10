@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Anime-Serien Quiz 3</quizname>
+  <sounddatei>Anime-Serien Quiz 3.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <Items>
+    <Anzeigename>Under the Dome</Anzeigename>
+    <Anzeigename>Alf</Anzeigename>
+    <Anzeigename>American Dad</Anzeigename>
+    <Anzeigename>Caillou</Anzeigename>
+    <Anzeigename>Gute Zeiten, Schlechte Zeiten</Anzeigename>
+    <Alternativ>GZSZ</Alternativ>
+    <Alternativ>GZ SZ</Alternativ>
+    <Alternativ>gute zeiten schlechte zeiten</Alternativ>
+    <Anzeigename>Pinky und der Brain</Anzeigename>
+    <Anzeigename>Bones - Die Knochenjägerin</Anzeigename>
+    <Alternativ>Bones</Alternativ>
+    <Anzeigename>Lindenstraße</Anzeigename>
+    <Anzeigename>Calimero</Anzeigename>
+    <Anzeigename>Disneys Große Pause</Anzeigename>
+    <Alternativ>Große Pause</Alternativ>
+    <Anzeigename>Die Enterprise</Anzeigename>
+    <Anzeigename>Die Fantastischen Vier</Anzeigename>
+    <Anzeigename>Garfield</Anzeigename>
+    <Anzeigename>Highlander</Anzeigename>
+    <Anzeigename>Happy Tree Friends</Anzeigename>
+    <Anzeigename>Spartacus: Blood and Sand</Anzeigename>
+    <Alternativ>Spartacus</Alternativ>
+    <Anzeigename>Arrow</Anzeigename>
+    <Anzeigename>American Horror Story</Anzeigename>
+    <Anzeigename>Jackie Chan Adventures</Anzeigename>
+    <Anzeigename>Johnny Bravo</Anzeigename>
+    <Anzeigename>Lucky Luke</Anzeigename>
+    <Anzeigename>Simsalabim Sabrina</Anzeigename>
+    <Anzeigename>Spongebob Schwammkopf</Anzeigename>
+    <Alternativ>Spongebob</Alternativ>
+    <Anzeigename>Teen Titans</Anzeigename>
+    <Anzeigename>101 Dalmatiner</Anzeigename>
+    <Anzeigename>O.C., California</Anzeigename>
+    <Alternativ>OC California</Alternativ>
+    <Alternativ>O C California</Alternativ>
+    <Anzeigename>Takeshi's Castle</Anzeigename>
+    <Alternativ>Takeshis Castle</Alternativ>
+    <Anzeigename>Tatort</Anzeigename>
+    <Anzeigename>Eureka - Die geheime Stadt</Anzeigename>
+    <Alternativ>Eureka</Alternativ>
+    <Anzeigename>Nip/Tuck</Anzeigename>
+    <Alternativ>Nip Tuck</Alternativ>
+    <Alternativ>NipTuck</Alternativ>
+    <Anzeigename>Avatar</Anzeigename>
+    <Anzeigename>Hercules</Anzeigename>
+    <Anzeigename>Eine schrecklich nette Familie</Anzeigename>
+    <Anzeigename>Charmed</Anzeigename>
+    <Anzeigename>Heroes</Anzeigename>
+    <Anzeigename>Galactik Football</Anzeigename>
+    <Anzeigename>Digimon</Anzeigename>
+    <Anzeigename>Detektiv Conan</Anzeigename>
+    <Anzeigename>Pretty Cure</Anzeigename>
+    <Anzeigename>One Piece</Anzeigename>
+    <Anzeigename>Yu-Gi-Oh</Anzeigename>
+    <Alternativ>yugioh</Alternativ>
+    <Alternativ>yu gi oh</Alternativ>
+    <Anzeigename>Turbo Teen</Anzeigename>
+    <Anzeigename>Gargoyles</Anzeigename>
+    <Anzeigename>Freakazoid</Anzeigename>
+    <Anzeigename>Ghost in the Shell</Anzeigename>
+    <Anzeigename>Record of Lodoss War</Anzeigename>
+    <Anzeigename>Cowboy Bebop</Anzeigename>
+    <Anzeigename>Prinzessin Mononoke</Anzeigename>
+    <Anzeigename>Samurai Champloo</Anzeigename>
+    <Anzeigename>Gundam Wing</Anzeigename>
+    <Anzeigename>Stromberg</Anzeigename>
+    <Anzeigename>Hausmeister Krause</Anzeigename>
+    <Anzeigename>Law &amp; Order</Anzeigename>
+    <Alternativ>Law and Order</Alternativ>
+    <Alternativ>Law Order</Alternativ>
+    <Anzeigename>Friends</Anzeigename>
+    <Anzeigename>Monk</Anzeigename>
+    <Anzeigename>Sex and the City</Anzeigename>
+    <Anzeigename>Road Runner</Anzeigename>
+    <Anzeigename>Speedy Gonzales</Anzeigename>
+    <Anzeigename>Street Sharks</Anzeigename>
+    <Anzeigename>The Real Ghostbusters</Anzeigename>
+    <Alternativ>Ghostbusters</Alternativ>
+    <Anzeigename>Celebrity Deathmatch</Anzeigename>
+    <Anzeigename>Marsupilami</Anzeigename>
+    <Anzeigename>Animaniacs</Anzeigename>
+    <Anzeigename>Der Prinz von Bel-Air</Anzeigename>
+    <Alternativ>Prinz von Bel Air</Alternativ>
+    <Anzeigename>The Crocodile Hunter</Anzeigename>
+  </Items>
+</Quiz>

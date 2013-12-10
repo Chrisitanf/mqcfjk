@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Zitate Quiz 1</quizname>
+  <sounddatei>Zitate Quiz 1.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <Items>
+    <Anzeigename>Full Metal Jacket</Anzeigename>
+    <Alternativ>Sergeant Hartman</Alternativ>
+    <Anzeigename>Gothic 3</Anzeigename>
+    <Alternativ>Held</Alternativ>
+    <Anzeigename>Rocky V</Anzeigename>
+    <Alternativ>Rocky</Alternativ>
+    <Anzeigename>Rambo</Anzeigename>
+    <Anzeigename>Duell der Magier</Anzeigename>
+    <Anzeigename>Der Herr der Ringe</Anzeigename>
+    <Anzeigename>Diablo</Anzeigename>
+    <Alternativ>Deckard Cain</Alternativ>
+    <Anzeigename>Metal Gear Solid</Anzeigename>
+    <Anzeigename>Der Untergang</Anzeigename>
+    <Anzeigename>Star Wars</Anzeigename>
+    <Alternativ>Yoda</Alternativ>
+    <Alternativ>Luke Skywalker</Alternativ>
+    <Anzeigename>Lord of War</Anzeigename>
+    <Anzeigename>Scarface</Anzeigename>
+    <Anzeigename>Transformers</Anzeigename>
+    <Anzeigename>The Dark Knight Rises</Anzeigename>
+    <Anzeigename>Harry Potter</Anzeigename>
+    <Anzeigename>Pulp Fiction</Anzeigename>
+    <Alternativ>Vincent Vega</Alternativ>
+    <Anzeigename>X-Men: Erste Entscheidung</Anzeigename>
+    <Alternativ>X-Men</Alternativ>
+    <Alternativ>X Men</Alternativ>
+    <Anzeigename>Age of Empires 2</Anzeigename>
+    <Anzeigename>Warcraft 3</Anzeigename>
+    <Alternativ>Arthas</Alternativ>
+    <Anzeigename>Breaking Bad</Anzeigename>
+    <Alternativ>Walter White</Alternativ>
+    <Anzeigename>Das Streben nach Glück</Anzeigename>
+    <Anzeigename>300</Anzeigename>
+    <Anzeigename>Scrubs</Anzeigename>
+    <Anzeigename>Die Simpsons</Anzeigename>
+    <Anzeigename>Kill-Bill</Anzeigename>
+    <Alternativ>Kill Bill</Alternativ>
+    <Alternativ>Bill</Alternativ>
+    <Anzeigename>Winnetou</Anzeigename>
+    <Anzeigename>Hangover</Anzeigename>
+    <Anzeigename>American Psycho</Anzeigename>
+    <Anzeigename>Dragon Age</Anzeigename>
+    <Anzeigename>Game of Thrones</Anzeigename>
+    <Anzeigename>Terminator</Anzeigename>
+    <Anzeigename>Titanic</Anzeigename>
+    <Anzeigename>Half-Life</Anzeigename>
+    <Alternativ>Half Life</Alternativ>
+    <Anzeigename>Deponia</Anzeigename>
+    <Anzeigename>In Time - Deine Zeit läuft ab</Anzeigename>
+    <Alternativ>In Time</Alternativ>
+    <Anzeigename>Austin Powers Goldständer</Anzeigename>
+    <Anzeigename>Bad Boys 2</Anzeigename>
+    <Anzeigename>Die Ritter der Kokosnuss</Anzeigename>
+    <Anzeigename>Geschenkt ist noch zu teuer</Anzeigename>
+    <Anzeigename>Rush Hour 3</Anzeigename>
+  </Items>
+</Quiz>

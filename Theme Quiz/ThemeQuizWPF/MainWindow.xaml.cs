@@ -307,7 +307,7 @@ namespace ThemeQuizWPF
                     {
                         if (item.ToLower().IndexOf("the ") == 0)
                         {
-                            changed_answer = item.ToLower().Replace("the ", "");
+                            changed_answer = item.ToLower().Remove(0, 4);
                         }
                     }
 
@@ -315,7 +315,7 @@ namespace ThemeQuizWPF
                     {
                         if (item.ToLower().IndexOf("der ") == 0)
                         {
-                            changed_answer = item.ToLower().Replace("der ", "");
+                            changed_answer = item.ToLower().Remove(0,4);
                         }
                     }
 
@@ -323,7 +323,7 @@ namespace ThemeQuizWPF
                     {
                         if (item.ToLower().IndexOf("die ") == 0)
                         {
-                            changed_answer = item.ToLower().Replace("die ", "");
+                            changed_answer = item.ToLower().Remove(0, 4);
                         }
                     }
 
@@ -331,7 +331,7 @@ namespace ThemeQuizWPF
                     {
                         if (item.ToLower().IndexOf("das ") == 0)
                         {
-                            changed_answer = item.ToLower().Replace("das ", "");
+                            changed_answer = item.ToLower().Remove(0, 4);
                         }
                     }
                     if (changed_answer != "")
@@ -618,6 +618,8 @@ namespace ThemeQuizWPF
         {
             volume_expender.IsExpanded = false;
         }
+
+       
     }
 }
 
