@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Sound Quiz</quizname>
+  <sounddatei>Sound Quiz.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <Items>
+    <Anzeigename>Taggesschau</Anzeigename>
+    <Anzeigename>Mortal Kombat</Anzeigename>
+    <Anzeigename>TV Total</Anzeigename>
+    <Anzeigename>Big Bang Theory</Anzeigename>
+    <Anzeigename>Achmed the dead terrorist</Anzeigename>
+    <Alternativ>Achmed</Alternativ>
+    <Anzeigename>24</Anzeigename>
+    <Anzeigename>League of Legends</Anzeigename>
+    <Anzeigename>Skyrim</Anzeigename>
+    <Anzeigename>Mc Hammer</Anzeigename>
+    <Anzeigename>20th Century Fox</Anzeigename>
+    <Anzeigename>Star Wars</Anzeigename>
+    <Alternativ>Chewbacca</Alternativ>
+    <Anzeigename>Unreal Tournament</Anzeigename>
+    <Anzeigename>Simpsons</Anzeigename>
+    <Anzeigename>Familienduell</Anzeigename>
+    <Anzeigename>Super Smash Bros</Anzeigename>
+    <Anzeigename>Counter Strike</Anzeigename>
+    <Anzeigename>Goofy</Anzeigename>
+    <Anzeigename>Der weisse Hai</Anzeigename>
+    <Anzeigename>Kim Possible</Anzeigename>
+    <Anzeigename>WoW</Anzeigename>
+    <Anzeigename>Lonely Island</Anzeigename>
+    <Anzeigename>Mario</Anzeigename>
+    <Anzeigename>Msn</Anzeigename>
+    <Anzeigename>Icq</Anzeigename>
+    <Anzeigename>Murloc</Anzeigename>
+    <Anzeigename>Dragonball</Anzeigename>
+    <Anzeigename>Pokemon</Anzeigename>
+    <Anzeigename>Ps3 Trophy</Anzeigename>
+    <Anzeigename>THX</Anzeigename>
+    <Anzeigename>Zelda</Anzeigename>
+    <Anzeigename>Whatsapp</Anzeigename>
+    <Anzeigename>Gameboy</Anzeigename>
+    <Anzeigename>Playstation</Anzeigename>
+    <Anzeigename>Universal Studios</Anzeigename>
+    <Anzeigename>Columbia Pictures</Anzeigename>
+    <Anzeigename>MGM</Anzeigename>
+  </Items>
+</Quiz>
