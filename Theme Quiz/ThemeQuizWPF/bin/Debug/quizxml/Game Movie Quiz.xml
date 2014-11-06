@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Movie Game Quiz</quizname>
+ <sounddatei>Game Movie Quiz.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <quiztyp>Soundquiz</quiztyp>
+  <Items>
+    <Anzeigename>American Beauty</Anzeigename>
+    <Anzeigename>Portal 2</Anzeigename>
+    <Anzeigename>RocknRolla</Anzeigename>
+    <Alternativ>rock n rolla</Alternativ>
+    <Alternativ>rock n roller</Alternativ>
+    <Anzeigename>Die another Day</Anzeigename>
+    <Alternativ>die another day</Alternativ>
+    <Anzeigename>From Dusk till Dawn</Anzeigename>
+    <Anzeigename>Street Fighter</Anzeigename>
+    <Alternativ>streetfighter</Alternativ>
+    <Anzeigename>Collateral</Anzeigename>
+    <Anzeigename>The Raid</Anzeigename>
+    <Alternativ>raid</Alternativ>
+    <Anzeigename>Spiel mir das Lied vom Tod</Anzeigename>
+    <Alternativ>lied vom tod</Alternativ>
+    <Anzeigename>Schuh des Manitu</Anzeigename>
+    <Anzeigename>Alan Wake</Anzeigename>
+    <Anzeigename>Requiem for a Dream</Anzeigename>
+    <Anzeigename>Okami</Anzeigename>
+    <Anzeigename>Jackie Brown</Anzeigename>
+    <Anzeigename>3 Engel für Charlie 2</Anzeigename>
+    <Alternativ>drei engel für charlie</Alternativ>
+    <Alternativ>3 engel für charlie </Alternativ>
+    <Anzeigename>Der Herr der Ringe - Die zwei Türme</Anzeigename>
+    <Alternativ>herr der ringe</Alternativ>
+    <Anzeigename>Tekken Tag Tournament 2</Anzeigename>
+    <Alternativ>tekken</Alternativ>
+    <Anzeigename>Baldurs Gate 2</Anzeigename>
+    <Alternativ>baldurs gate</Alternativ>
+    <Anzeigename>Metroid Prime</Anzeigename>
+    <Alternativ>metroid</Alternativ>
+    <Anzeigename>Resident Evil 4</Anzeigename>
+    <Anzeigename>21</Anzeigename>
+    <Anzeigename>Silent Hill 2</Anzeigename>
+    <Alternativ>silent hill </Alternativ>
+    <Anzeigename>Harold &amp; Kumar</Anzeigename>
+    <Alternativ>harold und kumar</Alternativ>
+    <Anzeigename>Devil may Cry 4</Anzeigename>
+    <Alternativ>devil may cry</Alternativ>
+    <Anzeigename>Sucker Punch</Anzeigename>
+    <Anzeigename>Tony Hawk's Pro Skater 3</Anzeigename>
+    <Alternativ>tony hawks pro skater</Alternativ>
+    <Alternativ>tony hawk</Alternativ>
+    <Anzeigename>Snatch</Anzeigename>
+    <Anzeigename>Ridge Racer</Anzeigename>
+    <Anzeigename>The Expendables</Anzeigename>
+    <Alternativ>expendables</Alternativ>
+    <Anzeigename>Kingdom Hearts 2</Anzeigename>
+    <Anzeigename>Drive</Anzeigename>
+    <Anzeigename>Shenmue</Anzeigename>
+    <Anzeigename>Left for Dead 2</Anzeigename>
+    <Anzeigename>Iron Man</Anzeigename>
+    <Anzeigename>Demon's Souls</Anzeigename>
+    <Alternativ>demons souls</Alternativ>
+    <Anzeigename>Scarface</Anzeigename>
+    <Anzeigename>Red Dead Redemption</Anzeigename>
+    <Anzeigename>Ocean's Twelve</Anzeigename>
+    <Alternativ>oceans 12</Alternativ>
+    <Alternativ>oceans twelve</Alternativ>
+  </Items>
+</Quiz>

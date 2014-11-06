@@ -3,6 +3,7 @@
   <quizname>Game Quiz 3</quizname>
   <sounddatei>Game Quiz 3.mp3</sounddatei>
   <clipdauer>10</clipdauer>
+  <quiztyp>Soundquiz</quiztyp>
   <Items>
     <Anzeigename>Fifa Street</Anzeigename>
     <Anzeigename>WWE Smackdown</Anzeigename>

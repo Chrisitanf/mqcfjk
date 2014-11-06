@@ -217,5 +217,13 @@ namespace QuizCreator
                 button3_Click(null, null);
             }
         }
+
+        private void list_alternativ_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Delete)
+            {
+                button2_Click(null, null);
+            }
+        }
     }
 }

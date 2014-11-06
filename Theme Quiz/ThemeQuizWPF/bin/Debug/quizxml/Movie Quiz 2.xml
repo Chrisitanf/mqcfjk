@@ -3,6 +3,7 @@
   <quizname>Movie Quiz 2</quizname>
   <sounddatei>Movie Quiz 2.mp3</sounddatei>
   <clipdauer>10</clipdauer>
+  <quiztyp>Soundquiz</quiztyp>
   <Items>
     <Anzeigename>Butterfly Effect</Anzeigename>
     <Anzeigename>Das große Krabbeln</Anzeigename>

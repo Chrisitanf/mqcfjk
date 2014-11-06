@@ -55,12 +55,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="fragenquiz.xaml.cs">
+      <DependentUpon>fragenquiz.xaml</DependentUpon>
+    </Compile>
     <Compile Include="uebersicht.xaml.cs">
       <DependentUpon>uebersicht.xaml</DependentUpon>
     </Compile>
     <Compile Include="XMLUebersicht.xaml.cs">
       <DependentUpon>XMLUebersicht.xaml</DependentUpon>
     </Compile>
+    <Page Include="fragenquiz.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

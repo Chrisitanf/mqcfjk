@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>hans-wurst</quizname>
+  <sounddatei>hans-wurst.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <quiztyp>Soundquiz</quiztyp>
+  <Items>
+    <Anzeigename>nichts wichtiges</Anzeigename>
+    <Alternativ>hannes</Alternativ>
+    <Alternativ>niemand</Alternativ>
+    <Anzeigename>warum</Anzeigename>
+    <Anzeigename>auch</Anzeigename>
+    <Anzeigename>nicht</Anzeigename>
+    <Alternativ>haha</Alternativ>
+  </Items>
+</Quiz>

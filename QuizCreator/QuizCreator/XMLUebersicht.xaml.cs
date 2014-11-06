@@ -24,7 +24,9 @@ namespace QuizCreator
 
         public XMLUebersicht()
         {
-            InitializeComponent();       
+            InitializeComponent();
+            lb_kato.Items.Add("Soundquiz");
+            lb_kato.Items.Add("Textquiz");            
         }
 
         public XMLUebersicht(string filename, bool bearbeiten2)
@@ -32,8 +34,9 @@ namespace QuizCreator
             InitializeComponent();
             txt_name.Text = filename;
             bearbeiten = bearbeiten2;
-            
-           
+            //in der xml ausgewählte kategorie wählen
+            lb_kato.Items.Add("Soundquiz");
+            lb_kato.Items.Add("Textquiz");           
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
@@ -71,7 +74,8 @@ namespace QuizCreator
                 myXmlTextWriter.WriteStartElement("Quiz");
                 myXmlTextWriter.WriteElementString("quizname", txt_name.Text);
                 myXmlTextWriter.WriteElementString("sounddatei", txt_name.Text + ".mp3");
-                myXmlTextWriter.WriteElementString("clipdauer", dauer.ToString());
+                myXmlTextWriter.WriteElementString("clipdauer", dauer.ToString());                
+                myXmlTextWriter.WriteElementString("quiztyp", lb_kato.SelectedValue.ToString());
                 myXmlTextWriter.WriteStartElement("Items");
                 myXmlTextWriter.WriteEndElement();
                 myXmlTextWriter.WriteEndElement();
@@ -79,10 +83,21 @@ namespace QuizCreator
                 bearbeiten = true;
             }
 
-           
-            MainWindow begriffe_window = new MainWindow(txt_name.Text);
-            begriffe_window.Owner = this;
-            begriffe_window.Show();
+
+            // index = 0 für sound
+            if (lb_kato.SelectedIndex == 0)
+            {
+                MainWindow begriffe_window = new MainWindow(txt_name.Text);
+                begriffe_window.Owner = this;
+                begriffe_window.Show();
+            }
+            // index = 1 für text
+            if (lb_kato.SelectedIndex == 1)
+            {
+                fragenquiz begriffe_window = new fragenquiz(txt_name.Text);
+                begriffe_window.Owner = this;
+                begriffe_window.Show();
+            }
         }
 
         private void txt_name_TextChanged(object sender, TextChangedEventArgs e)
@@ -115,20 +130,43 @@ namespace QuizCreator
                 myXmlDocument.Load(Directory.GetCurrentDirectory() + "/quizxml/" + txt_name.Text + ".xml");
                 XmlNode node;
                 node = myXmlDocument.DocumentElement;
-
+                if (listBox1.SelectedItem == null)
+                {
+                    button2.IsEnabled = false;
+                    button3.IsEnabled = false;
+                }
                 foreach (XmlNode node1 in node.ChildNodes)
                 {
                     if (node1.Name == "clipdauer")
                     {
                         dauer = Convert.ToInt32(node1.InnerText);
                     }
+                    if (node1.Name == "quiztyp")
+                    {
+                        lb_kato.SelectedItem = node1.InnerText;
+                    }                  
+
                     foreach (XmlNode node2 in node1.ChildNodes)
                     {
-                        if (node2.Name == "Anzeigename")
+                        // index = 0 für sound
+                        if (lb_kato.SelectedIndex == 0)
                         {
-                            listBox1.Items.Add(node2.InnerText);
-                        }  
-                    }                  
+                            if (node2.Name == "Anzeigename")
+                            {
+                                listBox1.Items.Add(node2.InnerText);
+                            }
+                        }
+                        // index = 1 für text
+                        if (lb_kato.SelectedIndex == 1)
+                        {
+                            if (node2.Name == "frage")
+                            {
+                                listBox1.Items.Add(node2.InnerText);
+                            }
+                        }
+                    }
+              
+
                 }                
             }
             lbl_anzahl.Content = listBox1.Items.Count.ToString();
@@ -178,9 +216,20 @@ namespace QuizCreator
 
         private void button2_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow begriffe_window = new MainWindow(txt_name.Text, listBox1.SelectedItem.ToString());
-            begriffe_window.Owner = this;
-            begriffe_window.Show();
+            // index = 0 für sound
+            if (lb_kato.SelectedIndex == 0 && listBox1.SelectedItem != null)
+            {
+                MainWindow begriffe_window = new MainWindow(txt_name.Text, listBox1.SelectedItem.ToString());
+                begriffe_window.Owner = this;
+                begriffe_window.Show();
+            }
+            // index = 1 für text
+            if (lb_kato.SelectedIndex == 1 && listBox1.SelectedItem != null)
+            {
+                fragenquiz begriffe_window = new fragenquiz(txt_name.Text, listBox1.SelectedItem.ToString());
+                begriffe_window.Owner = this;
+                begriffe_window.Show();
+            }
         }
     }
 }

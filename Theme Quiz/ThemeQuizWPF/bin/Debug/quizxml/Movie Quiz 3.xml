@@ -3,6 +3,7 @@
   <quizname>Movie Quiz 3</quizname>
   <sounddatei>Movie Quiz 3.mp3</sounddatei>
   <clipdauer>10</clipdauer>
+  <quiztyp>Soundquiz</quiztyp>
   <Items>
     <Anzeigename>Psycho</Anzeigename>
     <Anzeigename>Indiana Jones</Anzeigename>

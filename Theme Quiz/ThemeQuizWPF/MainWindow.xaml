@@ -101,16 +101,16 @@
             </Border.BorderBrush>
         </Border>
         <TextBlock Height="23" HorizontalAlignment="Right" Margin="0,45,27,0" Name="tb" Text="1200" VerticalAlignment="Top" Foreground="White" />
-        <TextBox Height="23" Margin="12,12,12,0" Name="solution" VerticalAlignment="Top" TextChanged="solution_TextChanged" />      
+        <TextBox Height="23" Margin="12,12,252,0" Name="solution" VerticalAlignment="Top" TextChanged="solution_TextChanged" />
         <Button Content="Lösen" Height="23" HorizontalAlignment="Right" Margin="0,42,74,0" Name="button4" VerticalAlignment="Top" Width="75" Click="button4_Click" />
         <Button Content="Reset" Height="23" HorizontalAlignment="Right" Margin="0,42,252,0" Name="button5" VerticalAlignment="Top" Width="75" Click="button5_Click" />
         <Label Content="Gelöst:" HorizontalAlignment="Right" Margin="0,41,201,0" VerticalAlignment="Top" Foreground="White"/>
         <Label Content="0" Name="geloest" HorizontalAlignment="Right" Margin="0,41,185,0" VerticalAlignment="Top" RenderTransformOrigin="-0.3,-0.275" Foreground="White" FontStyle="Normal" ForceCursor="False" />
         <ComboBox x:Name="QuizSelection" HorizontalAlignment="Left" Margin="12,45,0,0" VerticalAlignment="Top" Width="183" SelectionChanged="QuizSelection_SelectionChanged">
-          
+
         </ComboBox>
         <Label x:Name="vongeloest" Content="/ 0" HorizontalAlignment="Right" Margin="0,41,156,0" VerticalAlignment="Top" Foreground="White"/>
-        
+
         <Button HorizontalAlignment="Left" Margin="200,45,0,0" VerticalAlignment="Top" Width="23" Name="btn_playppause" Click="btn_playppause_Click" Height="23">
             <StackPanel Margin="-2">
                 <Image Name="button_image" Source="Images/player_play.png" />
@@ -129,9 +129,11 @@
         <Expander Header="Lautstärke" Height="68" HorizontalAlignment="Right" Margin="0,43,388,0" Name="volume_expender" VerticalAlignment="Top" Foreground="White" BorderBrush="{x:Null}" Width="108" Grid.RowSpan="3">
             <Grid>
                 <Border BorderBrush="White" BorderThickness="2" Margin="0,9,0,7"  Name="border1"/>
-                <Slider Height="23" Margin="6,15,6,0" Name="volume_slider" VerticalAlignment="Top" Orientation="Horizontal"  Style="{StaticResource MyCustomStyleForSlider}" ValueChanged="volume_slider_ValueChanged" Maximum="1" LostFocus="volume_slider_LostFocus" />
-                
+                <Slider Height="23" Margin="6,15,6,0" Name="volume_slider" VerticalAlignment="Top" Orientation="Horizontal"  Style="{StaticResource MyCustomStyleForSlider}" ValueChanged="volume_slider_ValueChanged" Maximum="1" LostFocus="volume_slider_LostFocus" IsMoveToPointEnabled="True" />
+
             </Grid>
         </Expander>
+        <ComboBox x:Name="spielmodibox" HorizontalAlignment="Left" Margin="1123,14,0,0" VerticalAlignment="Top" Width="122" SelectedIndex="0" SelectionChanged="spielmodibox_SelectionChanged"/>
+        <Label Content="Spielmodus:" HorizontalAlignment="Left" Margin="1043,12,0,0" VerticalAlignment="Top" Foreground="White"/>
     </Grid>
 </Window>

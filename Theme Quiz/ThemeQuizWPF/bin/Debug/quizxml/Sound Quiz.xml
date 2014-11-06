@@ -3,6 +3,7 @@
   <quizname>Sound Quiz</quizname>
   <sounddatei>Sound Quiz.mp3</sounddatei>
   <clipdauer>10</clipdauer>
+  <quiztyp>Soundquiz</quiztyp>
   <Items>
     <Anzeigename>Taggesschau</Anzeigename>
     <Anzeigename>Mortal Kombat</Anzeigename>

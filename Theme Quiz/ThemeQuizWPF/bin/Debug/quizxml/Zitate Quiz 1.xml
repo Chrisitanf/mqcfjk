@@ -3,6 +3,7 @@
   <quizname>Zitate Quiz 1</quizname>
   <sounddatei>Zitate Quiz 1.mp3</sounddatei>
   <clipdauer>10</clipdauer>
+  <quiztyp>Soundquiz</quiztyp>
   <Items>
     <Anzeigename>Full Metal Jacket</Anzeigename>
     <Alternativ>Sergeant Hartman</Alternativ>

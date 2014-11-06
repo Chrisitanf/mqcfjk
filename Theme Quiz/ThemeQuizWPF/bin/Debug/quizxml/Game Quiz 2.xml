@@ -3,6 +3,7 @@
   <quizname>Game Quiz 2</quizname>
   <sounddatei>Game Quiz 2.mp3</sounddatei>
   <clipdauer>10</clipdauer>
+  <quiztyp>Soundquiz</quiztyp>
   <Items>
     <Anzeigename>Indiana Jones</Anzeigename>
     <Anzeigename>Medal of Honor</Anzeigename>

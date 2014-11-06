@@ -3,6 +3,7 @@
   <quizname>Anime-Serien Quiz 2</quizname>
   <sounddatei>Anime-Serien Quiz 2.mp3</sounddatei>
   <clipdauer>10</clipdauer>
+  <quiztyp>Soundquiz</quiztyp>
   <Items>
     <Anzeigename>Breaking Bad</Anzeigename>
     <Anzeigename>One Piece</Anzeigename>

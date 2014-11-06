@@ -3,6 +3,7 @@
   <quizname>PS Game</quizname>
   <sounddatei>PS Game.mp3</sounddatei>
   <clipdauer>10</clipdauer>
+  <quiztyp>Soundquiz</quiztyp>
   <Items>
     <Anzeigename>Portal</Anzeigename>
     <Anzeigename>Worms</Anzeigename>

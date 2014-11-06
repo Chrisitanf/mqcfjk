@@ -3,6 +3,7 @@
   <quizname>Game Quiz 5</quizname>
   <sounddatei>Game Quiz 5.mp3</sounddatei>
   <clipdauer>10</clipdauer>
+  <quiztyp>Soundquiz</quiztyp>
   <Items>
     <Anzeigename>Final Fantasy X</Anzeigename>
     <Anzeigename>Red Dead Redemption</Anzeigename>

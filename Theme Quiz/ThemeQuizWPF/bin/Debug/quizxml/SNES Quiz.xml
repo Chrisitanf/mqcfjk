@@ -3,6 +3,7 @@
   <quizname>SNES Quiz</quizname>
   <sounddatei>SNES Quiz.mp3</sounddatei>
   <clipdauer>10</clipdauer>
+  <quiztyp>Soundquiz</quiztyp>
   <Items>
     <Anzeigename>Worms</Anzeigename>
     <Anzeigename>Breath of Fire 2</Anzeigename>

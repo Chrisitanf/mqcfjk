@@ -3,6 +3,7 @@
   <quizname>Movie Quiz 1</quizname>
   <sounddatei>Movie Quiz 1.mp3</sounddatei>
   <clipdauer>10</clipdauer>
+  <quiztyp>Soundquiz</quiztyp>
   <Items>
     <Anzeigename>Der Pate</Anzeigename>
     <Anzeigename>Forrest Gump</Anzeigename>

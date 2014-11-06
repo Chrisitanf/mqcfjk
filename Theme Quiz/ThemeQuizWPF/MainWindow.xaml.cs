@@ -25,19 +25,23 @@ namespace ThemeQuizWPF
     /// </summary>
     public partial class MainWindow : Window
     {
+        TextBlock frage = new TextBlock();
         List<String> Stringlist = new List<string>();
+        List<String> Fragen = new List<string>();
         List<Label> Labellist = new List<Label>();
         List<TextBlock> textblocklist = new List<TextBlock>();
         List<string> geloeste = new List<string>();
         bool quizrunning = false, playing = false;
         int ClipTime = 0;
         string globalSound = "";
+        string mode = "";
 
         public MainWindow()
         {
             InitializeComponent();
-
-
+            //Hier neue Modi hinzufügen
+            spielmodibox.Items.Add("Soundquiz");
+            spielmodibox.Items.Add("Textquiz");
 
             //Set Background
             DateTime Halloween1 = new DateTime(DateTime.Today.Year, 10, 31);
@@ -53,19 +57,10 @@ namespace ThemeQuizWPF
                 TheGrid.Background.Opacity = 0.0;
                 this.Background = new ImageBrush(new BitmapImage(new Uri("Images/normal.jpg", UriKind.Relative)));
             }
-
+            //Background Ende --- XML Directory Laden
             if (!Directory.Exists(Directory.GetCurrentDirectory() + "/quizxml/"))
             {
                 Directory.CreateDirectory(Directory.GetCurrentDirectory() + "/quizxml/");
-            }
-            string quizname;
-            List<string> stringlist = new List<string>();
-            stringlist.AddRange(Directory.GetFiles(Directory.GetCurrentDirectory() + "/quizxml/"));
-            foreach (string path in stringlist)
-            {
-                quizname = path.Replace(Directory.GetCurrentDirectory() + "/quizxml/", "");
-                quizname = quizname.Replace(".xml", "");
-                QuizSelection.Items.Add(quizname);
             }
         }
 
@@ -85,9 +80,9 @@ namespace ThemeQuizWPF
         }
 
         int erzeugespielfeld(List<string> anzahl)
-        {
+        {            
             string TextBlockName = "";
-            int TopMargin = 20, LeftMargin = 12, counter = 0, columncounter = 0, setrow = 1, NameCounter = 0, durchlaeufe = 0;
+            int TopMargin = 20, LeftMargin = 12, counter = 0, columncounter = 0, setrow = 2, NameCounter = 0, durchlaeufe = 0;
             double maxwidth = 0;
             bool virgin = true;
             DateTime NeuZeit = new DateTime();
@@ -99,7 +94,22 @@ namespace ThemeQuizWPF
 
             vongeloest.Content = "/ " + anzahl.Count;
 
-            //Erstellen der Label nach Anzahl der Quizangaben
+            //Für den Textquizmodus
+
+            if (spielmodibox.SelectedItem.ToString() == "Textquiz")
+            {         
+                // TODO ADD BUTTONS ZUM WECHSELN DER FRAGEN
+                frage.HorizontalAlignment = System.Windows.HorizontalAlignment.Left;
+                frage.VerticalAlignment = System.Windows.VerticalAlignment.Top;
+                frage.Foreground = Brushes.White;
+                frage.FontSize = 30;
+                frage.Name = "fragebox";
+                frage.Text = Fragen[0];
+                Grid.SetRow(frage, 1);
+                TheGrid.Children.Add(frage);
+            }
+
+            //Erstellen der Label nach Anzahl der Quizangaben ------ Funktioniert nur beim Sound
             foreach (string quizelement in anzahl)
             {
                 durchlaeufe++;
@@ -177,7 +187,7 @@ namespace ThemeQuizWPF
                         audio_bis.Text = SetLabel.Content.ToString().Remove(0, durchlaeufe);
                     }
                 }
-
+                #region Fuer die Loesungen unten
                 Thickness LabelMargin = new Thickness();
                 LabelMargin.Top = TopMargin;
                 LabelMargin.Left = LeftMargin;
@@ -229,6 +239,7 @@ namespace ThemeQuizWPF
                     virgin = false;
                 }
             }
+                #endregion
             return ClipTime;
         }
 
@@ -254,7 +265,8 @@ namespace ThemeQuizWPF
 
                 //XML nach alternativen überprüfen, Es wird keine Liste von Alternativen gebraucht, da es mit jeder Textänderung
                 //durchlaufen wird.
-                if (!(QuizSelection.SelectedItem.GetType() == typeof(ListBoxItem)) && quizrunning)
+                #region text
+                if (!(QuizSelection.SelectedItem.GetType() == typeof(ListBoxItem)) && quizrunning && mode == "text")
                 {
                     XmlDocument myXmlDocument = new XmlDocument();
                     myXmlDocument.Load(Directory.GetCurrentDirectory() + "/quizxml/" + QuizSelection.SelectedItem.ToString() + ".xml");
@@ -290,6 +302,45 @@ namespace ThemeQuizWPF
                         }
                     }
                 }
+                #endregion
+                #region sound
+                if (!(QuizSelection.SelectedItem.GetType() == typeof(ListBoxItem)) && quizrunning && quizrunning && mode == "sound")
+                {
+                    XmlDocument myXmlDocument = new XmlDocument();
+                    myXmlDocument.Load(Directory.GetCurrentDirectory() + "/quizxml/" + QuizSelection.SelectedItem.ToString() + ".xml");
+
+                    XmlNode node;
+                    node = myXmlDocument.DocumentElement;
+
+                    foreach (XmlNode node1 in node.ChildNodes)
+                    {
+                        foreach (XmlNode node2 in node1.ChildNodes)
+                        {
+                            if (node2.Name == "Alternativ")
+                            {
+                                if (node2.InnerText.ToLower() == solution_enter)
+                                {
+                                    XmlNode node3;
+                                    node3 = node2.PreviousSibling;
+
+                                    while (node3 != null)
+                                    {
+                                        if (node3.Name == "Alternativ")
+                                        {
+                                            node3 = node3.PreviousSibling;
+                                        }
+                                        else
+                                        {
+                                            loesung = node3.InnerText;
+                                            break;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                #endregion
                 solutionpos = 0;
                 // Der allgemeine Suchalgo. Hier Beispielsweise das Filtern von Der/Die/Das/The hinzufügen.
                 foreach (string item in Stringlist)
@@ -315,7 +366,7 @@ namespace ThemeQuizWPF
                     {
                         if (item.ToLower().IndexOf("der ") == 0)
                         {
-                            changed_answer = item.ToLower().Remove(0,4);
+                            changed_answer = item.ToLower().Remove(0, 4);
                         }
                     }
 
@@ -348,11 +399,18 @@ namespace ThemeQuizWPF
 
                     solutionpos++;
                 }
-
+                if (mode == "text")
+                {
+                    if (Fragen.Count > geloest_intern)
+                    {
+                        frage.Text = Fragen[geloest_intern];    //indexfehler beim lösen von der letzten frage 
+                    }
+                 
+                }
                 geloest.Content = geloest_intern.ToString();
             }
         }
-        
+
 
         private void button4_Click(object sender, RoutedEventArgs e)
         {
@@ -374,7 +432,8 @@ namespace ThemeQuizWPF
             Application.Current.Shutdown();
         }
 
-
+        // Quizstart für unterschiedliche Modis
+        // Jede Quizart braucht eine neue Methode
         private void QuizSelection_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (!quizrunning)
@@ -382,12 +441,80 @@ namespace ThemeQuizWPF
                 Stringlist.Clear();
                 textblocklist.Clear();
                 quizrunning = true;
+                if (spielmodibox.SelectedItem.ToString() == "Soundquiz")
+                {
+                    mode = "sound";
+                    fromsoundxml(QuizSelection.SelectedItem.ToString());
+                }
 
-                fromxml(QuizSelection.SelectedItem.ToString());
+                if (spielmodibox.SelectedItem.ToString() == "Textquiz")
+                {
+                    mode = "text";
+                    fromtextxml(QuizSelection.SelectedItem.ToString());
+                }
+
             }
         }
+        // für textquiz
+        private void fromtextxml(string xmlname)
+        {
+            string sounddatei = "";
+            int countdowntimer = 0;
+            int clipdauer = 10;
+            XmlDocument myXmlDocument = new XmlDocument();
+            if (File.Exists(Directory.GetCurrentDirectory() + "/quizxml/" + xmlname + ".xml"))
+            {
+                myXmlDocument.Load(Directory.GetCurrentDirectory() + "/quizxml/" + xmlname + ".xml");
+                XmlNode node;
+                node = myXmlDocument.DocumentElement;
 
-        private void fromxml(string xmlname)
+                foreach (XmlNode node1 in node.ChildNodes)
+                {
+                    if (node1.Name == "sounddatei")
+                    {
+                        sounddatei = node1.InnerText;
+                    }
+                    if (node1.Name == "clipdauer")
+                    {
+                        clipdauer = Convert.ToInt32(node1.InnerText);
+                    }
+                    foreach (XmlNode node2 in node1.ChildNodes)
+                    {
+                        if (node2.Name == "frage")
+                        {
+                            Fragen.Add(node2.InnerText);                          
+                        }
+                        if (node2.Name == "Anzeigename")
+                        {
+                            Stringlist.Add(node2.InnerText);
+                        }
+                    }
+                }
+
+                countdowntimer = erzeugespielfeld(Stringlist);
+                countdowntimer = clipdauer;
+                countdowntimer = (Stringlist.Count * countdowntimer) * 2;
+                solution.IsEnabled = true;
+                if (sounddatei != "")
+                {
+                    if (File.Exists(Directory.GetCurrentDirectory() + "/sound/" + sounddatei))
+                    {
+                        globalSound = sounddatei;
+                        openSound();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Die Datei (" + sounddatei + ") konnte nicht gefunden werden.");
+                    }
+                }
+
+                Countdown(countdowntimer, TimeSpan.FromSeconds(1), cur => tb.Text = cur.ToString());
+                quizrunning = true;
+
+            }
+        }
+        // für soundquiz
+        private void fromsoundxml(string xmlname)
         {
             string sounddatei = "";
             int clipdauer = 10;
@@ -619,7 +746,41 @@ namespace ThemeQuizWPF
             volume_expender.IsExpanded = false;
         }
 
-       
+        private void spielmodibox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            string quizname;
+            List<string> stringlist = new List<string>();
+
+            QuizSelection.Items.Clear();
+
+
+            stringlist.AddRange(Directory.GetFiles(Directory.GetCurrentDirectory() + "/quizxml/"));
+            //test
+            XmlDocument myXmlDocument = new XmlDocument();
+
+            //test ende
+            foreach (string path in stringlist)
+            {
+                myXmlDocument.Load(path);
+
+                XmlNode node;
+                node = myXmlDocument.DocumentElement;
+                foreach (XmlNode node1 in node.ChildNodes)
+                {
+                    if (node1.Name == "quiztyp")
+                    {
+                        if (node1.InnerText == spielmodibox.Items[spielmodibox.SelectedIndex].ToString())
+                        {
+                            quizname = path.Replace(Directory.GetCurrentDirectory() + "/quizxml/", "");
+                            quizname = quizname.Replace(".xml", "");
+                            QuizSelection.Items.Add(quizname);
+                        }
+                    }
+                }
+            }
+        }
+
+
     }
 }
 

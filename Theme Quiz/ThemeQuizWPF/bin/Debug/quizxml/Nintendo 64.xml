@@ -3,6 +3,7 @@
   <quizname>Nintendo 64</quizname>
   <sounddatei>Nintendo 64.mp3</sounddatei>
   <clipdauer>10</clipdauer>
+  <quiztyp>Soundquiz</quiztyp>
   <Items>
     <Anzeigename>Worms Armageddon</Anzeigename>
     <Alternativ>Worms</Alternativ>

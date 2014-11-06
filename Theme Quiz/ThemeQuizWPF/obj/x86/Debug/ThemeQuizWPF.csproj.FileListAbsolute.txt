@@ -74,3 +74,15 @@ C:\Users\Christianf.PIETSCHCONSULT\Downloads\ThemeQuizWPF (1)\ThemeQuizWPF\Theme
 C:\Users\Christianf.PIETSCHCONSULT\Downloads\ThemeQuizWPF (1)\ThemeQuizWPF\ThemeQuizWPF\ThemeQuizWPF\obj\x86\Debug\ThemeQuizWPF.Properties.Resources.resources
 C:\Users\Christianf.PIETSCHCONSULT\Downloads\ThemeQuizWPF (1)\ThemeQuizWPF\ThemeQuizWPF\ThemeQuizWPF\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\Christianf.PIETSCHCONSULT\Downloads\ThemeQuizWPF (1)\ThemeQuizWPF\ThemeQuizWPF\ThemeQuizWPF\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\hasan\Documents\GitHub\mqcfjk\Theme Quiz\ThemeQuizWPF\obj\x86\Debug\ThemeQuizWPF.exe
+C:\Users\hasan\Documents\GitHub\mqcfjk\Theme Quiz\ThemeQuizWPF\obj\x86\Debug\ThemeQuizWPF.pdb
+C:\Users\hasan\Documents\GitHub\mqcfjk\Theme Quiz\ThemeQuizWPF\obj\x86\Debug\ThemeQuizWPF.csprojResolveAssemblyReference.cache
+C:\Users\hasan\Documents\GitHub\mqcfjk\Theme Quiz\ThemeQuizWPF\obj\x86\Debug\MainWindow.baml
+C:\Users\hasan\Documents\GitHub\mqcfjk\Theme Quiz\ThemeQuizWPF\obj\x86\Debug\MainWindow.g.cs
+C:\Users\hasan\Documents\GitHub\mqcfjk\Theme Quiz\ThemeQuizWPF\obj\x86\Debug\App.g.cs
+C:\Users\hasan\Documents\GitHub\mqcfjk\Theme Quiz\ThemeQuizWPF\obj\x86\Debug\ThemeQuizWPF_MarkupCompile.cache
+C:\Users\hasan\Documents\GitHub\mqcfjk\Theme Quiz\ThemeQuizWPF\obj\x86\Debug\ThemeQuizWPF.g.resources
+C:\Users\hasan\Documents\GitHub\mqcfjk\Theme Quiz\ThemeQuizWPF\obj\x86\Debug\ThemeQuizWPF.Properties.Resources.resources
+C:\Users\hasan\Documents\GitHub\mqcfjk\Theme Quiz\ThemeQuizWPF\obj\x86\Debug\ThemeQuizWPF.csproj.GenerateResource.Cache
+C:\Users\hasan\Documents\GitHub\mqcfjk\Theme Quiz\ThemeQuizWPF\bin\Debug\ThemeQuizWPF.exe
+C:\Users\hasan\Documents\GitHub\mqcfjk\Theme Quiz\ThemeQuizWPF\bin\Debug\ThemeQuizWPF.pdb

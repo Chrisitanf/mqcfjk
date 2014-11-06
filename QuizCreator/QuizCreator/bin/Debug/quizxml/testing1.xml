@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>testing1</quizname>
+  <sounddatei>testing1.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <quiztyp>Textquiz</quiztyp>
+  <Items>
+    <frage>fragen über fragen nichts</frage>
+    <Anzeigename>hans</Anzeigename>
+    <Alternativ>spd</Alternativ>
+    <Alternativ>weiter alternative</Alternativ>
+    <frage>wer ist der mann mit dem koks?</frage>
+    <Anzeigename>niemand</Anzeigename>
+    <Alternativ>hansi</Alternativ>
+    <Alternativ>nicht?</Alternativ>
+  </Items>
+</Quiz>

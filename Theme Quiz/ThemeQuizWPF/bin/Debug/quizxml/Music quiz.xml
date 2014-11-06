@@ -3,6 +3,7 @@
   <quizname>Music quiz</quizname>
 <sounddatei>music quiz.mp3</sounddatei>
   <clipdauer>10</clipdauer>
+  <quiztyp>Soundquiz</quiztyp>
   <Items>
     <Anzeigename>Loser</Anzeigename>
     <Alternativ>loser</Alternativ>

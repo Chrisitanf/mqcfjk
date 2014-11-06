@@ -3,6 +3,7 @@
   <quizname>Horror Quiz</quizname>
   <sounddatei>Horror Quiz.mp3</sounddatei>
   <clipdauer>10</clipdauer>
+  <quiztyp>Soundquiz</quiztyp>
   <Items>
     <Anzeigename>Conjuring - Die Heimsuchung</Anzeigename>
     <Alternativ>Conjuring</Alternativ>

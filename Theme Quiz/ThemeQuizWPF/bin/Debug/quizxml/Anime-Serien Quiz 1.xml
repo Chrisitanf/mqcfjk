@@ -3,6 +3,7 @@
   <quizname>Anime-Serien Quiz 1</quizname>
   <sounddatei>Anime-Serien Quiz 1.mp3</sounddatei>
   <clipdauer>10</clipdauer>
+  <quiztyp>Soundquiz</quiztyp>
   <Items>
     <Anzeigename>Dexter</Anzeigename>
     <Anzeigename>Berserk</Anzeigename>

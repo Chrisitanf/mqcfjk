@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Anime-Serien Quiz 1</quizname>
+  <sounddatei>Anime-Serien Quiz 1.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <quiztyp>Textquiz</quiztyp>
+  <Items>
+    <frage> What does the Fox say? </frage>
+    <Anzeigename>Dexter</Anzeigename>
+    <frage> nothing </frage>
+    <Anzeigename>Berserk</Anzeigename>   
+  </Items>
+</Quiz>

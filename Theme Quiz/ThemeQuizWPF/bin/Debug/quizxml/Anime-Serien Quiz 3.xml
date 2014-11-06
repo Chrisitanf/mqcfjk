@@ -3,7 +3,8 @@
   <quizname>Anime-Serien Quiz 3</quizname>
   <sounddatei>Anime-Serien Quiz 3.mp3</sounddatei>
   <clipdauer>10</clipdauer>
-  <Items>
+  <quiztyp>Soundquiz</quiztyp>  
+<Items>
     <Anzeigename>Under the Dome</Anzeigename>
     <Anzeigename>Alf</Anzeigename>
     <Anzeigename>American Dad</Anzeigename>

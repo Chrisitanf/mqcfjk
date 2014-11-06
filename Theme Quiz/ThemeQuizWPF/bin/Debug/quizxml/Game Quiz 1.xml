@@ -3,6 +3,7 @@
   <quizname>Game Quiz 1</quizname>
   <sounddatei>Game Quiz 1.mp3</sounddatei>
   <clipdauer>10</clipdauer>
+  <quiztyp>Soundquiz</quiztyp>
   <Items>
     <Anzeigename>Heroes of Might and Magic</Anzeigename>
     <Anzeigename>Skyrim</Anzeigename>

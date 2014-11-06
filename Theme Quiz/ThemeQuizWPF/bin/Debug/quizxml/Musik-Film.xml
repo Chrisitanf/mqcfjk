@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Musik-Film</quizname>
+  <sounddatei>Musik-film.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <quiztyp>Soundquiz</quiztyp>
+  <Items>
+    <Anzeigename>Toy Story 2 Theme Song</Anzeigename>
+    <Alternativ>Toy Story 2</Alternativ>
+    <Alternativ>Toystory2</Alternativ>
+    <Alternativ>toy story 2</Alternativ>
+    <Alternativ>toystory2</Alternativ>
+    <Anzeigename>Transformers 3 Dark of the Moon</Anzeigename>
+    <Alternativ>Transformers3</Alternativ>
+    <Alternativ>Transformers 3</Alternativ>
+    <Alternativ>transformers3</Alternativ>
+    <Alternativ>transformers 3</Alternativ>
+    <Alternativ>dark of the moon</Alternativ>
+    <Anzeigename>Two and a half man Intro</Anzeigename>
+    <Alternativ>Two and a half man </Alternativ>
+    <Alternativ>taahm</Alternativ>
+    <Anzeigename>Who's That chick</Anzeigename>
+    <Alternativ>Whos that chick</Alternativ>
+    <Alternativ>who's that chick</Alternativ>
+    <Anzeigename>Patrice - Soulstorm</Anzeigename>
+    <Alternativ>Soulstorm</Alternativ>
+    <Alternativ>soulstorm</Alternativ>
+    <Alternativ>soul storm</Alternativ>
+    <Anzeigename>Chris Brown - Look At Me Now</Anzeigename>
+    <Alternativ>look at me now</Alternativ>
+    <Alternativ>Look At Me Now</Alternativ>
+    <Anzeigename>Lil Rain - Adore You</Anzeigename>
+    <Alternativ>Adore You </Alternativ>
+    <Alternativ>adore u</Alternativ>
+    <Alternativ>Lil Rain</Alternativ>
+    <Anzeigename>Sean Paul - We be burnin</Anzeigename>
+    <Alternativ>We be burnin</Alternativ>
+    <Alternativ>we be burnin</Alternativ>
+    <Anzeigename>James Blunt - You're Beautiful</Anzeigename>
+    <Alternativ>youre beautiful</Alternativ>
+    <Alternativ>You're Beautiful</Alternativ>
+    <Anzeigename>3 Doors Down - Here Without You</Anzeigename>
+    <Alternativ>here without you</Alternativ>
+    <Anzeigename>Artic Monkeys- Mardy Bum</Anzeigename>
+    <Alternativ>mardy bum</Alternativ>
+    <Alternativ>Mardy Bum</Alternativ>
+    <Alternativ>mardybum</Alternativ>
+    <Anzeigename>Ne-Yo - Let Me Love You </Anzeigename>
+    <Alternativ>let me love you </Alternativ>
+    <Alternativ>let me love u </Alternativ>
+    <Alternativ>Let me Love You</Alternativ>
+    <Anzeigename>pitbull feat. christina aguilera - feel this moment</Anzeigename>
+    <Alternativ>feel this moment</Alternativ>
+    <Anzeigename> Oasis - Wonderwall</Anzeigename>
+    <Alternativ>Wonderwall</Alternativ>
+    <Alternativ>wonderwall</Alternativ>
+    <Anzeigename>The Bosshoss - Dont Gimme That</Anzeigename>
+    <Alternativ>Dont Gimme that</Alternativ>
+    <Alternativ>dont gimme that</Alternativ>
+    <Alternativ>Don´t gimme that</Alternativ>
+    <Anzeigename>James Arthur - Impossible</Anzeigename>
+    <Alternativ>Impossible</Alternativ>
+    <Alternativ>impossible</Alternativ>
+    <Anzeigename>Wax - Rosana</Anzeigename>
+    <Alternativ>Rosana</Alternativ>
+    <Alternativ>rosana</Alternativ>
+    <Anzeigename> Sido - Bilder im Kopf</Anzeigename>
+    <Alternativ>Bilder im Kopf</Alternativ>
+    <Alternativ>bilder im kopf</Alternativ>
+    <Anzeigename>One Republic -  Counting Stars</Anzeigename>
+    <Alternativ>counting stars</Alternativ>
+    <Anzeigename>Tim Bendzko - Wenn Worte meine Sprache waeren</Anzeigename>
+    <Alternativ>Wenn Worte meine Sprache wären</Alternativ>
+    <Anzeigename>calvin_harris-school</Anzeigename>
+    <Alternativ>school</Alternativ>
+    <Alternativ>School</Alternativ>
+    <Anzeigename>Britney Spears - Three</Anzeigename>
+    <Alternativ>three</Alternativ>
+    <Alternativ>Three</Alternativ>
+    <Alternativ>3</Alternativ>
+    <Anzeigename>Cro - Bye Bye </Anzeigename>
+    <Alternativ>Bye Bye</Alternativ>
+    <Alternativ>byebye</Alternativ>
+    <Anzeigename>The Wanted - Chasing The Sun</Anzeigename>
+    <Alternativ>chasing the sun</Alternativ>
+    <Alternativ>Chasing the Sun</Alternativ>
+    <Anzeigename>Madsen - Lass die Musik an</Anzeigename>
+    <Alternativ>lass die Musik an</Alternativ>
+    <Anzeigename>Adam Lambert - Whatdoya Want From Me</Anzeigename>
+    <Alternativ>whatdoya want from me</Alternativ>
+    <Anzeigename>Christina Perri - Jar of Hearts</Anzeigename>
+    <Alternativ>jar of hearts</Alternativ>
+    <Anzeigename>Cee Lo Green - Forget You</Anzeigename>
+    <Alternativ>forget u</Alternativ>
+    <Alternativ>Forget You</Alternativ>
+    <Anzeigename>Chris Brown - Don't Wake Me Up</Anzeigename>
+    <Alternativ>Don't Wake Me Up</Alternativ>
+    <Anzeigename>Christina Aguilera - Dirrty</Anzeigename>
+    <Alternativ>dirrty</Alternativ>
+    <Alternativ>Dirrty</Alternativ>
+    <Anzeigename>Daniel Nitt - Falling</Anzeigename>
+    <Alternativ>falling</Alternativ>
+    <Anzeigename>Die Kinder des Monsieur Mathieu - Vois sur ton chemin</Anzeigename>
+    <Alternativ>Vois sur ton chemin</Alternativ>
+    <Alternativ>Die Kinder des Monsieur Mathieu</Alternativ>
+    <Anzeigename>Digga - Broken</Anzeigename>
+    <Alternativ>Broken</Alternativ>
+    <Alternativ>broken</Alternativ>
+    <Anzeigename>Ed Sheeran - Kiss me</Anzeigename>
+    <Alternativ>kiss me</Alternativ>
+    <Alternativ>Kiss me</Alternativ>
+    <Anzeigename>Gary Go - Wonderful</Anzeigename>
+    <Alternativ>Wonderful</Alternativ>
+    <Alternativ>wonderful</Alternativ>
+    <Anzeigename>Macklemore &amp; Ryan Lewis - Thin Line</Anzeigename>
+    <Alternativ>Thin Line</Alternativ>
+    <Alternativ>thin line</Alternativ>
+    <Anzeigename>Bosse -  So oder so</Anzeigename>
+    <Alternativ>So oder so</Alternativ>
+    <Alternativ>so oder so</Alternativ>
+    <Anzeigename>Kraftklub - Ich Will Nicht Nach Berlin</Anzeigename>
+    <Alternativ>Ich will nicht nach Berlin</Alternativ>
+    <Anzeigename>Die Toten Hosen - Altes Fieber</Anzeigename>
+    <Alternativ>altes fieber</Alternativ>
+    <Alternativ>Altes Fieber</Alternativ>
+    <Anzeigename>SDP feat. Sido - Die Nacht von Freitag auf Montag</Anzeigename>
+    <Alternativ>Die Nacht von Freitag auf Montag</Alternativ>
+    <Alternativ>die nacht von freitag auf montag</Alternativ>
+    <Anzeigename>The Lumineers - Ho hey</Anzeigename>
+    <Alternativ>Ho hey</Alternativ>
+    <Alternativ>ho hey</Alternativ>
+    <Alternativ>hohey</Alternativ>
+    <Anzeigename>Leslie Clio - I couldn't care less</Anzeigename>
+    <Alternativ>I couldn't care less</Alternativ>
+    <Alternativ>I couldnt care less</Alternativ>
+    <Anzeigename>031 - Baauer - Harlem shake</Anzeigename>
+    <Alternativ>Harlem shake</Alternativ>
+    <Alternativ>harlemshake</Alternativ>
+    <Anzeigename>Taylor Swift - I knew you were trouble</Anzeigename>
+    <Alternativ>I knew you were trouble</Alternativ>
+    <Anzeigename>Billy Tallend - Fallen Leaves</Anzeigename>
+    <Alternativ>fallen leaves</Alternativ>
+    <Alternativ>Fallen Leaves</Alternativ>
+    <Anzeigename>Die Arzte - Unrockbar</Anzeigename>
+    <Alternativ>unrockbar</Alternativ>
+    <Alternativ>Unrockbar</Alternativ>
+    <Anzeigename>Ohrbooten -  An Alle Ladies</Anzeigename>
+    <Alternativ>an alle ladies</Alternativ>
+    <Alternativ>An Alle Ladies</Alternativ>
+    <Anzeigename>Die Atzen Frauenarzt and Manny Marc - Atzin</Anzeigename>
+    <Alternativ>atzin</Alternativ>
+    <Alternativ>Atzin</Alternativ>
+    <Anzeigename>Flo Rida - Turn Around </Anzeigename>
+    <Alternativ>turn around</Alternativ>
+    <Alternativ>Turn Around</Alternativ>
+    <Anzeigename>Kings Of Leon - Use Somebody</Anzeigename>
+    <Alternativ>Use Somebody</Alternativ>
+    <Alternativ>use somebody</Alternativ>
+    <Alternativ>use sb</Alternativ>
+    <Anzeigename>Lana Del Rey - Dark paradise</Anzeigename>
+    <Alternativ>Dark paradise</Alternativ>
+    <Alternativ>dark paradise</Alternativ>
+    <Anzeigename>Tom Odell - Another love</Anzeigename>
+    <Alternativ>another love</Alternativ>
+    <Alternativ>Another Love</Alternativ>
+    <Anzeigename>Udo Lindenberg - Cello</Anzeigename>
+    <Alternativ>cello</Alternativ>
+    <Alternativ>Cello</Alternativ>
+    <Anzeigename>Maxim -  Irgendwas mit A</Anzeigename>
+    <Alternativ>irgendwas mit a</Alternativ>
+    <Alternativ>Irgendwas mit A</Alternativ>
+    <Anzeigename>Daft Punk - Beyond</Anzeigename>
+    <Alternativ>Beyond</Alternativ>
+    <Alternativ>beyond</Alternativ>
+    <Anzeigename>Jordin Sparks Feat. Chris Brown - No Air</Anzeigename>
+    <Alternativ>No Air</Alternativ>
+    <Alternativ>no air</Alternativ>
+    <Anzeigename>The Hoosiers - Choices</Anzeigename>
+    <Alternativ>Choices</Alternativ>
+    <Alternativ>choices</Alternativ>
+    <Anzeigename>Bleach AMV - Monster</Anzeigename>
+    <Alternativ>monster</Alternativ>
+    <Alternativ>Monster</Alternativ>
+    <Alternativ>Bleach</Alternativ>
+  </Items>
+</Quiz>

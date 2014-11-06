@@ -3,6 +3,7 @@
   <quizname>Soundtrack Quiz 1</quizname>
   <sounddatei>Soundtrack Quiz 1.mp3</sounddatei>
   <clipdauer>10</clipdauer>
+  <quiztyp>Soundquiz</quiztyp>
   <Items>
     <Anzeigename>Bleed It Out</Anzeigename>
     <Anzeigename>BlaBlaBla</Anzeigename>
