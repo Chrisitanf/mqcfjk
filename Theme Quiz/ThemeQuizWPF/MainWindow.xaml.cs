@@ -32,7 +32,7 @@ namespace ThemeQuizWPF
         List<TextBlock> textblocklist = new List<TextBlock>();
         List<string> geloeste = new List<string>();
         bool quizrunning = false, playing = false;
-        int ClipTime = 0;
+        int ClipTime = 0, fragenindex = 0;
         string globalSound = "";
         string mode = "";
 
@@ -80,9 +80,9 @@ namespace ThemeQuizWPF
         }
 
         int erzeugespielfeld(List<string> anzahl)
-        {            
+        {
             string TextBlockName = "";
-            int TopMargin = 20, LeftMargin = 12, counter = 0, columncounter = 0, setrow = 2, NameCounter = 0, durchlaeufe = 0;
+            int TopMargin = 20, LeftMargin = 12, counter = 0, columncounter = 0, setrow = 3, NameCounter = 0, durchlaeufe = 0;
             double maxwidth = 0;
             bool virgin = true;
             DateTime NeuZeit = new DateTime();
@@ -97,19 +97,24 @@ namespace ThemeQuizWPF
             //Für den Textquizmodus
 
             if (spielmodibox.SelectedItem.ToString() == "Textquiz")
-            {         
-                // TODO ADD BUTTONS ZUM WECHSELN DER FRAGEN
+            {
+                Thickness frageMargin = new Thickness();
+                frageMargin.Left = 6;
+                GridLength length = new GridLength(26);
+                Gridtextbutton.Height = length;
+                Textpanel.Visibility = Visibility.Visible;
                 frage.HorizontalAlignment = System.Windows.HorizontalAlignment.Left;
                 frage.VerticalAlignment = System.Windows.VerticalAlignment.Top;
                 frage.Foreground = Brushes.White;
                 frage.FontSize = 30;
                 frage.Name = "fragebox";
-                frage.Text = Fragen[0];
-                Grid.SetRow(frage, 1);
+                frage.Text ="1. "+ Fragen[0];
+                frage.Margin = frageMargin;
+                Grid.SetRow(frage, 2);
                 TheGrid.Children.Add(frage);
             }
 
-            //Erstellen der Label nach Anzahl der Quizangaben ------ Funktioniert nur beim Sound
+            //Erstellen der Label nach Anzahl der Quizangaben
             foreach (string quizelement in anzahl)
             {
                 durchlaeufe++;
@@ -128,65 +133,87 @@ namespace ThemeQuizWPF
                 SetLabel.Foreground = Brushes.White;
                 SetTextBlock.Foreground = Brushes.White;
 
-                #region Zeit fuer die Label
-                if (AltZeit.Minute < 10)
+                #region Zeit fuer die Label: Soundquiz
+                if (spielmodibox.SelectedItem.ToString() == "Soundquiz")
                 {
-                    SetLabel.Content = "0";
-                }
-                SetLabel.Content = SetLabel.Content + Convert.ToString(AltZeit.Minute);
-                if (AltZeit.Second < 10)
-                {
-                    if (AltZeit.Second == 0)
+                    if (AltZeit.Minute < 10)
                     {
-                        SetLabel.Content = SetLabel.Content + ":" + Convert.ToString(AltZeit.Second) + "0";
+                        SetLabel.Content = "0";
+                    }
+                    SetLabel.Content = SetLabel.Content + Convert.ToString(AltZeit.Minute);
+                    if (AltZeit.Second < 10)
+                    {
+                        if (AltZeit.Second == 0)
+                        {
+                            SetLabel.Content = SetLabel.Content + ":" + Convert.ToString(AltZeit.Second) + "0";
+                        }
+                        else
+                        {
+                            SetLabel.Content = SetLabel.Content + ":0" + Convert.ToString(AltZeit.Second);
+                        }
                     }
                     else
                     {
-                        SetLabel.Content = SetLabel.Content + ":0" + Convert.ToString(AltZeit.Second);
+                        SetLabel.Content = SetLabel.Content + ":" + Convert.ToString(AltZeit.Second);
                     }
-                }
-                else
-                {
-                    SetLabel.Content = SetLabel.Content + ":" + Convert.ToString(AltZeit.Second);
-                }
 
-                NeuZeit = NeuZeit.AddSeconds(ClipTime);
-                AltZeit = NeuZeit;
-                if (NeuZeit.Minute < 10)
-                {
-                    SetLabel.Content = SetLabel.Content + " - 0" + Convert.ToString(NeuZeit.Minute);
-                }
-                else
-                {
-                    SetLabel.Content = SetLabel.Content + " - " + Convert.ToString(NeuZeit.Minute);
-                }
-
-                if (NeuZeit.Second < 10)
-                {
-                    if (NeuZeit.Second == 0)
+                    NeuZeit = NeuZeit.AddSeconds(ClipTime);
+                    AltZeit = NeuZeit;
+                    if (NeuZeit.Minute < 10)
                     {
-                        SetLabel.Content = SetLabel.Content + ":" + Convert.ToString(NeuZeit.Second) + "0";
+                        SetLabel.Content = SetLabel.Content + " - 0" + Convert.ToString(NeuZeit.Minute);
                     }
                     else
                     {
-                        SetLabel.Content = SetLabel.Content + ":0" + Convert.ToString(NeuZeit.Second);
+                        SetLabel.Content = SetLabel.Content + " - " + Convert.ToString(NeuZeit.Minute);
                     }
 
-                }
-                else
-                {
-                    SetLabel.Content = SetLabel.Content + ":" + Convert.ToString(NeuZeit.Second);
-                }
+                    if (NeuZeit.Second < 10)
+                    {
+                        if (NeuZeit.Second == 0)
+                        {
+                            SetLabel.Content = SetLabel.Content + ":" + Convert.ToString(NeuZeit.Second) + "0";
+                        }
+                        else
+                        {
+                            SetLabel.Content = SetLabel.Content + ":0" + Convert.ToString(NeuZeit.Second);
+                        }
 
+                    }
+                    else
+                    {
+                        SetLabel.Content = SetLabel.Content + ":" + Convert.ToString(NeuZeit.Second);
+                    }
+
+
+                    if (anzahl.Count() == durchlaeufe)
+                    {
+                        if (SetLabel.Content.ToString().Contains("- "))
+                        {
+                            durchlaeufe = SetLabel.Content.ToString().LastIndexOf(" ");
+                            audio_bis.Text = SetLabel.Content.ToString().Remove(0, durchlaeufe);
+                        }
+                    }
+                }
                 #endregion
-                if (anzahl.Count() == durchlaeufe)
+
+                #region Zeit fuer die Label: Textquiz
+                if (spielmodibox.SelectedItem.ToString() == "Textquiz")
                 {
-                    if (SetLabel.Content.ToString().Contains("- "))
+
+                    SetLabel.Content = durchlaeufe + ".";
+
+                    if (anzahl.Count() == durchlaeufe)
                     {
-                        durchlaeufe = SetLabel.Content.ToString().LastIndexOf(" ");
-                        audio_bis.Text = SetLabel.Content.ToString().Remove(0, durchlaeufe);
+                        if (SetLabel.Content.ToString().Contains("- "))
+                        {
+                            durchlaeufe = SetLabel.Content.ToString().LastIndexOf(" ");
+                            audio_bis.Text = SetLabel.Content.ToString().Remove(0, durchlaeufe);
+                        }
                     }
                 }
+                #endregion
+
                 #region Fuer die Loesungen unten
                 Thickness LabelMargin = new Thickness();
                 LabelMargin.Top = TopMargin;
@@ -203,20 +230,41 @@ namespace ThemeQuizWPF
                 TheGrid.Children.Add(SetLabel);
                 Labellist.Add(SetLabel);
 
-                //Setzen von Werten beim TextBlock
-                LabelMargin.Top = TopMargin + 5;
-                LabelMargin.Left = LeftMargin + 90;
-                SetTextBlock.Name = TextBlockName;
-                SetTextBlock.Margin = LabelMargin;
-                SetTextBlock.Width = Double.NaN;
-                SetTextBlock.Height = 24;
-                SetTextBlock.HorizontalAlignment = System.Windows.HorizontalAlignment.Left;
-                SetTextBlock.VerticalAlignment = System.Windows.VerticalAlignment.Top;
-                SetTextBlock.Text = "";
-                Grid.SetRow(SetTextBlock, setrow);
-                TheGrid.Children.Add(SetTextBlock);
+                if (spielmodibox.SelectedItem.ToString() == "Soundquiz")
+                {
+                    //Setzen von Werten beim TextBlock
+                    LabelMargin.Top = TopMargin + 5;
+                    LabelMargin.Left = LeftMargin + 90;
+                    SetTextBlock.Name = TextBlockName;
+                    SetTextBlock.Margin = LabelMargin;
+                    SetTextBlock.Width = Double.NaN;
+                    SetTextBlock.Height = 24;
+                    SetTextBlock.HorizontalAlignment = System.Windows.HorizontalAlignment.Left;
+                    SetTextBlock.VerticalAlignment = System.Windows.VerticalAlignment.Top;
+                    SetTextBlock.Text = "";
+                    Grid.SetRow(SetTextBlock, setrow);
+                    TheGrid.Children.Add(SetTextBlock);
 
-                textblocklist.Add(SetTextBlock);
+                    textblocklist.Add(SetTextBlock);
+                }
+                if (spielmodibox.SelectedItem.ToString() == "Textquiz")
+                {
+                    //Setzen von Werten beim TextBlock
+                    LabelMargin.Top = TopMargin + 5;
+                    LabelMargin.Left = LeftMargin + 30;
+                    SetTextBlock.Name = TextBlockName;
+                    SetTextBlock.Margin = LabelMargin;
+                    SetTextBlock.Width = Double.NaN;
+                    SetTextBlock.Height = 24;
+                    SetTextBlock.HorizontalAlignment = System.Windows.HorizontalAlignment.Left;
+                    SetTextBlock.VerticalAlignment = System.Windows.VerticalAlignment.Top;
+                    SetTextBlock.Text = "";
+                    Grid.SetRow(SetTextBlock, setrow);
+                    TheGrid.Children.Add(SetTextBlock);
+
+                    textblocklist.Add(SetTextBlock);
+                }
+
 
                 if (maxwidth < (quizelement.Length * 10))
                 {
@@ -350,6 +398,7 @@ namespace ThemeQuizWPF
                         textblocklist[solutionpos].Text = Stringlist[solutionpos].ToString();
                         solution.Text = "";
                         geloest_intern++;
+                        fragenindex++;
                         geloeste.Add(item);
                         break;
                     }
@@ -392,6 +441,7 @@ namespace ThemeQuizWPF
                             textblocklist[solutionpos].Text = Stringlist[solutionpos].ToString();
                             solution.Text = "";
                             geloest_intern++;
+                            fragenindex++;
                             geloeste.Add(item);
                             break;
                         }
@@ -401,11 +451,11 @@ namespace ThemeQuizWPF
                 }
                 if (mode == "text")
                 {
-                    if (Fragen.Count > geloest_intern)
+                    if (Fragen.Count > fragenindex)
                     {
-                        frage.Text = Fragen[geloest_intern];    //indexfehler beim lösen von der letzten frage 
+                        frage.Text = (fragenindex+1) +". "+ Fragen[fragenindex];   
                     }
-                 
+
                 }
                 geloest.Content = geloest_intern.ToString();
             }
@@ -452,7 +502,6 @@ namespace ThemeQuizWPF
                     mode = "text";
                     fromtextxml(QuizSelection.SelectedItem.ToString());
                 }
-
             }
         }
         // für textquiz
@@ -482,7 +531,7 @@ namespace ThemeQuizWPF
                     {
                         if (node2.Name == "frage")
                         {
-                            Fragen.Add(node2.InnerText);                          
+                            Fragen.Add(node2.InnerText);
                         }
                         if (node2.Name == "Anzeigename")
                         {
@@ -658,32 +707,35 @@ namespace ThemeQuizWPF
 
             //Label soll verdeutlichen, dass die Zeit sich gerade an dieser Stelle befindet
             //Funktioniert aber finde ich nicht performant, da es jede Sekunde durchlaufen wird.
-            foreach (Label item in Labellist)
+            if (spielmodibox.SelectedItem.ToString() == "Soundquiz")
             {
-                labeltextanfang = item.Content.ToString();
-                labeltextende = item.Content.ToString();
-
-                indexof = labeltextanfang.IndexOf("-");
-                labeltextanfang = labeltextanfang.Remove(indexof - 1, labeltextanfang.Length - indexof + 1);
-                labeltextende = labeltextende.Remove(0, labeltextende.Length - indexof + 1);
-                indexof = labeltextanfang.IndexOf(":");
-
-                seconds = Convert.ToInt32(labeltextanfang.Remove(indexof, 3)) * 60;
-                seconds = seconds + (Convert.ToInt32(labeltextanfang.Remove(0, indexof + 1)));
-                TimeSpan ts2 = TimeSpan.FromSeconds(seconds);
-
-                seconds = Convert.ToInt32(labeltextende.Remove(2, 3)) * 60;
-                seconds = seconds + (Convert.ToInt32(labeltextende.Remove(0, 3)));
-
-                TimeSpan ts3 = TimeSpan.FromSeconds(seconds);
-
-                if (mediaElement1.Position >= ts2 && mediaElement1.Position <= ts3)
+                foreach (Label item in Labellist)
                 {
-                    item.FontWeight = FontWeights.Bold;
-                }
-                else
-                {
-                    item.FontWeight = FontWeights.Normal;
+                    labeltextanfang = item.Content.ToString();
+                    labeltextende = item.Content.ToString();
+
+                    indexof = labeltextanfang.IndexOf("-");
+                    labeltextanfang = labeltextanfang.Remove(indexof - 1, labeltextanfang.Length - indexof + 1);
+                    labeltextende = labeltextende.Remove(0, labeltextende.Length - indexof + 1);
+                    indexof = labeltextanfang.IndexOf(":");
+
+                    seconds = Convert.ToInt32(labeltextanfang.Remove(indexof, 3)) * 60;
+                    seconds = seconds + (Convert.ToInt32(labeltextanfang.Remove(0, indexof + 1)));
+                    TimeSpan ts2 = TimeSpan.FromSeconds(seconds);
+
+                    seconds = Convert.ToInt32(labeltextende.Remove(2, 3)) * 60;
+                    seconds = seconds + (Convert.ToInt32(labeltextende.Remove(0, 3)));
+
+                    TimeSpan ts3 = TimeSpan.FromSeconds(seconds);
+
+                    if (mediaElement1.Position >= ts2 && mediaElement1.Position <= ts3)
+                    {
+                        item.FontWeight = FontWeights.Bold;
+                    }
+                    else
+                    {
+                        item.FontWeight = FontWeights.Normal;
+                    }
                 }
             }
         }
@@ -703,20 +755,22 @@ namespace ThemeQuizWPF
 
         private void HandleClick(object sender, EventArgs e)
         {
-            //Springen zu der Zeit vom angeklicktem Label
-            int indexof = 0, seconds = 0;
-            Label clicked_label = new Label();
-            clicked_label = sender as Label;
-            string label = clicked_label.Content.ToString();
-            indexof = label.IndexOf("-");
-            label = label.Remove(indexof - 1, label.Length - indexof + 1);
-            indexof = label.IndexOf(":");
+            if (spielmodibox.SelectedItem.ToString() == "Soundquiz")
+            {
+                //Springen zu der Zeit vom angeklicktem Label
+                int indexof = 0, seconds = 0;
+                Label clicked_label = new Label();
+                clicked_label = sender as Label;
+                string label = clicked_label.Content.ToString();
+                indexof = label.IndexOf("-");
+                label = label.Remove(indexof - 1, label.Length - indexof + 1);
+                indexof = label.IndexOf(":");
 
-            seconds = Convert.ToInt32(label.Remove(indexof, 3)) * 60;
-            seconds = seconds + (Convert.ToInt32(label.Remove(0, indexof + 1)));
-            TimeSpan ts = TimeSpan.FromSeconds(seconds);
-            mediaElement1.Position = ts;
-
+                seconds = Convert.ToInt32(label.Remove(indexof, 3)) * 60;
+                seconds = seconds + (Convert.ToInt32(label.Remove(0, indexof + 1)));
+                TimeSpan ts = TimeSpan.FromSeconds(seconds);
+                mediaElement1.Position = ts;
+            }
         }
         private void HandleMouseEnter(object sender, EventArgs e)
         {
@@ -780,7 +834,24 @@ namespace ThemeQuizWPF
             }
         }
 
+        private void btn_next_Click(object sender, RoutedEventArgs e)
+        {
+            if (fragenindex < Fragen.Count - 1)
+            {
+                fragenindex =fragenindex +1;
+                frage.Text = (fragenindex+1) +". "+Fragen[fragenindex];                
+            }
 
+        }
+
+        private void btn_previous_Click(object sender, RoutedEventArgs e)
+        {
+            if (fragenindex > 0)
+            {
+                fragenindex = fragenindex - 1;
+                frage.Text = (fragenindex+1) +". " + Fragen[fragenindex];
+            }
+        }
     }
 }
 
