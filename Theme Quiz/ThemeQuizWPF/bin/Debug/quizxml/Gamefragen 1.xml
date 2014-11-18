@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Gamefragen 1</quizname>
+  <sounddatei>Gamefragen 1.mp3</sounddatei>
+  <clipdauer>10</clipdauer>
+  <quiztyp>Textquiz</quiztyp>
+  <Items>
+    <frage>Wie heißt der Hauptcharakter von Final Fantasy VII?</frage>
+    <Anzeigename>Cloud Strife</Anzeigename>
+    <Alternativ>Cloud</Alternativ>
+    <frage>Welchen Ort sucht man in Uncharted 2?</frage>
+    <Anzeigename>Shambala</Anzeigename>
+    <frage>Ab welchen PvP-Rang kam man zu Vanilla in die Barracke? (Name, WoW)</frage>
+    <Anzeigename>Steingardist</Anzeigename>
+    <frage>Wie heißt ein Level 80 Verlies aus Guild Wars 2?</frage>
+    <Anzeigename>Arah, Zwielichtgarten, Schmelztiegel...</Anzeigename>
+    <Alternativ>Arah</Alternativ>
+    <Alternativ>Zwielichtgarten</Alternativ>
+    <Alternativ>Schmelztiegel</Alternativ>
+    <Alternativ>Fraktale der Nebel</Alternativ>
+    <Alternativ>Ruinenstadt Arah</Alternativ>
+    <Alternativ>Zierde</Alternativ>
+    <frage>Wie heißt Solid Snake mit Vornamen?</frage>
+    <Anzeigename>David</Anzeigename>
+    <frage>In welcher Stadt kann man Schwarze Drachen rekrutieren?</frage>
+    <Anzeigename>Dungeon</Anzeigename>
+    <frage>Wie heißt der Hauptcharakter in Silent Hill 2?</frage>
+    <Anzeigename>James Sunderland</Anzeigename>
+    <Alternativ>James</Alternativ>
+    <frage>Wie heißt der Feind in Assassins Creed Brotherhood?</frage>
+    <Anzeigename>Borgia</Anzeigename>
+    <frage>Welcher Charakter beherrscht Capoeira in Tekken?</frage>
+    <Anzeigename>Eddy Gordo, Christie Monteiro</Anzeigename>
+    <Alternativ>Eddy</Alternativ>
+    <Alternativ>Christie</Alternativ>
+    <frage>Wie heißt das beste Schlüsselschwert in Kingdom Hearts II?</frage>
+    <Anzeigename>Ultima</Anzeigename>
+    <frage>Wie heißt der Gift-Arenaleiter in Pokemon Rot/Blau/Gelb?</frage>
+    <Anzeigename>Koga</Anzeigename>
+    <frage>Wie heißt das Pferd in Shadow of the Colossus?</frage>
+    <Anzeigename>Agro</Anzeigename>
+    <frage>Wie heißt der Karawanenführer aus Diablo II Akt 1?</frage>
+    <Anzeigename>Warriv</Anzeigename>
+    <frage>Wie heißt der Sprecher von Wheatley in Portal 2?</frage>
+    <Anzeigename>Stephen Merchant</Anzeigename>
+    <frage>Wie heißen die Kräfte in Bioshock: Infinite?</frage>
+    <Anzeigename>Plasmide</Anzeigename>
+    <frage>In welcher Stadt ist der Drugstore von Lees Eltern? (Walking Dead)</frage>
+    <Anzeigename>Macon</Anzeigename>
+    <frage>Welchen Gott bekämpft man als erstes in God of War 3?</frage>
+    <Anzeigename>Poseidon</Anzeigename>
+    <frage>Wie heißen die Pistolen von Dante? (DMC)</frage>
+    <Anzeigename>Ebony und Ivory</Anzeigename>
+    <Alternativ>Ebony Ivory</Alternativ>
+    <Alternativ>Ebony &amp; Ivory</Alternativ>
+    <Alternativ>Ebony and Ivory</Alternativ>
+    <frage>Wie heißt der Vater von Dante? (DMC)</frage>
+    <Anzeigename>Sparda</Anzeigename>
+    <frage>Wen spielt man als letzten Charakter in HdR: Rückkehr des Königs frei?</frage>
+    <Anzeigename>Faramir</Anzeigename>
+    <frage>In welcher Einrichtung arbeitet Gordon Freeman?</frage>
+    <Anzeigename>Black Mesa</Anzeigename>
+    <frage>Wie heißen die Feinde in Half-Life 2?</frage>
+    <Anzeigename>Combine</Anzeigename>
+    <frage>Wie heißen die Insektenfeinde in Half-Life 2?</frage>
+    <Anzeigename>Ameisenlöwen</Anzeigename>
+    <Alternativ>Ant Lions</Alternativ>
+    <frage>Wer ist der oberste Erzbaron in Gothic 1?</frage>
+    <Anzeigename>Gomez</Anzeigename>
+    <frage>Wie heißen die Entwickler von Gothic?</frage>
+    <Anzeigename>Piranha Bytes</Anzeigename>
+    <frage>Wie heißt der beste Freund von Rayman?</frage>
+    <Anzeigename>Globox</Anzeigename>
+    <frage>Wie viele Blöcke gibt es in Tetris?</frage>
+    <Anzeigename>Sieben</Anzeigename>
+    <Alternativ>7</Alternativ>
+    <frage>Wer spricht Officer Tenpenny in GTA: San Andreas?</frage>
+    <Anzeigename>Samuel L. Jackson</Anzeigename>
+    <Alternativ>Samuel L Jackson</Alternativ>
+    <frage>Wer ist der legendäre Super Saiyajin?</frage>
+    <Anzeigename>Broly</Anzeigename>
+    <frage>Welche Kraft bekommt Delzin in Infamous: Second Son als erstes?</frage>
+    <Anzeigename>Rauch</Anzeigename>
+    <frage>Wofür steht MOBA?</frage>
+    <Anzeigename>Multiplayer Online Battle Arena</Anzeigename>
+    <Alternativ>Action Real-Time Strategy</Alternativ>
+    <Alternativ>Action Real Time Strategy</Alternativ>
+    <frage>Wie hieß die erste Freundin von Mario?</frage>
+    <Anzeigename>Pauline</Anzeigename>
+    <frage>Wie lange befand sich "Duke Nukem Forever" in der Entwicklung?</frage>
+    <Anzeigename>14 Jahre</Anzeigename>
+    <frage>Wie heißt der Erfinder des Gameboys?</frage>
+    <Anzeigename>Gunpei Yokoi</Anzeigename>
+    <frage>Welchen Beruf übt Alan Wake aus?</frage>
+    <Anzeigename>Autor</Anzeigename>
+  </Items>
+</Quiz>

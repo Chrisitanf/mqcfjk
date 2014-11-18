@@ -68,7 +68,6 @@ C:\Users\hasan\Documents\GitHub\mqcfjk\QuizCreator\QuizCreator\obj\x86\Debug\Qui
 C:\Users\hasan\Documents\GitHub\mqcfjk\QuizCreator\QuizCreator\obj\x86\Debug\QuizCreator.pdb
 C:\Users\hasan\Documents\GitHub\mqcfjk\QuizCreator\QuizCreator\bin\Debug\QuizCreator.exe
 C:\Users\hasan\Documents\GitHub\mqcfjk\QuizCreator\QuizCreator\bin\Debug\QuizCreator.pdb
-C:\Users\hasan\Documents\GitHub\mqcfjk\QuizCreator\QuizCreator\obj\x86\Debug\QuizCreator.csprojResolveAssemblyReference.cache
 C:\Users\hasan\Documents\GitHub\mqcfjk\QuizCreator\QuizCreator\obj\x86\Debug\MainWindow.baml
 C:\Users\hasan\Documents\GitHub\mqcfjk\QuizCreator\QuizCreator\obj\x86\Debug\uebersicht.baml
 C:\Users\hasan\Documents\GitHub\mqcfjk\QuizCreator\QuizCreator\obj\x86\Debug\XMLUebersicht.baml
@@ -82,3 +81,6 @@ C:\Users\hasan\Documents\GitHub\mqcfjk\QuizCreator\QuizCreator\obj\x86\Debug\Qui
 C:\Users\hasan\Documents\GitHub\mqcfjk\QuizCreator\QuizCreator\obj\x86\Debug\QuizCreator.csproj.GenerateResource.Cache
 C:\Users\hasan\Documents\GitHub\mqcfjk\QuizCreator\QuizCreator\obj\x86\Debug\fragenquiz.baml
 C:\Users\hasan\Documents\GitHub\mqcfjk\QuizCreator\QuizCreator\obj\x86\Debug\fragenquiz.g.cs
+C:\Users\hasan\Documents\GitHub\mqcfjk\QuizCreator\QuizCreator\bin\Debug\QuizCreator.exe.config
+C:\Users\hasan\Documents\GitHub\mqcfjk\QuizCreator\QuizCreator\bin\Debug\QuizCreator.exe.CodeAnalysisLog.xml
+C:\Users\hasan\Documents\GitHub\mqcfjk\QuizCreator\QuizCreator\bin\Debug\QuizCreator.exe.lastcodeanalysissucceeded

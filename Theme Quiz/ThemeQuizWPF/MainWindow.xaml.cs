@@ -33,6 +33,7 @@ namespace ThemeQuizWPF
         List<string> geloeste = new List<string>();
         bool quizrunning = false, playing = false;
         int ClipTime = 0, fragenindex = 0;
+        int countdowntimer = 0;
         string globalSound = "";
         string mode = "";
 
@@ -77,6 +78,20 @@ namespace ThemeQuizWPF
             };
             ts(count);
             dt.Start();
+                     
+        }
+
+        int Countdown(int count, TimeSpan interval)
+        {           
+            var dt = new System.Windows.Threading.DispatcherTimer();
+            dt.Interval = interval;
+            dt.Tick += (_, a) =>
+            {
+                if (count-- == 0)
+                    dt.Stop();               
+            };            
+            dt.Start();
+            return count;
         }
 
         int erzeugespielfeld(List<string> anzahl)
@@ -455,7 +470,6 @@ namespace ThemeQuizWPF
                     {
                         frage.Text = (fragenindex+1) +". "+ Fragen[fragenindex];   
                     }
-
                 }
                 geloest.Content = geloest_intern.ToString();
             }
@@ -509,7 +523,7 @@ namespace ThemeQuizWPF
         {
             string sounddatei = "";
             int countdowntimer = 0;
-            int clipdauer = 10;
+            //int clipdauer = 10;
             XmlDocument myXmlDocument = new XmlDocument();
             if (File.Exists(Directory.GetCurrentDirectory() + "/quizxml/" + xmlname + ".xml"))
             {
@@ -525,7 +539,7 @@ namespace ThemeQuizWPF
                     }
                     if (node1.Name == "clipdauer")
                     {
-                        clipdauer = Convert.ToInt32(node1.InnerText);
+                        ClipTime = Convert.ToInt32(node1.InnerText);
                     }
                     foreach (XmlNode node2 in node1.ChildNodes)
                     {
@@ -541,7 +555,7 @@ namespace ThemeQuizWPF
                 }
 
                 countdowntimer = erzeugespielfeld(Stringlist);
-                countdowntimer = clipdauer;
+                countdowntimer = ClipTime;
                 countdowntimer = (Stringlist.Count * countdowntimer) * 2;
                 solution.IsEnabled = true;
                 if (sounddatei != "")
@@ -553,11 +567,18 @@ namespace ThemeQuizWPF
                     }
                     else
                     {
-                        MessageBox.Show("Die Datei (" + sounddatei + ") konnte nicht gefunden werden.");
+                        if (spielmodibox.SelectedItem.ToString() == "Soundquiz")
+                        {
+                            MessageBox.Show("Die Datei (" + sounddatei + ") konnte nicht gefunden werden.");
+                        }  
                     }
                 }
 
                 Countdown(countdowntimer, TimeSpan.FromSeconds(1), cur => tb.Text = cur.ToString());
+                
+               
+
+              
                 quizrunning = true;
 
             }
@@ -566,9 +587,9 @@ namespace ThemeQuizWPF
         private void fromsoundxml(string xmlname)
         {
             string sounddatei = "";
-            int clipdauer = 10;
+            //int clipdauer = 10;
 
-            int countdowntimer = 0;
+            
 
             XmlDocument myXmlDocument = new XmlDocument();
             if (File.Exists(Directory.GetCurrentDirectory() + "/quizxml/" + xmlname + ".xml"))
@@ -586,7 +607,7 @@ namespace ThemeQuizWPF
                     }
                     if (node1.Name == "clipdauer")
                     {
-                        clipdauer = Convert.ToInt32(node1.InnerText);
+                        ClipTime = Convert.ToInt32(node1.InnerText);
                     }
                     foreach (XmlNode node2 in node1.ChildNodes)
                     {
@@ -598,7 +619,7 @@ namespace ThemeQuizWPF
                 }
 
                 countdowntimer = erzeugespielfeld(Stringlist);
-                countdowntimer = clipdauer;
+                countdowntimer = ClipTime;
                 countdowntimer = (Stringlist.Count * countdowntimer) * 2;
                 solution.IsEnabled = true;
 
@@ -609,10 +630,13 @@ namespace ThemeQuizWPF
                 }
                 else
                 {
-                    MessageBox.Show("Die Datei (" + sounddatei + ") konnte nicht gefunden werden.");
+                    if (spielmodibox.SelectedItem.ToString() == "Soundquiz")
+                    {
+                        MessageBox.Show("Die Datei (" + sounddatei + ") konnte nicht gefunden werden."); 
+                    }                   
                 }
 
-                Countdown(countdowntimer, TimeSpan.FromSeconds(1), cur => tb.Text = cur.ToString());
+                Countdown(countdowntimer, TimeSpan.FromSeconds(1), cur => tb.Text = cur.ToString()); 
                 quizrunning = true;
             }
         }
@@ -703,7 +727,8 @@ namespace ThemeQuizWPF
             else
             {
                 audio_von.Text = audio_von.Text + mediaElement1.Position.Minutes.ToString() + ":" + mediaElement1.Position.Seconds.ToString();
-            }
+            }        
+            
 
             //Label soll verdeutlichen, dass die Zeit sich gerade an dieser Stelle befindet
             //Funktioniert aber finde ich nicht performant, da es jede Sekunde durchlaufen wird.
@@ -771,6 +796,20 @@ namespace ThemeQuizWPF
                 TimeSpan ts = TimeSpan.FromSeconds(seconds);
                 mediaElement1.Position = ts;
             }
+            if (spielmodibox.SelectedItem.ToString() == "Textquiz")
+            {
+                //Springen zur angeklicktem Frage
+                int indexof = 0;
+                Label clicked_label = new Label();
+                clicked_label = sender as Label;
+                string label = clicked_label.Content.ToString();
+                indexof = label.IndexOf(".");
+                label = label.Remove(indexof);
+
+                fragenindex = Convert.ToInt32(label)-1;
+                frage.Text = (fragenindex+1) + ". " + Fragen[fragenindex];          
+            }
+
         }
         private void HandleMouseEnter(object sender, EventArgs e)
         {
@@ -779,7 +818,6 @@ namespace ThemeQuizWPF
             clicked_label = sender as Label;
             clicked_label.BorderThickness = new Thickness(0, 0, 0, 1);
             clicked_label.BorderBrush = Brushes.White;
-
         }
         private void HandleMouseLeave(object sender, EventArgs e)
         {

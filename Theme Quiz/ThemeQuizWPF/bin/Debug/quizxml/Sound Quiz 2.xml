@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Sound Quiz 2</quizname>
+  <sounddatei>Sound Quiz 2.mp3</sounddatei>
+  <clipdauer>5</clipdauer>
+  <quiztyp>Soundquiz</quiztyp>
+  <Items>
+    <Anzeigename>Inception</Anzeigename>
+    <Anzeigename>Age of Empires</Anzeigename>
+    <Alternativ>aoe</Alternativ>
+    <Anzeigename>Smosh</Anzeigename>
+    <Anzeigename>Nigga</Anzeigename>
+    <Anzeigename>Street Fighter</Anzeigename>
+    <Anzeigename>56K Modem</Anzeigename>
+    <Alternativ>Modem</Alternativ>
+    <Alternativ>Internet</Alternativ>
+    <Anzeigename>Duffman</Anzeigename>
+    <Alternativ>Duff</Alternativ>
+    <Anzeigename>Silent Hill</Anzeigename>
+    <Anzeigename>Final Fantasy V</Anzeigename>
+    <Alternativ>Final Fantasy</Alternativ>
+    <Anzeigename>Slenderman</Anzeigename>
+    <Anzeigename>Psycho</Anzeigename>
+    <Anzeigename>Illidan</Anzeigename>
+    <Alternativ>World of Warcraft</Alternativ>
+    <Alternativ>Burning Crusade</Alternativ>
+    <Anzeigename>Worms</Anzeigename>
+    <Anzeigename>Metal Gear Solid</Anzeigename>
+    <Anzeigename>Kill Bill</Anzeigename>
+    <Anzeigename>Zelda: Ocarina of Time</Anzeigename>
+    <Alternativ>Ocarina of time</Alternativ>
+    <Anzeigename>Keyboard Cat</Anzeigename>
+    <Alternativ>Keyboard Katze</Alternativ>
+    <Anzeigename>Death Note</Anzeigename>
+    <Alternativ>Kira</Alternativ>
+    <Alternativ>Light</Alternativ>
+    <Anzeigename>Akte X</Anzeigename>
+    <Anzeigename>Star Wars</Anzeigename>
+    <Anzeigename>Zoidberg</Anzeigename>
+    <Alternativ>Futurama</Alternativ>
+    <Anzeigename>Fluch der Karibik</Anzeigename>
+    <Anzeigename>Wilhelm Scream</Anzeigename>
+    <Anzeigename>Braveheart</Anzeigename>
+    <Anzeigename>Pokeball</Anzeigename>
+    <Anzeigename>Teleport</Anzeigename>
+    <Anzeigename>GameCube</Anzeigename>
+    <Alternativ>game cube</Alternativ>
+    <Anzeigename>AWP</Anzeigename>
+    <Anzeigename>Half-Life</Anzeigename>
+    <Alternativ>Half Life</Alternativ>
+    <Anzeigename>Duke Nukem</Anzeigename>
+    <Anzeigename>Portal</Anzeigename>
+    <Anzeigename>Dark Souls</Anzeigename>
+    <Anzeigename>Naruto</Anzeigename>
+    <Anzeigename>Das Schweigen der Lämmer</Anzeigename>
+    <Alternativ>Hannibal</Alternativ>
+    <Anzeigename>HBO</Anzeigename>
+    <Anzeigename>Tribute von Panem</Anzeigename>
+    <Alternativ>Hunger Games</Alternativ>
+    <Anzeigename>Teletubbies</Anzeigename>
+    <Alternativ>NoNo</Alternativ>
+    <Anzeigename>Predator</Anzeigename>
+    <Anzeigename>The Grudge</Anzeigename>
+    <Alternativ>Der Fluch</Alternativ>
+    <Anzeigename>Jurassic Park</Anzeigename>
+    <Anzeigename>Die Sims</Anzeigename>
+    <Anzeigename>Matrix</Anzeigename>
+  </Items>
+</Quiz>
