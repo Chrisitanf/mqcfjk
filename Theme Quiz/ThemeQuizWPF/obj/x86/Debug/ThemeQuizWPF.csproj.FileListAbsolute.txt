@@ -98,3 +98,5 @@ C:\Users\Christianf.PIETSCHCONSULT\Documents\GitHub\mqcfjk\Theme Quiz\ThemeQuizW
 C:\Users\Christianf.PIETSCHCONSULT\Documents\GitHub\mqcfjk\Theme Quiz\ThemeQuizWPF\obj\x86\Debug\ThemeQuizWPF.g.resources
 C:\Users\Christianf.PIETSCHCONSULT\Documents\GitHub\mqcfjk\Theme Quiz\ThemeQuizWPF\obj\x86\Debug\ThemeQuizWPF.Properties.Resources.resources
 C:\Users\Christianf.PIETSCHCONSULT\Documents\GitHub\mqcfjk\Theme Quiz\ThemeQuizWPF\obj\x86\Debug\ThemeQuizWPF.csproj.GenerateResource.Cache
+C:\Users\Christianf.PIETSCHCONSULT\Documents\GitHub\mqcfjk\Theme Quiz\ThemeQuizWPF\obj\x86\Debug\Videoplayer.baml
+C:\Users\Christianf.PIETSCHCONSULT\Documents\GitHub\mqcfjk\Theme Quiz\ThemeQuizWPF\obj\x86\Debug\Videoplayer.g.cs

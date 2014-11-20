@@ -27,7 +27,7 @@ namespace ThemeQuizWPF
     {
         TextBlock frage = new TextBlock();
         List<String> Stringlist = new List<string>();
-        List<String> Fragen = new List<string>();
+        List<String> Fragen = new List<string>();        
         List<Label> Labellist = new List<Label>();
         List<TextBlock> textblocklist = new List<TextBlock>();
         List<string> geloeste = new List<string>();
@@ -43,6 +43,7 @@ namespace ThemeQuizWPF
             //Hier neue Modi hinzufügen
             spielmodibox.Items.Add("Soundquiz");
             spielmodibox.Items.Add("Textquiz");
+            //spielmodibox.Items.Add("Videoquiz");
 
             //Set Background
             DateTime Halloween1 = new DateTime(DateTime.Today.Year, 10, 31);
@@ -78,18 +79,18 @@ namespace ThemeQuizWPF
             };
             ts(count);
             dt.Start();
-                     
+
         }
 
         int Countdown(int count, TimeSpan interval)
-        {           
+        {
             var dt = new System.Windows.Threading.DispatcherTimer();
             dt.Interval = interval;
             dt.Tick += (_, a) =>
             {
                 if (count-- == 0)
-                    dt.Stop();               
-            };            
+                    dt.Stop();
+            };
             dt.Start();
             return count;
         }
@@ -123,7 +124,7 @@ namespace ThemeQuizWPF
                 frage.Foreground = Brushes.White;
                 frage.FontSize = 30;
                 frage.Name = "fragebox";
-                frage.Text ="1. "+ Fragen[0];
+                frage.Text = "1. " + Fragen[0];
                 frage.Margin = frageMargin;
                 Grid.SetRow(frage, 2);
                 TheGrid.Children.Add(frage);
@@ -212,10 +213,9 @@ namespace ThemeQuizWPF
                 }
                 #endregion
 
-                #region Zeit fuer die Label: Textquiz
-                if (spielmodibox.SelectedItem.ToString() == "Textquiz")
+                #region Zeit fuer die Label: Textquiz && Videos
+                if (spielmodibox.SelectedItem.ToString() == "Textquiz" || spielmodibox.SelectedItem.ToString() == "Videoquiz")
                 {
-
                     SetLabel.Content = durchlaeufe + ".";
 
                     if (anzahl.Count() == durchlaeufe)
@@ -314,7 +314,8 @@ namespace ThemeQuizWPF
                 //Überprüfung der Eingabe auf verschiedene Fälle.
                 string loesung = "";
                 string solution_enter, changed_answer = "";
-                int solutionpos = 0, geloest_intern;
+                int solutionpos = 0, geloest_intern, aktuellpos = 0;
+                bool boolloesung = false;
 
                 if (tb.Text == "0")
                 {
@@ -324,8 +325,15 @@ namespace ThemeQuizWPF
                 geloest_intern = Convert.ToUInt16(geloest.Content);
                 solution_enter = solution.Text;
                 solution_enter = solution_enter.ToLower();
-
-
+                if (spielmodibox.SelectedItem.ToString() == "Soundquiz")
+                {
+                    aktuellpos = Convert.ToInt32(Math.Truncate(slider1.Value / ClipTime)) + 1;
+                }
+                if (spielmodibox.SelectedItem.ToString() == "Textquiz")
+                {
+                    aktuellpos = fragenindex + 1;
+                }
+               
                 //XML nach alternativen überprüfen, Es wird keine Liste von Alternativen gebraucht, da es mit jeder Textänderung
                 //durchlaufen wird.
                 #region text
@@ -367,7 +375,7 @@ namespace ThemeQuizWPF
                 }
                 #endregion
                 #region sound
-                if (!(QuizSelection.SelectedItem.GetType() == typeof(ListBoxItem)) && quizrunning && quizrunning && mode == "sound")
+                if (!(QuizSelection.SelectedItem.GetType() == typeof(ListBoxItem)) && quizrunning && mode == "sound")
                 {
                     XmlDocument myXmlDocument = new XmlDocument();
                     myXmlDocument.Load(Directory.GetCurrentDirectory() + "/quizxml/" + QuizSelection.SelectedItem.ToString() + ".xml");
@@ -406,15 +414,20 @@ namespace ThemeQuizWPF
                 #endregion
                 solutionpos = 0;
                 // Der allgemeine Suchalgo. Hier Beispielsweise das Filtern von Der/Die/Das/The hinzufügen.
+                // Hinzufügen nur das Richtige bis zum aktuellen Zeitpunkt einzugeben.
                 foreach (string item in Stringlist)
                 {
-                    if ((item.ToLower() == loesung.ToLower() && !geloeste.Contains(item)) || (item.ToLower() == solution_enter && !geloeste.Contains(item)))
+                    if (((item.ToLower() == loesung.ToLower() && !geloeste.Contains(item)) || (item.ToLower() == solution_enter && !geloeste.Contains(item))) && aktuellpos >= solutionpos + 1)
                     {
                         textblocklist[solutionpos].Text = Stringlist[solutionpos].ToString();
                         solution.Text = "";
-                        geloest_intern++;
-                        fragenindex++;
+                        geloest_intern++;                      
                         geloeste.Add(item);
+                        if (aktuellpos == solutionpos + 1)
+                        {
+                            boolloesung = true;
+                            fragenindex++;
+                        }   
                         break;
                     }
 
@@ -451,24 +464,29 @@ namespace ThemeQuizWPF
                     }
                     if (changed_answer != "")
                     {
-                        if ((changed_answer == loesung.ToLower() && !geloeste.Contains(item)) || (changed_answer == solution_enter && !geloeste.Contains(item)))
+                        if (((changed_answer == loesung.ToLower() && !geloeste.Contains(item)) || (changed_answer == solution_enter && !geloeste.Contains(item))) && aktuellpos >= solutionpos + 1)
                         {
                             textblocklist[solutionpos].Text = Stringlist[solutionpos].ToString();
                             solution.Text = "";
-                            geloest_intern++;
-                            fragenindex++;
+                            geloest_intern++;                            
                             geloeste.Add(item);
+                            if (aktuellpos == solutionpos + 1)
+                            {
+                                boolloesung = true;
+                                fragenindex++;
+                            }                            
                             break;
                         }
                     }
 
+                   
                     solutionpos++;
                 }
-                if (mode == "text")
+                if (mode == "text" && boolloesung)
                 {
                     if (Fragen.Count > fragenindex)
                     {
-                        frage.Text = (fragenindex+1) +". "+ Fragen[fragenindex];   
+                        frage.Text = (fragenindex + 1) + ". " + Fragen[fragenindex];
                     }
                 }
                 geloest.Content = geloest_intern.ToString();
@@ -516,8 +534,75 @@ namespace ThemeQuizWPF
                     mode = "text";
                     fromtextxml(QuizSelection.SelectedItem.ToString());
                 }
+
+                if (spielmodibox.SelectedItem.ToString() == "Videoquiz")
+                {
+                    mode = "video";
+                    fromvideoxml(QuizSelection.SelectedItem.ToString());
+                }
             }
         }
+        // für videoquiz
+        private void fromvideoxml(string xmlname)
+        {
+            string sounddatei = "";
+            int countdowntimer = 0;            
+            XmlDocument myXmlDocument = new XmlDocument();
+            if (File.Exists(Directory.GetCurrentDirectory() + "/quizxml/" + xmlname + ".xml"))
+            {
+                myXmlDocument.Load(Directory.GetCurrentDirectory() + "/quizxml/" + xmlname + ".xml");
+                XmlNode node;
+                node = myXmlDocument.DocumentElement;
+
+                foreach (XmlNode node1 in node.ChildNodes)
+                {                    
+                    if (node1.Name == "clipdauer")
+                    {
+                        ClipTime = Convert.ToInt32(node1.InnerText);
+                    }
+                    foreach (XmlNode node2 in node1.ChildNodes)
+                    {
+                        if (node2.Name == "frage")
+                        {
+                            Fragen.Add(node2.InnerText);
+                        }
+                        if (node2.Name == "Anzeigename")
+                        {
+                            Stringlist.Add(node2.InnerText);
+                        }
+                    }
+                }
+
+                countdowntimer = erzeugespielfeld(Stringlist);
+                countdowntimer = ClipTime;
+                countdowntimer = (Stringlist.Count * countdowntimer) * 2;
+                solution.IsEnabled = true;
+                if (sounddatei != "")
+                {
+                    if (File.Exists(Directory.GetCurrentDirectory() + "/sound/" + sounddatei))
+                    {
+                        globalSound = sounddatei;
+                        openSound();
+                    }
+                    else
+                    {
+                        if (spielmodibox.SelectedItem.ToString() == "Soundquiz")
+                        {
+                            MessageBox.Show("Die Datei (" + sounddatei + ") konnte nicht gefunden werden.");
+                        }
+                    }
+                }
+
+                Countdown(countdowntimer, TimeSpan.FromSeconds(1), cur => tb.Text = cur.ToString());
+
+
+
+
+                quizrunning = true;
+
+            }
+        }
+
         // für textquiz
         private void fromtextxml(string xmlname)
         {
@@ -570,15 +655,15 @@ namespace ThemeQuizWPF
                         if (spielmodibox.SelectedItem.ToString() == "Soundquiz")
                         {
                             MessageBox.Show("Die Datei (" + sounddatei + ") konnte nicht gefunden werden.");
-                        }  
+                        }
                     }
                 }
 
                 Countdown(countdowntimer, TimeSpan.FromSeconds(1), cur => tb.Text = cur.ToString());
-                
-               
 
-              
+
+
+
                 quizrunning = true;
 
             }
@@ -587,10 +672,6 @@ namespace ThemeQuizWPF
         private void fromsoundxml(string xmlname)
         {
             string sounddatei = "";
-            //int clipdauer = 10;
-
-            
-
             XmlDocument myXmlDocument = new XmlDocument();
             if (File.Exists(Directory.GetCurrentDirectory() + "/quizxml/" + xmlname + ".xml"))
             {
@@ -632,11 +713,11 @@ namespace ThemeQuizWPF
                 {
                     if (spielmodibox.SelectedItem.ToString() == "Soundquiz")
                     {
-                        MessageBox.Show("Die Datei (" + sounddatei + ") konnte nicht gefunden werden."); 
-                    }                   
+                        MessageBox.Show("Die Datei (" + sounddatei + ") konnte nicht gefunden werden.");
+                    }
                 }
 
-                Countdown(countdowntimer, TimeSpan.FromSeconds(1), cur => tb.Text = cur.ToString()); 
+                Countdown(countdowntimer, TimeSpan.FromSeconds(1), cur => tb.Text = cur.ToString());
                 quizrunning = true;
             }
         }
@@ -727,8 +808,8 @@ namespace ThemeQuizWPF
             else
             {
                 audio_von.Text = audio_von.Text + mediaElement1.Position.Minutes.ToString() + ":" + mediaElement1.Position.Seconds.ToString();
-            }        
-            
+            }
+
 
             //Label soll verdeutlichen, dass die Zeit sich gerade an dieser Stelle befindet
             //Funktioniert aber finde ich nicht performant, da es jede Sekunde durchlaufen wird.
@@ -780,6 +861,19 @@ namespace ThemeQuizWPF
 
         private void HandleClick(object sender, EventArgs e)
         {
+            // Abspielen des ausgewähltem Videoclips
+            if (spielmodibox.SelectedItem.ToString() == "Videoquiz")
+            {
+                int indexof = 0;
+                Label clicked_label = new Label();
+                clicked_label = sender as Label;
+                string label = clicked_label.Content.ToString();
+                indexof = label.IndexOf(".");
+                label = label.Remove(indexof);
+                fragenindex = Convert.ToInt32(label) - 1;
+                Videoplayer vid = new Videoplayer(fragenindex, Directory.GetCurrentDirectory() + "/videos/" + Stringlist[fragenindex] + ".avi");                             
+            }
+
             if (spielmodibox.SelectedItem.ToString() == "Soundquiz")
             {
                 //Springen zu der Zeit vom angeklicktem Label
@@ -806,8 +900,8 @@ namespace ThemeQuizWPF
                 indexof = label.IndexOf(".");
                 label = label.Remove(indexof);
 
-                fragenindex = Convert.ToInt32(label)-1;
-                frage.Text = (fragenindex+1) + ". " + Fragen[fragenindex];          
+                fragenindex = Convert.ToInt32(label) - 1;
+                frage.Text = (fragenindex + 1) + ". " + Fragen[fragenindex];
             }
 
         }
@@ -876,8 +970,8 @@ namespace ThemeQuizWPF
         {
             if (fragenindex < Fragen.Count - 1)
             {
-                fragenindex =fragenindex +1;
-                frage.Text = (fragenindex+1) +". "+Fragen[fragenindex];                
+                fragenindex = fragenindex + 1;
+                frage.Text = (fragenindex + 1) + ". " + Fragen[fragenindex];
             }
 
         }
@@ -887,7 +981,7 @@ namespace ThemeQuizWPF
             if (fragenindex > 0)
             {
                 fragenindex = fragenindex - 1;
-                frage.Text = (fragenindex+1) +". " + Fragen[fragenindex];
+                frage.Text = (fragenindex + 1) + ". " + Fragen[fragenindex];
             }
         }
     }
