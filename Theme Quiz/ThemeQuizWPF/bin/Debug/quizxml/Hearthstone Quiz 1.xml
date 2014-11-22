@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Quiz>
+  <quizname>Hearthstone Quiz 1</quizname>
+  <sounddatei>Hearthstone Quiz 1.mp3</sounddatei>
+  <clipdauer>5</clipdauer>
+  <quiztyp>Soundquiz</quiztyp>
+  <Items>
+    <Anzeigename>Onyxia</Anzeigename>
+    <Anzeigename>Nat Pagle</Anzeigename>
+    <Anzeigename>Schlachtzugsleiter</Anzeigename>
+    <Alternativ>Raid Leader</Alternativ>
+    <Anzeigename>Senjin Shieldmasta</Anzeigename>
+    <Alternativ>Schildmeista von Senjin</Alternativ>
+    <Alternativ>Sen'jin Shieldmasta</Alternativ>
+    <Alternativ>Schildmeista von Sen'jin</Alternativ>
+    <Anzeigename>Ingenieurslehrling</Anzeigename>
+    <Alternativ>Novice Engineer</Alternativ>
+    <Anzeigename>Leerwandler</Anzeigename>
+    <Alternativ>Voidwalker</Alternativ>
+    <Anzeigename>Voodoodoktor</Anzeigename>
+    <Alternativ> Voodoo Doctor</Alternativ>
+    <Anzeigename>Lepragnom</Anzeigename>
+    <Alternativ>Leper Gnome</Alternativ>
+    <Anzeigename>Beutehamsterer</Anzeigename>
+    <Alternativ>Loot Hoarder</Alternativ>
+    <Anzeigename>Verrückter Bomber</Anzeigename>
+    <Alternativ>Mad Bomber</Alternativ>
+    <Anzeigename>Herr der Arena</Anzeigename>
+    <Alternativ>Lord of the Arena</Alternativ>
+    <Anzeigename>Meisterschwertschmied</Anzeigename>
+    <Alternativ>Master Swordsmith</Alternativ>
+    <Anzeigename>Illidan</Anzeigename>
+    <Anzeigename>Wichtelmeisterin</Anzeigename>
+    <Alternativ>Imp Master</Alternativ>
+    <Anzeigename>Koboldgeomant</Anzeigename>
+    <Alternativ>Kobold Geomancer</Alternativ>
+    <Anzeigename>Messerjongleur</Anzeigename>
+    <Alternativ>Knife Juggler</Alternativ>
+    <Anzeigename>Wächter der Könige</Anzeigename>
+    <Alternativ>Guardian of Kings</Alternativ>
+    <Anzeigename>Rädelsführer der Defias</Anzeigename>
+    <Alternativ>Defias Ringleader</Alternativ>
+    <Anzeigename>Verrückter Alchemist</Anzeigename>
+    <Alternativ>Crazed Alchemist</Alternativ>
+    <Anzeigename>Blutwichtel</Anzeigename>
+    <Alternativ>Blood Imp</Alternativ>
+    <Anzeigename>Der Schwarze Ritter</Anzeigename>
+    <Alternativ>The Black Knight</Alternativ>
+    <Anzeigename>Uralter Braumeister</Anzeigename>
+    <Alternativ>Ancient Brewmaster</Alternativ>
+    <Anzeigename>Flammenwichtel</Anzeigename>
+    <Alternativ>Flame Imp</Alternativ>
+    <Anzeigename>Gnomische Erfinderin</Anzeigename>
+    <Alternativ>Gnomish Inventor</Alternativ>
+    <Anzeigename>Harrison Jones</Anzeigename>
+    <Anzeigename>Hogger</Anzeigename>
+    <Anzeigename>Blutsegelkorsar</Anzeigename>
+    <Alternativ>Bloodsail Corsair</Alternativ>
+    <Anzeigename>Jaraxxus</Anzeigename>
+    <Anzeigename>Entführer</Anzeigename>
+    <Alternativ>Kidnapper</Alternativ>
+    <Anzeigename>Leeroy Jenkins</Anzeigename>
+    <Anzeigename>Millhouse Manasturm</Anzeigename>
+    <Alternativ>Millhouse</Alternativ>
+    <Anzeigename>Ogermagier</Anzeigename>
+    <Alternativ>Ogre Magi</Alternativ>
+    <Anzeigename>Geduldiger Attentäter</Anzeigename>
+    <Alternativ>Patient Assassin</Alternativ>
+    <Anzeigename>Nachtklinge</Anzeigename>
+    <Alternativ>Nightblade</Alternativ>
+    <Anzeigename>Ragnaros</Anzeigename>
+    <Anzeigename>Geheimnisbewahrerin</Anzeigename>
+    <Alternativ>Secretkeeper</Alternativ>
+    <Anzeigename>Tüftlermeister Oberfunks</Anzeigename>
+    <Alternativ>Tinkmaster</Alternativ>
+    <Anzeigename>Argentumkommandant</Anzeigename>
+    <Alternativ>Argent Commander</Alternativ>
+    <Anzeigename>Blutelfenklerikerin</Anzeigename>
+    <Alternativ>Shattered Sun Cleric</Alternativ>
+    <Anzeigename>Cairne Bluthuf</Anzeigename>
+    <Alternativ>Cairne Bloodhoof</Alternativ>
+    <Anzeigename>Druide der Klaue</Anzeigename>
+    <Alternativ>Druid of the Claw</Alternativ>
+    <Anzeigename>Elfenbogenschützin</Anzeigename>
+    <Alternativ>Elven Archer</Alternativ>
+    <Anzeigename>Elitesoldat der Kor'kron</Anzeigename>
+    <Alternativ>Kor'kron Elite</Alternativ>
+    <Alternativ>Korkron Elite</Alternativ>
+    <Alternativ>Elitesoldat der Korkron</Alternativ>
+    <Anzeigename>Erzmagier Antonidas</Anzeigename>
+    <Alternativ>Archmage Antonidas</Alternativ>
+    <Alternativ>Antonidas</Alternativ>
+    <Anzeigename>Friedensbewahrer</Anzeigename>
+    <Alternativ>Aldor Peacekeeper</Alternativ>
+    <Anzeigename>Gedankenkontrolleur</Anzeigename>
+    <Alternativ>Mind Control Tech</Alternativ>
+    <Anzeigename>Goblinleibwächter</Anzeigename>
+    <Alternativ>Booty Bay Bodyguard</Alternativ>
+    <Anzeigename>Hüter des Hains</Anzeigename>
+    <Alternativ>Keeper of the Grove</Alternativ>
+    <Anzeigename>Irre Raketenschützin</Anzeigename>
+    <Alternativ>Reckless Rocketeer</Alternativ>
+    <Anzeigename>Kultmeisterin</Anzeigename>
+    <Alternativ>Cult Master</Alternativ>
+  </Items>
+</Quiz>

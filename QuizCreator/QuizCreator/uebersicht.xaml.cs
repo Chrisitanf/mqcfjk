@@ -35,14 +35,20 @@ namespace QuizCreator
         {
             string quizname;
             List<string> stringlist = new List<string>();
-           listBox1.ItemsSource = Directory.GetFiles(Directory.GetCurrentDirectory() + "/quizxml/");
-           foreach (string path in listBox1.Items)
-           {
-               quizname = path.Replace(Directory.GetCurrentDirectory() + "/quizxml/", "");
-               quizname = quizname.Replace(".xml", "");
-              stringlist.Add(quizname);
-           }
-
+            if (Directory.Exists(Directory.GetCurrentDirectory() + "/quizxml/"))
+            {
+                listBox1.ItemsSource = Directory.GetFiles(Directory.GetCurrentDirectory() + "/quizxml/");
+                foreach (string path in listBox1.Items)
+                {
+                    quizname = path.Replace(Directory.GetCurrentDirectory() + "/quizxml/", "");
+                    quizname = quizname.Replace(".xml", "");
+                    stringlist.Add(quizname);
+                }
+            }
+            else
+            {
+                Directory.CreateDirectory(Directory.GetCurrentDirectory() + "/quizxml/"); 
+            }
            listBox1.ItemsSource = stringlist;
         }
 

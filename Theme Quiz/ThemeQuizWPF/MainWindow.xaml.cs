@@ -523,6 +523,7 @@ namespace ThemeQuizWPF
                 Stringlist.Clear();
                 textblocklist.Clear();
                 quizrunning = true;
+                spielmodibox.IsEnabled = false;
                 if (spielmodibox.SelectedItem.ToString() == "Soundquiz")
                 {
                     mode = "sound";
